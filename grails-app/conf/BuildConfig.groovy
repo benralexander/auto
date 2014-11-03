@@ -67,7 +67,7 @@ grails.project.dependency.resolution = {
         compile ':resources:1.2.8'
         compile ':rest-client-builder:2.0.3'
         compile ":mail:1.0.7"
-        compile ":font-awesome-resources:4.2.0.0"
+        //compile ":font-awesome-resources:4.2.0.0"
         // plugins needed at runtime but not for compilation
         runtime ":hibernate4:4.3.5.5" // or ":hibernate:3.6.10.17"
         runtime ":database-migration:1.4.0"

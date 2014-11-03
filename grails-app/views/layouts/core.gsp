@@ -11,30 +11,48 @@
     <r:require modules="core"/>
     <r:layoutResources/>
 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Ben's homepage">
+    <meta name="author" content="Ben R Alexander">
+
     <g:layoutHead/>
+
 </head>
 
 <body>
 <g:javascript src="lib/bootstrap.min.js" />
-%{--<style>--}%
-%{--.spinner {--}%
-%{--position: fixed;--}%
-%{--top: 2px;--}%
-%{--right: 25%;--}%
-%{--margin-left: 0px; /* half width of the spinner gif */--}%
-%{--margin-top: 0px; /* half height of the spinner gif */--}%
-%{--text-align:center;--}%
-%{--z-index:1234;--}%
-%{--overflow: auto;--}%
-%{--width: 100px; /* width of the spinner gif */--}%
-%{--height: 102px; /*hight of the spinner gif +2px to fix IE8 issue */--}%
-%{--}--}%
-%{--</style>--}%
+
 <div id="spinner" class="spinner" style="display:none;">
     <img id="img-spinner" src="${resource(dir: 'images', file: 'ajaxLoadingAnimation.gif')}" alt="Loading"/>
 </div>
 
+<div class="container">
+    <div class="header" id="header">
+        <ul class="nav nav-pills pull-right" role="tablist">
+            <li class="active" role="presentation"><a
+                    href='<g:createLink controller="delivery" action="index"/>'>Home</a></li>
+            <li><a href="#" role="presentation">About</a></li>
+            <li><a href="#" role="presentation">Contact</a></li>
+        </ul>
+
+        <h3 class="text-muted">Bovine contemplation</h3>
+    </div>
+</div>
+
 <g:layoutBody/>
+
+<div class="container">
+
+    <div class="footer">
+        <p>BA 2014</p>
+    </div>
+
+</div>
+<g:javascript src="lib/bootstrap.js" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<g:javascript src="lib/ie10-viewport-bug-workaround.js"/>
 
 </body>
 </html>

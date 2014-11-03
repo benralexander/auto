@@ -14,11 +14,14 @@ modules = {
         dependsOn "jquery"
         dependsOn "bootstrap"
 
+        resource url: 'css/lib/style.css'
+
         resource url: 'images/ajaxLoadingAnimation.gif'
+
 
 //        resource url: 'css/lib/bootstrap.min.css'
 
-//        resource url: 'css/lib/style.css'
+
 
         resource url: 'js/lib/d3.min.js'
     }
