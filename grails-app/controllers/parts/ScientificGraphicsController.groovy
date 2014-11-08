@@ -2,5 +2,7 @@ package parts
 
 class ScientificGraphicsController {
 
-    def index() {}
+    def index() {
+        render(view: 'scientificGraphics')
+    }
 }
