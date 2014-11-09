@@ -6,9 +6,6 @@
 
     <r:layoutResources/>
 
-
-    %{--<link rel="icon" href="../../favicon.ico">--}%
-
 </head>
 
 <body>
@@ -80,8 +77,6 @@
 
 
     </div>
-
-</div>
 
 </body>
 </html>

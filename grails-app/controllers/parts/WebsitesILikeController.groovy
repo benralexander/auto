@@ -2,5 +2,7 @@ package parts
 
 class WebsitesILikeController {
 
-    def index() {}
+    def index() {
+        render (view:'websitesILike')
+    }
 }

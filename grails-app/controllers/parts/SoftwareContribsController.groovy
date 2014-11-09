@@ -2,5 +2,7 @@ package parts
 
 class SoftwareContribsController {
 
-    def index() {}
+    def index() {
+        render (view:'softwareContributions')
+    }
 }

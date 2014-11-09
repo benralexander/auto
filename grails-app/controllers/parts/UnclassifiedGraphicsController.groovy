@@ -2,5 +2,7 @@ package parts
 
 class UnclassifiedGraphicsController {
 
-    def index() {}
+    def index() {
+        render(view: 'exploratoryGraphics')
+    }
 }
