@@ -628,3 +628,27 @@ body {
 a.standardLinks {
     text-decoration: underline;
 }
+a.emphasizedLinks {
+    text-decoration: underline;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 18pt;
+    text-decoration: underline;
+    margin-right: 40px;
+}
+p.picCaption {
+    font-size: 18pt;
+    margin: 20px 30px;
+}
+div.personalLinks{
+    margin-top: 40px;
+    border: 2px solid;
+    box-shadow: 10px 10px 5px #888888;
+    -webkit-border-image: url(border.png) 30 30 round; /* Safari 3.1-5 */
+    -o-border-image: url(border.png) 30 30 round; /* Opera 11-12.1 */
+    border-image: url(border.png) 30 30 round;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16pt;
+}
+.plinkHolder  {
+    margin: 20px 10px;
+}

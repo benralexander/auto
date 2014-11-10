@@ -28,36 +28,149 @@
     <div class="container linkContainerHolder">
 
 
-        <g:linkDesc buttonName="deviant art" linkUrl="http://benralexander.deviantart.com/">
-            Go here to see the photo manipulations I sometimes do for fun
-        </g:linkDesc>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 col-md-6 col-lg-4">
+                     <r:img uri="/images/ba.jpg" class="img-responsive"/>
+                </div>
+                <div class="col-sm-9 col-md-6 col-lg-8 ">
+                    <p class="picCaption">The camera on a laptop computer captured this recent photo of me looking typically perplexed, and while balancing my head on my left thumb.</p>
+                </div>
+            </div>
+        </div>
 
-        <g:linkDesc buttonName="LinkedIn" linkUrl="https://www.linkedin.com/in/benRAlexander">
-            There is a big professional social media site where I maintain  some information
-        </g:linkDesc>
+        <div class="container-fluid personalLinks" style="border: 2px solid black">
 
-        <g:linkDesc buttonName="Pixbay" linkUrl="http://pixabay.com/en/users/benralexander-382048/">
-            I occasionally contribute photographs to this site
-        </g:linkDesc>
+            <div class="row">
+                <div class="plinkHolder">
+                    <div class="col-sm-10 col-md-9 col-lg-8">
+                        <p>
+                            A collection of my photo manipulations, representing many a happy hour whiled away.
+                        </p>
+                    </div>
 
-        <g:linkDesc buttonName="YouTube" linkUrl="https://www.youtube.com/channel/UCJFwLw7wpEYRPsMwXty-7dQ">
-            I have uploaded a very small number of videos (4 it last count)
-        </g:linkDesc>
+                    <div class="col-sm-2 col-md-3 col-lg-4">
+                        <a class="emphasizedLinks  pull-right" href="http://benralexander.deviantart.com/">Deviant art</a>
+                    </div>
+                </div>
+            </div>
 
-        <g:linkDesc buttonName="Facebook" linkUrl="https://www.facebook.com/ben.alexander.167">
-            I have a page here, though I very rarely contribute to it
-        </g:linkDesc>
+            <hr class="small">
 
-        <g:linkDesc buttonName="Google plus" linkUrl="https://plus.google.com/u/0/+BenjaminAlexander47/posts">
-            Google's attempt at a social media site, to which I very rarely contribute
-        </g:linkDesc>
+            <div class="row">
+                <div class="plinkHolder">
+                    <div class="col-sm-10 col-md-9 col-lg-8">
+                        <p>
+                            A social media site  where everybody lists their professional qualifications
+                        </p>
+                    </div>
 
-        <g:linkDesc buttonName="Twitter" linkUrl="https://twitter.com/benralexander">
-            I am willing, in principle at least, to use this form of communication (though I haven't much so far)
-        </g:linkDesc>
+                    <div class="col-sm-2 col-md-3 col-lg-4">
+                        <a class="emphasizedLinks  pull-right" href="https://www.linkedin.com/in/benRAlexander">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="small">
+
+            <div class="row">
+                <div class="plinkHolder">
+                    <div class="col-sm-10 col-md-9 col-lg-8">
+                        <p>
+                            A large number of open source developers store their  computer code on the site, myself among them
+                        </p>
+                    </div>
+
+                    <div class="col-sm-2 col-md-3 col-lg-4">
+                        <a class="emphasizedLinks  pull-right" href="https://github.com/benralexander">Github</a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="small">
+
+            <div class="row">
+                <div class="plinkHolder">
+                    <div class="col-sm-10 col-md-9 col-lg-8">
+                        <p>
+                            A site which allows people to share their photographs without licensing restrictions.    I've uploaded a small number of photographs..
+                        </p>
+                    </div>
+
+                    <div class="col-sm-2 col-md-3 col-lg-4">
+                        <a class="emphasizedLinks  pull-right" href="http://pixabay.com/en/users/benralexander-382048/">Pixbay</a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="small">
+
+            <div class="row">
+                <div class="plinkHolder">
+                    <div class="col-sm-10 col-md-9 col-lg-8">
+                        <p>
+                            I have uploaded a small number  of videos to YouTube. Here is a link to my channel
+                        </p>
+                    </div>
+
+                    <div class="col-sm-2 col-md-3 col-lg-4">
+                        <a class="emphasizedLinks  pull-right" href="https://www.youtube.com/channel/UCJFwLw7wpEYRPsMwXty-7dQ">YouTube</a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="small">
+
+            <div class="row">
+                <div class="plinkHolder">
+                    <div class="col-sm-10 col-md-9 col-lg-8">
+                        <p>
+                            I have a Facebook page, though I admit that I rarely contribute to it
+                        </p>
+                    </div>
+
+                    <div class="col-sm-2 col-md-3 col-lg-4">
+                        <a class="emphasizedLinks  pull-right"
+                           href="https://www.facebook.com/ben.alexander.167">Facebook</a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="small">
+
+            <div class="row">
+                <div class="plinkHolder">
+                    <div class="col-sm-10 col-md-9 col-lg-8">
+                        <p>
+                            Here is my Google+ page, which gets no more attention than my Facebook page
+                        </p>
+                    </div>
+
+                    <div class="col-sm-2 col-md-3 col-lg-4">
+                        <a class="emphasizedLinks  pull-right"
+                           href="https://plus.google.com/u/0/+BenjaminAlexander47/posts">Google+</a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="small">
+            <div class="row">
+                <div class="plinkHolder">
+                    <div class="col-sm-10 col-md-9 col-lg-8">
+                        <p>
+                            I have a twitter page too.  I keep meaning to participate in this form of media and maybe I will one day.
+                        </p>
+                    </div>
+
+                    <div class="col-sm-2 col-md-3 col-lg-4">
+                        <a class="emphasizedLinks  pull-right"
+                           href="https://twitter.com/benralexander">Twitter</a>
+                    </div>
+                </div>
+            </div>
 
 
-
+        </div>
     </div>
 
 
