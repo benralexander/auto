@@ -99,6 +99,38 @@ grails.hibernate.pass.readonly = false
 // configure passing read-only to OSIV session by default, requires "singleSession = false" OSIV mode
 grails.hibernate.osiv.readonly = false
 
+
+server.URL = 'http://69.173.71.178:8080/dev/rest/server/'
+t2dRestServer {
+    base = 'http://t2dgenetics.org/'
+    mysql =  'mysql/'
+    bigquery =  'dev/'
+    path = 'rest/server/'
+}
+t2dTestRestServer {
+    base = 'http://69.173.70.52:8080/'
+    name =  'test/'
+    path = 'rest/server/'
+}
+t2dDevRestServer {
+    base = 'http://69.173.71.178:8080/'
+    name =  'dev/'
+    path = 'rest/server/'
+}
+t2dQaRestServer {
+    base = 'http://69.173.70.198:8080/'
+    name =  'qa/'
+    path = 'rest/server/'
+}
+t2dProdRestServer {
+    base = 'http://69.173.71.179:8080/'
+    name =  'prod/'
+    path = 'rest/server/'
+}
+server.URL = t2dDevRestServer.base+t2dDevRestServer.name+t2dDevRestServer.path
+
+
+
 environments {
     development {
         grails.logging.jul.usebridge = true

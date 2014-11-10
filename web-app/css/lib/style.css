@@ -649,6 +649,34 @@ div.personalLinks{
     font-family: "Times New Roman", Times, serif;
     font-size: 16pt;
 }
+.captionStyle{
+    text-align: center;
+}
+.webServerImage  {
+    margin-top:20px;
+    margin-bottom:15px;
+}
 .plinkHolder  {
     margin: 20px 10px;
+}
+.restSrvrBase  {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.restSrvrBase  {
+    display: block;
+    background-color: #eeeeee;
+    padding: 25px 25px 25px 50px;
+}
+.restSrvrDescr  {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 16pt;
+     height: auto;
+     max-width: 100%;
+     text-align: left;
+    padding: 2px 2px 25px 35px;
+ }
+.srvrHolder {
+    margin-top: 30px;
 }

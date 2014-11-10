@@ -1,9 +1,9 @@
 <div class="row">
     <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
-            <r:img uri="/images/medicalpopulationgenetics.png" alt="Broad medical population genetics"/>
+            <r:img uri="/images/mpg3.png"  class="webServerImage" alt="Broad medical population genetics"/>
 
-            <div class="caption" style="margin: auto">
+            <div style="text-align: center">
 
                 <div class="serverDescrBig">Sigma T2D</div>
                 <div class="serverDescrSmall">Production</div>
@@ -16,9 +16,9 @@
 
     <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
-            <r:img uri="/images/medicalpopulationgenetics.png" alt="Broad medical population genetics"/>
+            <r:img uri="/images/mpg3.png"  class="webServerImage" alt="Broad medical population genetics"/>
 
-            <div class="caption">
+            <div style="text-align: center">
             <div class="serverDescrBig">Sigma T2D</div>
             <div class="serverDescrSmall">QA</div>
                 <p><a href="http://type2diabetesgen-qasrvr.elasticbeanstalk.com/" class="btn btn-primary"
@@ -30,9 +30,9 @@
 
     <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
-            <r:img uri="/images/medicalpopulationgenetics.png" alt="Broad medical population genetics"/>
+            <r:img uri="/images/mpg3.png" class="webServerImage" alt="Broad medical population genetics"/>
 
-            <div class="caption">
+            <div style="text-align: center">
                 <div class="serverDescrBig">Sigma T2D</div>
                 <div class="serverDescrSmall">Development</div>
 
