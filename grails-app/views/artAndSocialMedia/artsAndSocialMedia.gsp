@@ -45,7 +45,7 @@
                 <div class="plinkHolder">
                     <div class="col-sm-10 col-md-9 col-lg-8">
                         <p>
-                            A collection of my photo manipulations, representing many a happy hour whiled away.
+                            I use this site as a resting place for the photo manipulations I do for fun.
                         </p>
                     </div>
 

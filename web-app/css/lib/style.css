@@ -642,10 +642,11 @@ p.picCaption {
 div.personalLinks{
     margin-top: 40px;
     border: 2px solid;
-    box-shadow: 10px 10px 5px #888888;
-    -webkit-border-image: url(border.png) 30 30 round; /* Safari 3.1-5 */
-    -o-border-image: url(border.png) 30 30 round; /* Opera 11-12.1 */
-    border-image: url(border.png) 30 30 round;
+    box-shadow: 15px 15px 10px #888888;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 10px; /* future proofing */
+    -khtml-border-radius: 10px; /* for old Konqueror browsers */
     font-family: "Times New Roman", Times, serif;
     font-size: 16pt;
 }
@@ -679,4 +680,10 @@ div.personalLinks{
  }
 .srvrHolder {
     margin-top: 30px;
+}
+.superheading {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    margin: 10px 0 30px;
+    font-weight: 600;
 }

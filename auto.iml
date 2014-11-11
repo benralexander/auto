@@ -42,6 +42,7 @@
       <sourceFolder url="file://$MODULE_DIR$/grails-app/i18n" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target/classes" />
       <excludeFolder url="file://$MODULE_DIR$/target/test-classes" />
+      <excludeFolder url="file://$MODULE_DIR$/target/work/gspcompile" />
       <excludeFolder url="file://$MODULE_DIR$/target/work/plugin-build-classes" />
       <excludeFolder url="file://$MODULE_DIR$/target/work/plugin-classes" />
       <excludeFolder url="file://$MODULE_DIR$/target/work/plugin-provided-classes" />
@@ -171,6 +172,9 @@
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant-launcher/1.8.3/ant-launcher-1.8.3.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/gmetrics/GMetrics/0.5/GMetrics-0.5.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/codenarc/CodeNarc/0.21/CodeNarc-0.21.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/grails/grails-plugin-converters/2.3.9/grails-plugin-converters-2.3.9.jar!/" />
+          <root url="jar://D:/opt/grails-2.4.3/lib/javax.transaction/jta/jars/jta-1.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.5/commons-codec-1.5.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

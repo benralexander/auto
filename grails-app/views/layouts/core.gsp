@@ -68,9 +68,6 @@
                     <a href='<g:createLink controller="delivery" action="index"/>'>Home</a>
                 </li>
                 <li>
-                    <a href="<g:createLink controller="delivery" action="about"/>" role="presentation">About</a>
-                </li>
-                <li>
                     <a href="<g:createLink controller="delivery" action="contact"/>" role="presentation">Contact</a>
                 </li>
             </ul>

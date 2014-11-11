@@ -54,23 +54,27 @@
             type: "post",
             url: "${createLink (action:'checkServerAjax','serverNumber':serverNumber )}",
             data: {serverNumber: serverNumber},
-            async: false,
+            async: true,
             success: function (data) {
                   updateServerFlag(data["server"],data["status"]);
 //                loading.hide();
             },
             error: function (jqXHR, exception) {
-                console.log('0') ;
-                alert('failed to reach web server')
+                console.log('failed to reach web server') ;
+                updateServerFlag(data["server"],0);
 //                loading.hide();
             }
         });
     };
     $(document).ready( function(){
-                checkServer(0);
-                checkServer(1);
-                checkServer(2);
-                checkServer(3);
+                try{
+                    checkServer(0);
+                    checkServer(1);
+                    checkServer(2);
+                    checkServer(3);
+                } catch(e){
+                    console.log(e);
+                }
             }
     );
 </script>

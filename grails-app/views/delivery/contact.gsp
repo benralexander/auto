@@ -54,9 +54,9 @@
                 <li>
                     <a href="<g:createLink controller="delivery" action="index"/>">Home</a>
                 </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
+                %{--<li>--}%
+                    %{--<a href="about.html">About</a>--}%
+                %{--</li>--}%
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -66,14 +66,14 @@
 
 <!-- Page Header -->
 <!-- Set your background image for this header on the line below. -->
-<header class="intro-header" style="background-image: url('../images/cow-431729-2.jpg')">
+<header class="intro-header" style="background-image: url('../images/cow-431729-2lowres.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="page-heading">
                     <h1>Contact</h1>
                     <hr class="small">
-                    <span class="subheading">Say something to me.</span>
+                    <span class="superheading"><strong>Say something.</strong></span>
                 </div>
             </div>
         </div>

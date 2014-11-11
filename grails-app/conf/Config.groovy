@@ -130,7 +130,6 @@ t2dProdRestServer {
 server.URL = t2dDevRestServer.base+t2dDevRestServer.name+t2dDevRestServer.path
 
 
-
 environments {
     development {
         grails.logging.jul.usebridge = true
@@ -140,6 +139,21 @@ environments {
         grails.serverURL = "http://www.bovinecontemplation.org"
     }
 }
+
+
+grails {
+    mail {
+        host = "smtp.gmail.com"
+        port = 465
+        username = "t2dportal@gmail.com"
+        password = "diaPortal"
+        props = ["mail.smtp.auth":"true",
+                 "mail.smtp.socketFactory.port":"465",
+                 "mail.smtp.socketFactory.class":"javax.net.ssl.SSLSocketFactory",
+                 "mail.smtp.socketFactory.fallback":"false"]
+    }
+}
+
 
 // log4j configuration
 log4j.main = {
