@@ -13,7 +13,7 @@ modules = {
 
         resource url: 'css/lib/style.css'
 
-        resource url: 'images/ajaxLoadingAnimation.gif'
+        resource url: 'images/dna.ico'
         resource url: 'images/ba.jpg'
 
 

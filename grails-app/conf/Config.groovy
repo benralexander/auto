@@ -14,7 +14,9 @@ import grails.util.Environment
 // }
 site.title = 'bovine contemplation'
 grails.project.groupId = appName // change this to alter the default package name and Maven publishing destination
-
+def catalinaBase = System.properties.getProperty('catalina.base')
+if (!catalinaBase) catalinaBase = '.'   // just in case
+def logDirectory = "${catalinaBase}/logs"
 
 
 if  (Environment.current == Environment.DEVELOPMENT)  {
@@ -157,11 +159,10 @@ grails {
 
 // log4j configuration
 log4j.main = {
-    // Example of changing the log pattern for the default console appender:
-    //
-    //appenders {
-    //    console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
-    //}
+    appenders {
+        rollingFile name: 'stdout', file: "${logDirectory}/${appName}.log".toString(), maxFileSize: '10MB'
+        rollingFile name: 'stacktrace', file: "${logDirectory}/${appName}_stack.log".toString(), maxFileSize: '1MB'
+    }
 
     error  'org.codehaus.groovy.grails.web.servlet',        // controllers
            'org.codehaus.groovy.grails.web.pages',          // GSP
@@ -174,4 +175,54 @@ log4j.main = {
            'org.springframework',
            'org.hibernate',
            'net.sf.ehcache.hibernate'
+    warn 'grails',
+            'grails.plugin.webxml.WebxmlGrailsPlugin',
+            'grails.app.service',
+            'grails.plugins.hawkeventing',
+            'net.sf.ehcache.hibernate'
+    info 'grails.app.services'
+    root.level = org.apache.log4j.Level.INFO
+
+
+
+    environments {
+        development {
+            appenders {
+                console name: 'stdout', layout: pattern(conversionPattern: "%d [%t] %-5p %c %x - %m%n")
+            }
+        }
+
+        staging {
+            appenders {
+                rollingFile name: 'stdout', file: "${logDirectory}/${appName}.log".toString(), maxFileSize: '10MB'
+                rollingFile name: 'stacktrace', file: "${logDirectory}/${appName}_stack.log".toString(), maxFileSize: '10MB'
+                //console name: 'stdout', layout: pattern(conversionPattern: "%d [%t] %-5p %c %x - %m%n")
+            }
+
+            // DO STUFF RELATED TO STAGING ENV
+        }
+
+
+        prod {
+            appenders {
+                rollingFile name: 'stdout', file: "${logDirectory}/${appName}.log".toString(), maxFileSize: '10MB'
+                rollingFile name: 'stacktrace', file: "${logDirectory}/${appName}_stack.log".toString(), maxFileSize: '10MB'
+                //console name: 'stdout', layout: pattern(conversionPattern: "%d [%t] %-5p %c %x - %m%n")
+            }
+            grails.logging.jul.usebridge = false
+            // DO STUFF RELATED TO STAGING ENV
+        }
+
+
+        dbdiff {
+            appenders {
+                console name: 'stdout', layout: pattern(conversionPattern: "%d [%t] %-5p %c %x - %m%n")
+            }
+
+            // DO STUFF RELATED TO DBDIFF ENV
+        }
+    }
+
+
+
 }

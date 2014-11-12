@@ -22,6 +22,8 @@
         ga('send', 'pageview');
 
     </script>
+    %{--<link href="${resource(dir: 'images', file: 'dna_projecten.png')}"  rel="icon">--}%
+    <link rel="icon" href="${resource(dir: 'images', file: 'dna.ico')}">
     <g:layoutHead/>
 
 </head>
@@ -30,7 +32,7 @@
 <g:javascript src="lib/bootstrap.min.js" />
 
 <div id="spinner" class="spinner" style="display:none;">
-    <img src="${resource(dir: 'images', file: 'ajaxLoadingAnimation.gif')}" alt="Loading"/>
+    %{--<img src="${resource(dir: 'images', file: 'ajaxLoadingAnimation.gif')}" alt="Loading"/>--}%
 </div>
 
 

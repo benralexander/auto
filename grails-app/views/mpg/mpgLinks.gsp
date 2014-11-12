@@ -61,7 +61,10 @@
             },
             error: function (jqXHR, exception) {
                 console.log('failed to reach web server') ;
-                updateServerFlag(data["server"],0);
+                updateServerFlag(0,2);
+                updateServerFlag(1,2);
+                updateServerFlag(2,2);
+                updateServerFlag(3,2);
 //                loading.hide();
             }
         });

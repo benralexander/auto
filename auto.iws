@@ -26,31 +26,31 @@
     <splitter split-orientation="horizontal" split-proportion="0.39265108">
       <split-first>
         <leaf>
-          <file leaf-file-name="scientificGraphics.gsp" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/grails-app/views/scientificGraphics/scientificGraphics.gsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="1496">
-                  <caret line="47" column="156" selection-start-line="47" selection-start-column="118" selection-end-line="47" selection-end-column="156" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="exploratoryGraphics.gsp" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/grails-app/views/unclassifiedGraphics/exploratoryGraphics.gsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1190">
-                  <caret line="35" column="130" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="130" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="core.gsp" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="core.gsp" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/core.gsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="1802">
-                  <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+                <state vertical-scroll-proportion="0.3243243" vertical-offset="0" max-vertical-offset="1836">
+                  <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="87" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/grails-app/views/delivery/index.gsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-3.6756756" vertical-offset="0" max-vertical-offset="1258">
+                  <caret line="16" column="44" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="44" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="autoResources.groovy" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/grails-app/conf/autoResources.groovy">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+                  <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
@@ -96,11 +96,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="MpgController.groovy" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="MpgController.groovy" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/grails-app/controllers/parts/MpgController.groovy">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.30404353" vertical-offset="0" max-vertical-offset="1286">
-                  <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+                <state vertical-scroll-proportion="-22.913044" vertical-offset="0" max-vertical-offset="629">
+                  <caret line="32" column="31" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -130,11 +130,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="artsAndSocialMedia.gsp" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="artsAndSocialMedia.gsp" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/grails-app/views/artAndSocialMedia/artsAndSocialMedia.gsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="3196">
-                  <caret line="5" column="180" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.12181529" vertical-offset="0" max-vertical-offset="3196">
+                  <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -143,8 +143,8 @@
           <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="1226" max-vertical-offset="3111">
-                  <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+                <state vertical-scroll-proportion="-50.84" vertical-offset="2537" max-vertical-offset="3978">
+                  <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -200,10 +200,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_sigma.gsp" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="_sigma.gsp" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/grails-app/views/mpg/_sigma.gsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.49102265" vertical-offset="0" max-vertical-offset="1281">
+                <state vertical-scroll-proportion="-12.836735" vertical-offset="0" max-vertical-offset="850">
                   <caret line="37" column="175" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
                   <folding />
                 </state>
@@ -223,8 +223,8 @@
           <file leaf-file-name="mpgLinks.gsp" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/grails-app/views/mpg/mpgLinks.gsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-8.932432" vertical-offset="274" max-vertical-offset="3230">
-                  <caret line="55" column="45" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="45" />
+                <state vertical-scroll-proportion="-10.540541" vertical-offset="274" max-vertical-offset="3281">
+                  <caret line="62" column="240" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
                   <folding />
                 </state>
               </provider>
@@ -262,27 +262,27 @@
         <option value="$PROJECT_DIR$/grails-app/views/delivery/about.gsp" />
         <option value="$PROJECT_DIR$/web-app/js/clean-blog.js" />
         <option value="$PROJECT_DIR$/grails-app/services/auto/SharedService.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/autoResources.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/websitesILike/websitesILike.gsp" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
         <option value="$PROJECT_DIR$/test/integration/auto/RestServerServiceIntegrationSpec.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/parts/MpgController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/mpg/_diabetes.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/artAndSocialMedia/artsAndSocialMedia.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/parts/DeliveryController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/layouts/core.gsp" />
         <option value="$PROJECT_DIR$/web-app/css/lib/style.css" />
         <option value="$PROJECT_DIR$/grails-app/views/delivery/contact.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/mpg/mpgLinks.gsp" />
         <option value="$PROJECT_DIR$/grails-app/services/auto/RestServerService.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/mpg/_sigma.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/mpg/mpgLinks.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/artAndSocialMedia/artsAndSocialMedia.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/autoResources.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/core.gsp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2684" />
-    <option name="y" value="326" />
+    <option name="x" value="2620" />
+    <option name="y" value="27" />
     <option name="width" value="3588" />
     <option name="height" value="2006" />
   </component>
@@ -1103,15 +1103,15 @@
       <workItem from="1414283473150" duration="8494000" />
       <workItem from="1414845405943" duration="19793000" />
       <workItem from="1415450185102" duration="71598000" />
-      <workItem from="1415726493015" duration="3793000" />
+      <workItem from="1415726493015" duration="8033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103678000" />
+    <option name="totallyTimeSpent" value="107918000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2684" y="326" width="3588" height="2006" extended-state="0" />
+    <frame x="2620" y="27" width="3588" height="2006" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1249,6 +1249,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="2414">
           <caret line="75" column="60" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1366,17 +1367,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/delivery/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7346939" vertical-offset="0" max-vertical-offset="1258">
-          <caret line="5" column="57" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/taglib/auto/LinkPageOrganizerTagLib.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1413,14 +1408,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.96" vertical-offset="4046" max-vertical-offset="17578">
           <caret line="264" column="42" selection-start-line="264" selection-start-column="37" selection-end-line="264" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/autoResources.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1471,26 +1458,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/artAndSocialMedia/artsAndSocialMedia.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="3196">
-          <caret line="5" column="180" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/services/auto/SharedService.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/core.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1156" max-vertical-offset="1802">
-          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1515,22 +1486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="10446" max-vertical-offset="11798">
           <caret line="683" column="13" selection-start-line="683" selection-start-column="1" selection-end-line="683" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1226" max-vertical-offset="3111">
-          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/mpg/mpgLinks.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.932432" vertical-offset="274" max-vertical-offset="3230">
-          <caret line="55" column="45" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -1567,10 +1522,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/mpg/_sigma.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.836735" vertical-offset="0" max-vertical-offset="850">
+          <caret line="37" column="175" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-50.84" vertical-offset="2537" max-vertical-offset="3978">
+          <caret line="224" column="0" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/parts/MpgController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30404353" vertical-offset="0" max-vertical-offset="1286">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state vertical-scroll-proportion="-22.913044" vertical-offset="0" max-vertical-offset="629">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1583,10 +1554,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/mpg/_sigma.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/mpg/mpgLinks.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49102265" vertical-offset="0" max-vertical-offset="1281">
-          <caret line="37" column="175" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.540541" vertical-offset="274" max-vertical-offset="3281">
+          <caret line="62" column="240" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/artAndSocialMedia/artsAndSocialMedia.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12181529" vertical-offset="0" max-vertical-offset="3196">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/delivery/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6756756" vertical-offset="0" max-vertical-offset="1258">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/autoResources.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/core.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3243243" vertical-offset="0" max-vertical-offset="1836">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="87" />
           <folding />
         </state>
       </provider>
