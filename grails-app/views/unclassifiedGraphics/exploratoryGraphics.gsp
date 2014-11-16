@@ -27,14 +27,14 @@
 
         <g:linkDesc buttonName="Sierpinski" linkUrl="http://graphicsdemo.elasticbeanstalk.com/cookin/sierpinski">
             Here we have a JavaScript implementation that will draw multiple recursive levels of the <a class="standardLinks" href="http://en.wikipedia.org/wiki/Sierpinski_triangle">Sierpinski triangle</a>.
-            I find I can't go too far before my browser runs out of memory -- maybe eight or nine levels.  Of course for good clean fun I prefer one
-            of <a class="standardLinks" href="https://www.youtube.com/watch?v=DK5Z709J2eo">Vi Harts</a> presentations.
+            I find I can't go too far before my browser runs out of memory -- maybe eight or nine levels.  Of course for good clean fun (and pedagogical potential) I prefer
+            <a class="standardLinks" href="https://www.youtube.com/watch?v=DK5Z709J2eo">Vi Harts</a> presentations on the topic.
         </g:linkDesc>
 
 
         <g:linkDesc buttonName="Mandelbrot" linkUrl="http://graphicsdemo.elasticbeanstalk.com/cookin/mandelbrot">
             A representation of the <a class="standardLinks" href="http://en.wikipedia.org/wiki/Mandelbrot_set">Mandelbrot set</a> written using D3.  This classic of computer graphics is in fact not terribly well-suited
-            to SVG output (since the image is at heart raster) or to JavaScript (tight loops and high-speed processing would be better).  It was a fun exercise on a rainy Sunday afternoon, however, and I present it despite its limitations..
+            to SVG output (since the image bitmapped, not vector at heart) or to JavaScript (tight loops and high-speed processing would be better).  It was a fun exercise on a rainy Sunday afternoon, however, and I present it despite its limitations.
         </g:linkDesc>
 
         <g:linkDesc buttonName="patterns" linkUrl="http://graphicsdemo.elasticbeanstalk.com/cookin/histocruise">

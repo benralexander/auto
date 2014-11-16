@@ -8,8 +8,9 @@
                 <div class="serverDescrBig">Sigma T2D</div>
                 <div class="serverDescrSmall">Production</div>
 
-                <p><a href="http://type2diabetesgenetics.org" class="btn btn-primary" role="button">go to site</a>
-                    <a href="#" class="btn btn-default" role="button">Run in window</a></p>
+                <p>
+                    <a href="http://sigmat2d.org/" class="btn btn-primary" role="button">go to site</a>
+                 </p>
             </div>
         </div>
     </div>
@@ -21,8 +22,9 @@
             <div style="text-align: center">
             <div class="serverDescrBig">Sigma T2D</div>
             <div class="serverDescrSmall">QA</div>
-                <p><a href="http://type2diabetesgen-qasrvr.elasticbeanstalk.com/" class="btn btn-primary"
-                      role="button">go to site</a> <a href="#" class="btn btn-default" role="button">Run in window</a>
+                <p>
+                    <a href="http://sigmat2dqasrv7-env.elasticbeanstalk.com/" class="btn btn-primary"
+                      role="button">go to site</a>
                 </p>
             </div>
         </div>
@@ -36,8 +38,9 @@
                 <div class="serverDescrBig">Sigma T2D</div>
                 <div class="serverDescrSmall">Development</div>
 
-                <p><a href="http://type2diabetes-dev.elasticbeanstalk.com/login/auth" class="btn btn-primary"
-                      role="button">go to site</a> <a href="#" class="btn btn-default" role="button">Run in window</a>
+                <p>
+                    <a href="http://sigmat2ddev-env.elasticbeanstalk.com/home/portalHome" class="btn btn-primary"
+                      role="button">go to site</a>
                 </p>
             </div>
         </div>

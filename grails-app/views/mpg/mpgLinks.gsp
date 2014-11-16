@@ -20,6 +20,9 @@
 
 <body>
 <g:javascript src="lib/bootstrap.js" />
+<r:img id="imgGood" uri="/images/good.png" style="display:none"/>
+<r:img id="imgTrouble" uri="/images/trouble.png" style="display:none"/>
+<r:img id="imgBad" uri="/images/good.png" style="display:none"/>
 <script>
 //    $('#diabetesTab').click(function (e) {
 //        e.preventDefault()
@@ -32,7 +35,10 @@
 </script>
 <script>
     var   updateServerFlag  = function (serverNumber,serverStatus)  {
-                var serverObject;
+
+           var serverObject;
+                var imggood = $('#imgGood');
+                var imgbad = $('#imgBad');
                 switch (serverNumber) {
                     case 0: serverObject  = $('#tstSrvrImg'); break;
                     case 1: serverObject  = $('#devSrvrImg'); break;
@@ -41,11 +47,13 @@
                     default: alert(' internal error.  Server number ='+serverNumber+'.') ;
                 }
                 if (serverStatus == 0) {
-                    serverObject[0].src = "/auto/static/images/trouble.png";
+                    var x = '${r.external(uri:"images/trouble.png").encodeAsJavaScript()}' ;
+                    var y = '${r.external(uri:"images/trouble.png")}' ;
+                    serverObject[0].src = $('#imgTrouble')[0].src;
                 }  else  if (serverStatus == 1) {
-                    serverObject[0].src = "/auto/static/images/good.png";
+                    serverObject[0].src = $('#imgGood')[0].src;
                 }  else  if (serverStatus == 2) {
-                    serverObject[0].src = "/auto/static/images/caution.png";
+                    serverObject[0].src = $('#imgBad')[0].src;
                 }
           },
     checkServer = function  (serverNumber) {

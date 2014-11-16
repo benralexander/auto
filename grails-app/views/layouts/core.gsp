@@ -23,7 +23,8 @@
 
     </script>
     %{--<link href="${resource(dir: 'images', file: 'dna_projecten.png')}"  rel="icon">--}%
-    <link rel="icon" href="${resource(dir: 'images', file: 'dna.ico')}">
+    %{--<link rel="icon" href="${resource(dir: 'images', file: 'dna.ico')}">--}%
+    <link rel="shortcut icon" href="${createLinkTo(dir:'images',file:'dna-strands.ico')}" type="image/x-icon" />
     <g:layoutHead/>
 
 </head>
@@ -71,6 +72,9 @@
                 </li>
                 <li>
                     <a href="<g:createLink controller="delivery" action="contact"/>" role="presentation">Contact</a>
+                </li>
+                <li>
+                    <a href="<g:createLink controller="delivery" action="blog"/>" role="presentation">Blog</a>
                 </li>
             </ul>
         </div>

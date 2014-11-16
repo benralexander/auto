@@ -45,7 +45,7 @@
                 <div class="plinkHolder">
                     <div class="col-sm-10 col-md-9 col-lg-8">
                         <p>
-                            I use this site as a resting place for the photo manipulations I do for fun.
+                            I use this site as a resting place for the photo manipulations I sometimes do for fun.
                         </p>
                     </div>
 
@@ -93,7 +93,7 @@
                 <div class="plinkHolder">
                     <div class="col-sm-10 col-md-9 col-lg-8">
                         <p>
-                            A site which allows people to share their photographs without licensing restrictions.    I've uploaded a small number of photographs..
+                            A site which allows people to share their photographs without licensing restrictions.    I've uploaded a small number of photographs which like for one reason or another.
                         </p>
                     </div>
 
