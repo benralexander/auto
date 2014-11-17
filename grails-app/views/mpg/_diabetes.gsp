@@ -2,6 +2,7 @@
 <div class="row">
     <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
+
             <img class='logoholder' src="http://www.cellprofiler.org/images/BroadInstituteLogo_smaller.png" alt="Broad Institute">
             <div class="caption" style="text-align: center">
                 <div class="serverDescrBig">T2D Genes</div>
@@ -27,6 +28,7 @@
     <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
             <img class='logoholder' src="http://www.cellprofiler.org/images/BroadInstituteLogo_smaller.png" alt="Broad Institute">
+            <span class="pull-right"><a class="subtle" href="https://005901288866.signin.aws.amazon.com/console">.</a></span>
             <div class="caption" style="text-align: center">
                 <div class="serverDescrBig">T2D Genes</div>
                 <div class="serverDescrSmall">Development</div>

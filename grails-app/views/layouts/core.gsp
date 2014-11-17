@@ -24,7 +24,8 @@
     </script>
     %{--<link href="${resource(dir: 'images', file: 'dna_projecten.png')}"  rel="icon">--}%
     %{--<link rel="icon" href="${resource(dir: 'images', file: 'dna.ico')}">--}%
-    <link rel="shortcut icon" href="${createLinkTo(dir:'images',file:'dna-strands.ico')}" type="image/x-icon" />
+    <g:external uri="/images/icons/dna-strands.ico"/>
+    %{--<link rel="shortcut icon" href="${createLinkTo(dir:'images',file:'dna-strands.ico')}" type="image/x-icon" />--}%
     <g:layoutHead/>
 
 </head>

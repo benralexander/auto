@@ -6,8 +6,8 @@
 
 
     <r:layoutResources/>
-
-    <link type="text/css" href="${resource(dir: 'css', file: 'blog.css')}" rel="stylesheet" media="screen, projection" />
+    <g:external dir="css" file="blog.css" />
+    %{--<link type="text/css" href="${resource(dir: 'css', file: 'blog.css')}" rel="stylesheet" media="screen, projection" />--}%
 
 </head>
 
