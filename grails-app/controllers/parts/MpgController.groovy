@@ -6,7 +6,7 @@ import org.codehaus.groovy.grails.web.json.JSONObject
 class MpgController {
     RestServerService restServerService
 
-    def index() {}
+    def index() {render (view: "mpgLinks")}
 
     def mpgLinks() {
         render (view: "mpgLinks")

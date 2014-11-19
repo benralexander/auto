@@ -182,7 +182,6 @@ log4j.main = {
             'grails.plugins.hawkeventing',
             'net.sf.ehcache.hibernate'
     info 'grails.app.services'
-    root.level = org.apache.log4j.Level.INFO
 
 
 

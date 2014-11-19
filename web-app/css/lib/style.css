@@ -575,7 +575,7 @@ body {
 }
 
 .logoholder  {
-    margin:  30px;
+    margin:  4px;
 }
 .serverDescrBig{
     text-align: center;
@@ -586,7 +586,7 @@ body {
     text-align: center;
     font-size: 18pt;
     font-style: italic;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 .btn-xlarge {
     padding: 18px 28px;
@@ -654,8 +654,8 @@ div.personalLinks{
     text-align: center;
 }
 .webServerImage  {
-    margin-top:20px;
-    margin-bottom:15px;
+    margin-top:4px;
+    margin-bottom:3px;
 }
 .plinkHolder  {
     margin: 20px 10px;

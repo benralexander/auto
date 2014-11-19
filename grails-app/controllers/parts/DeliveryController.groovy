@@ -20,4 +20,7 @@ class DeliveryController {
                 params["message"])
         render(view:'contact')
     }
+    def blog() {
+        render(view:'blog')
+    }
 }

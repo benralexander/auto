@@ -39,6 +39,15 @@
             (for which I did nothing at all).
         </g:linkDesc>
 
+        <g:linkDesc buttonName="Firebrowse" linkUrl="http://firebrowse.org/exploreGene.html">
+            Some recent work I did for the Cancer Department. Here I nearly integrated a graphical widget that was written by another engineer.
+        </g:linkDesc>
+
+        <g:linkDesc buttonName="Chalice" linkUrl="http://cwr.horizondiscovery.com/slides/index.html">
+            I originally created a software package called "Chalice" back in 2004 for the company then called  'CombinatoRx'.  I later parted ways with this little Boston-based startup company but they retained the software I had written
+            for them and in fact they eventually pushed it forward quite a bit, so I can now claim no more than partial authorship the software as it stands now.
+        </g:linkDesc>
+
 
     </div>
 

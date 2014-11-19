@@ -54,9 +54,9 @@
                 <li>
                     <a href="<g:createLink controller="delivery" action="index"/>">Home</a>
                 </li>
-                %{--<li>--}%
-                    %{--<a href="about.html">About</a>--}%
-                %{--</li>--}%
+                <li>
+                    <a href="<g:createLink controller="delivery" action="blog"/>" role="presentation">Blog</a>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
