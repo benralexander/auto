@@ -6,6 +6,13 @@
 
     <r:layoutResources/>
 
+<link rel="icon" href="${resource(dir: 'images/icons', file: 'dna-strands.ico')}" type="image/x-icon" />
+<style>
+body {background-image: url('../images/old_mathematics.png')}
+</style>
+
+</head>
+
 </head>
 
 <body>
@@ -91,7 +98,7 @@
         </g:linkDesc>
 
         <g:linkDesc buttonName="CTD sunburst" linkUrl="${createLink(controller:'ScientificGraphics', action: 'ccls')}">
-            Here is another Sunburst, this time characterizing the relationship between in hundred and 60 different cancer cell lines.
+            Here is another Sunburst, this time characterizing the relationship between in 860 different cancer cell lines.
             This one arose out of the <a class="standardLinks" href="https://github.com/mleibman/SlickGrid/wiki">CTD2 project</a>, which was also
             the sponsoring project for the CTRP project mentioned above.  In this case the graphic is not interactive, but instead a static image.
         </g:linkDesc>

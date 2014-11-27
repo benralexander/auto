@@ -8,6 +8,19 @@
 
 
 
+    <style>
+    body {
+        background-image: url('../images/geometry.png')
+    }
+    .personalLinks>.row:first-child {
+        margin-top:50px;
+    }
+    .personalLinks>.row:last-child {
+             margin-bottom:50px;
+    }
+    </style>
+
+
 
 </head>
 
@@ -39,7 +52,7 @@
             </div>
         </div>
 
-        <div class="container-fluid personalLinks" style="border: 2px solid black">
+        <div class="container-fluid personalLinks" style="border: 2px solid black; background-color: #ffffff">
 
             <div class="row">
                 <div class="plinkHolder">

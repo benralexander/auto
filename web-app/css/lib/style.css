@@ -664,6 +664,16 @@ div.personalLinks{
     font-family: "Times New Roman", Times, serif;
     font-size: 16pt;
 }
+div.mainnav{
+    margin-top: 10px;
+    border: 1px solid;
+    box-shadow: 5px 5px 2px #cccccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 10px; /* future proofing */
+    -khtml-border-radius: 3px; /* for old Konqueror browsers */
+    padding: 15px;
+}
 .captionStyle{
     text-align: center;
 }
@@ -673,6 +683,7 @@ div.personalLinks{
 }
 .plinkHolder  {
     margin: 20px 10px;
+    padding-left: 25px;
 }
 .restSrvrBase  {
     display: block;

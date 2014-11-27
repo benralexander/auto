@@ -7,7 +7,9 @@
     <r:layoutResources/>
 
 
-    %{--<link rel="icon" href="../../favicon.ico">--}%
+<style>
+    body {background-image: url('../images/connect.png')}
+</style>
 
 </head>
 
