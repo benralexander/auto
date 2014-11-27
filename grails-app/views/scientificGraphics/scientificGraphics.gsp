@@ -47,9 +47,28 @@
         </g:linkDesc>
 
         <g:linkDesc buttonName="box whisker" linkUrl="http://graphicsdemo.elasticbeanstalk.com/box/index">
-             Here is an  interactive box whisker display that is currently part of the <a class="standardLinks" href="http://www.broadinstitute.org/ctrp.v2/">CTRP project</a>.
+            Here is an  interactive box whisker display that is currently part of the <a class="standardLinks" href="http://www.broadinstitute.org/ctrp.v2/">CTRP project</a>.
             The slider allows the user to define a  multiplier of the interquartile (Q3 - Q1) distance as a way of dynamically adjusting the whisker size.
         </g:linkDesc>
+
+        <g:linkDesc buttonName="scatter plot" linkUrl="http://graphicsdemo.elasticbeanstalk.com/box/scatter">
+            Here is a simple scatter plot also used as a part of the <a class="standardLinks" href="http://www.broadinstitute.org/ctrp.v2/">CTRP project</a> .
+            Other than the  tooltip over the data points there's no particular interactivity in this example ( though in the live software clicking on the dots
+            brings up a matched dose response curve )
+        </g:linkDesc>
+
+        <g:linkDesc buttonName="dose resp." linkUrl="http://graphicsdemo.elasticbeanstalk.com/box/doseResponse">
+            Here is a dose response curve also used as a part of the <a class="standardLinks" href="http://www.broadinstitute.org/ctrp.v2/">CTRP project</a> .
+            This one uses a log scale on the x-axis and includes error bars on the points. The curve is provided by the server in the form of the four
+            standard hill slope parameters. The JavaScript code then uses these parameters to generate the curve (which is supposed to match the points, though
+            it doesn't look so great in this example).
+        </g:linkDesc>
+
+        <g:linkDesc buttonName="histogram" linkUrl="http://graphicsdemo.elasticbeanstalk.com/histogram/histogram">
+            This was a graphic I originally wrote for Bard (go to the  <a class="standardLinks" href="https://bard.nih.gov/BARD/bardWebInterface/index">actual software</a> to see the graphic in action.
+            In fact the backend passes the browser a series of specifications for the individual bins, so  from the perspective of the JavaScript it's really just a bar chart,  but the backend is
+            passing the information necessary to present a distribution on-screen.
+         </g:linkDesc>
 
         <g:linkDesc buttonName="jqGrid" linkUrl="http://graphicsdemo.elasticbeanstalk.com/jqgrid/index">
             I wanted to implement a molecular spreadsheet with virtual scrolling -- that is, instead of moving page to page through multiple entries (while
@@ -65,10 +84,16 @@
             and it doesn't have the unreliability I found in the jqgrid library.
         </g:linkDesc>
 
-        <g:linkDesc buttonName="sunburst" linkUrl="http://graphicsdemo.elasticbeanstalk.com/probe/probe_targets">
-             Here is a presentation that shows the protein classes for every molecule we pushed forward as a probe as part of the
+        <g:linkDesc buttonName="MLP sunburst" linkUrl="http://graphicsdemo.elasticbeanstalk.com/probe/probe_targets">
+            Here is a presentation that shows the protein classes for every molecule we pushed forward as a probe as part of the
             <a class="standardLinks" href="http://mli.nih.gov/mli/">Molecular Library  Program</a>, which was
-            a focus for much of the work I did over in the Chemical Biology platform in 2011 and 2012. The publication is still in the queue.
+            a focus for much of the work I did over in the Chemical Biology platform in 2011 and 2012. The publication is still in the queue.  The graphic is live and interactive.
+        </g:linkDesc>
+
+        <g:linkDesc buttonName="CTD sunburst" linkUrl="${createLink(controller:'ScientificGraphics', action: 'ccls')}">
+            Here is another Sunburst, this time characterizing the relationship between in hundred and 60 different cancer cell lines.
+            This one arose out of the <a class="standardLinks" href="https://github.com/mleibman/SlickGrid/wiki">CTD2 project</a>, which was also
+            the sponsoring project for the CTRP project mentioned above.  In this case the graphic is not interactive, but instead a static image.
         </g:linkDesc>
 
 

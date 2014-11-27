@@ -43,7 +43,8 @@
         </g:linkDesc>
 
         <g:linkDesc buttonName="fountain" linkUrl="http://graphicsdemo.elasticbeanstalk.com/cookin/multiElementTransition">
-            I found the core of this  number fountain  in one D3 book or another (I forget now, but I'll post a link at some point).  To me it's in the way of demonstrating  how  dynamically modern browser can behave.
+            I found the core of this number fountain  in the book 'Data Visualization with D3.js Cookbook' by Nick Qi Zhu (who also did the awesome dc.js package.  Check out his work  <a href="https://github.com/NickQiZhu">here</a>.
+            To me it's kind of a neat demo that could be made into something thoroughly decorative with just a little work.
         </g:linkDesc>
 
         <g:linkDesc buttonName="force" linkUrl="http://graphicsdemo.elasticbeanstalk.com/curvedForce/index">
