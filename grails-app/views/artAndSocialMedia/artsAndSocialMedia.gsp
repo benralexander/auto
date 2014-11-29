@@ -47,7 +47,7 @@
                      <r:img uri="/images/ba.jpg" class="img-responsive"/>
                 </div>
                 <div class="col-sm-9 col-md-6 col-lg-8 ">
-                    <p class="picCaption">The camera on a laptop computer captured this recent photo of me looking typically perplexed, and while balancing my head on my left thumb.</p>
+                    <p class="picCaption">The camera on a laptop computer captured this recent photo of me looking typically perplexed, and balancing my head on my left thumb.</p>
                 </div>
             </div>
         </div>

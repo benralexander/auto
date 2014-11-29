@@ -652,6 +652,8 @@ a.emphasizedLinks {
 p.picCaption {
     font-size: 18pt;
     margin: 20px 30px;
+    background-color: white;
+    padding: 20px;
 }
 div.personalLinks{
     margin-top: 40px;
