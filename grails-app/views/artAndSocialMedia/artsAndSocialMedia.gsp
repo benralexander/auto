@@ -8,6 +8,19 @@
 
 
 
+    <style>
+    body {
+        background-image: url('../images/geometry.png')
+    }
+    .personalLinks>.row:first-child {
+        margin-top:50px;
+    }
+    .personalLinks>.row:last-child {
+             margin-bottom:50px;
+    }
+    </style>
+
+
 
 </head>
 
@@ -34,12 +47,12 @@
                      <r:img uri="/images/ba.jpg" class="img-responsive"/>
                 </div>
                 <div class="col-sm-9 col-md-6 col-lg-8 ">
-                    <p class="picCaption">The camera on a laptop computer captured this recent photo of me looking typically perplexed, and while balancing my head on my left thumb.</p>
+                    <p class="picCaption">The camera on a laptop computer captured this recent photo of me looking typically perplexed, and balancing my head on my left thumb.</p>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid personalLinks" style="border: 2px solid black">
+        <div class="container-fluid personalLinks" style="border: 2px solid black; background-color: #ffffff">
 
             <div class="row">
                 <div class="plinkHolder">

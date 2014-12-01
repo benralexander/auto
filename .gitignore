@@ -29,13 +29,8 @@
 # "temporary" build files
 /target
 
-<<<<<<< HEAD
 #Intellij stuff
 *.iws
 *.iml
 *.ipr
-=======
-*.iws
-*.ipr
-*.iml
->>>>>>> 3980c5f5e87684c611e37e0ec448b72cf6718f2e
+

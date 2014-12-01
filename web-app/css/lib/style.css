@@ -598,7 +598,7 @@ body {
 }
 .bigbutton {
     display: block;
-    width: 145px;
+    width: 165px;
     height: 50px;
     background: #4E9CAF;
     padding: 10px;
@@ -606,7 +606,21 @@ body {
     border-radius: 5px;
     color: white;
     font-weight: bold;
-    margin-left: 2px;
+    margin-left: 0px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+.biggerbutton {
+    display: block;
+    width: 185px;
+    height: 50px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left: 0px;
     margin-top: 25px;
     margin-right: 25px;
 }
@@ -616,7 +630,7 @@ body {
 }
 .anchorDescriptionText {
     font-size: 14pt;
-    margin: 0;
+    margin: 0 0 0 10px;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
@@ -638,6 +652,8 @@ a.emphasizedLinks {
 p.picCaption {
     font-size: 18pt;
     margin: 20px 30px;
+    background-color: white;
+    padding: 20px;
 }
 div.personalLinks{
     margin-top: 40px;
@@ -650,6 +666,16 @@ div.personalLinks{
     font-family: "Times New Roman", Times, serif;
     font-size: 16pt;
 }
+div.mainnav{
+    margin-top: 10px;
+    border: 1px solid;
+    box-shadow: 5px 5px 2px #cccccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 10px; /* future proofing */
+    -khtml-border-radius: 3px; /* for old Konqueror browsers */
+    padding: 15px;
+}
 .captionStyle{
     text-align: center;
 }
@@ -659,6 +685,7 @@ div.personalLinks{
 }
 .plinkHolder  {
     margin: 20px 10px;
+    padding-left: 25px;
 }
 .restSrvrBase  {
     display: block;

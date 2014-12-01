@@ -13,7 +13,7 @@ modules = {
 
         resource url: 'css/lib/style.css'
 
-        resource url: 'images/icons/dna-strands.ico'
+       // resource url: 'images/icons/dna-strands.ico'
 
         resource url: 'js/lib/d3.min.js'
     }

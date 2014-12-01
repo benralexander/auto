@@ -23,9 +23,10 @@
 
     </script>
     %{--<link href="${resource(dir: 'images', file: 'dna_projecten.png')}"  rel="icon">--}%
-    %{--<link rel="icon" href="${resource(dir: 'images', file: 'dna.ico')}">--}%
-    <g:external uri="/images/icons/dna-strands.ico"/>
+    %{--<link rel="icon"   type="image/x-icon" href="${resource(dir: 'images/icons', file: 'dna-strands.ico')}">--}%
+    %{--<g:external  type="image/x-icon" uri="/images/icons/favicon.ico"/>--}%
     %{--<link rel="shortcut icon" href="${createLinkTo(dir:'images',file:'dna-strands.ico')}" type="image/x-icon" />--}%
+    <link rel="Shortcut Icon" href="${resource(dir: 'images/icons', file: 'dna-strands.ico')}" type="image/x-icon" />
     <g:layoutHead/>
 
 </head>

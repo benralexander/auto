@@ -9,6 +9,11 @@
 
     %{--<link rel="icon" href="../../favicon.ico">--}%
 
+    <style>
+    body {background-image: url('../images/light_noise_diagonal.png')}
+    </style>
+
+
 </head>
 
 <body>

@@ -16,7 +16,19 @@
 
     %{--<link rel="icon" href="../../favicon.ico">--}%
 
- </head>
+    <style>
+    body {background-image: url('../images/debut_light.png')}
+    h4 {
+        margin: 20px 0px 0 0;
+    }
+    h4+p {
+        margin-top: 4px;
+        margin-bottom: 14px;
+         }
+    </style>
+
+
+</head>
 
 <body>
 
@@ -28,7 +40,7 @@
         <p class="lead">Not so much thinking about cows, but more an exploration of what cows think about.</p>
     </div>
 
-    <div class="row marketing">
+    <div class="row mainnav">
         <div class="col-lg-6">
             <h4><a href='<g:createLink controller="mpg" action="mpgLinks"/>'>Medical Population Genetics</a></h4>
             <p>Diabetes portals (and others soon to come) for the Broad Institute</p>

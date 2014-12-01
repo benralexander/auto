@@ -7,7 +7,12 @@
     <r:layoutResources/>
 
 
-    %{--<link rel="icon" href="../../favicon.ico">--}%
+    <link rel="icon" href="../images/favicon.ico">
+
+    <style>
+    body {background-image: url('../images/grey_sandbag.png')}
+    </style>
+
 
 </head>
 
@@ -38,8 +43,8 @@
 
 
         <g:linkDesc buttonName="BKA" linkUrl="http://www.brucekalexander.com/index.php">
-            My dad's website,  which is nice. My mom is reluctant to put up a site, but she will come around eventually.  To fill out the story of my immediate family-- my son is too young to have any web presence, and my daughter is utterly appalled at the very notion of linking
-            her web presence to mine.
+            My dad's website-- other family members to follow (likely excepting my daughter, who is utterly appalled at the very notion of linking
+            her web presence to mine).
         </g:linkDesc>
 
 
