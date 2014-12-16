@@ -20,7 +20,7 @@
                 <div class="serverDescrBig">T2D Genes</div>
                 <div class="serverDescrSmall">QA</div>
                 <p>
-                    <a href="http://type2diabetesqasrvr-env.elasticbeanstalk.com/" class="btn btn-primary" role="button">go to site</a>
+                    <a href="http://type2diabetesgen-qasrvr.elasticbeanstalk.com//" class="btn btn-primary" role="button">go to site</a>
                 </p>
             </div>
         </div>
