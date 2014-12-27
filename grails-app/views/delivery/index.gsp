@@ -17,7 +17,7 @@
     %{--<link rel="icon" href="../../favicon.ico">--}%
 
     <style>
-    body {background-image: url('../images/debut_light.png')}
+    body {background-image: url('')}
     h4 {
         margin: 20px 0px 0 0;
     }

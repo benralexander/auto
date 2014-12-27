@@ -674,6 +674,7 @@ div.mainnav{
     -webkit-border-radius: 5px;
     border-radius: 10px; /* future proofing */
     -khtml-border-radius: 3px; /* for old Konqueror browsers */
+    background-color: #ffffff;
     padding: 15px;
 }
 .captionStyle{
