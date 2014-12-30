@@ -1,3 +1,4 @@
+<%@ page import="temporary.BuildInfo" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,8 +11,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="Ben Alexander, benralexander, benr, scientific graphics, bovine, Styrofoam heads, left nostril">
+    <meta name="subject" content="software, science, graphics, diabetes, and uncategorized randomness">
+    <meta name="language" content="ES">
     <meta name="description" content="BA's homepage">
     <meta name="author" content="Ben R Alexander">
+    <meta name="url" content="http://bovinecontemplation.org">
+    <meta name="identifier-URL" content="http://bovinecontemplation.org">
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -95,9 +100,14 @@
 <g:layoutBody/>
 
 <div class="container">
+    <div class="row">
+        <div class="footer" class="pull-right">
+            <div class="col-lg-9"></div>
+            <div class="col-lg-3">
+                <p style="font-size: 8pt">Built on ${BuildInfo?.buildHost}<br/>${BuildInfo?.buildTime}.  Version=${BuildInfo?.appVersion}.${BuildInfo?.buildNumber}&nbsp;&nbsp;&nbsp;  /BA</p>
+            </div>
 
-    <div class="footer">
-        <p>BA 2014</p>
+        </div>
     </div>
 
 </div>

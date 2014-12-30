@@ -37,14 +37,15 @@
 
 
 
-
+    <h2 style="display:none">Ben R Alexander</h2>
+    <h3 style="display:none">Ben's home page</h3>
     <div class="container linkContainerHolder">
 
 
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-3 col-md-6 col-lg-4">
-                     <r:img uri="/images/ba.jpg" class="img-responsive"/>
+                     <r:img uri="/images/ba.jpg" class="img-responsive" alt="Ben R Alexander"/>
                 </div>
                 <div class="col-sm-9 col-md-6 col-lg-8 ">
                     <p class="picCaption">The camera on a laptop computer captured this recent photo of me looking typically perplexed, and balancing my head on my left thumb.</p>

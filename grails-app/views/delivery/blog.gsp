@@ -1,6 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
+    <meta name="keywords" content=" ATCV-1,virus,mapbox,d3,JavaScript, clean code,infinite mind, finite mind"/>
     <meta name="layout" content="core"/>
     <r:require modules="core"/>
 
@@ -38,9 +39,9 @@
 <div class="container">
 
     <div class="blog-header">
-        <h1 class="blog-title">Additional notes</h1>
+        <h1 class="blog-title">Notes to myself</h1>
 
-        <p class="lead blog-description">Uncategorized comments</p>
+        <p class="lead blog-description">An effort to extend the time between the recently learned and soon forgotten</p>
     </div>
 
     <div id="nov2014">
@@ -246,7 +247,55 @@
 
 
 
-                <nav>
+
+
+
+
+
+
+
+
+            <div class="blog-post">
+
+                <h2 class="blog-post-title"><a name="t2014dec28">Infinite mind</a></h2>
+
+                <p class="blog-post-meta">December 28, 2014</p>
+
+                <p>When I was a child  back in the 1970s I commonly saw popular articles about brain science suggesting that the capacity of the human brain was infinite. I wonder if anyone
+                makes claims like that anymore, now that they are so self-evidently false.  A few keystrokes and I can find a database so large that neither I nor anyone could memorize it, so it's hard to imagine
+                a serious claim that a fundamentally finite blob of neural brain jello could contain the vastness of the information landscape.  And though this retrenchment of claims is surely prudent,
+                it also raises a  problem  for anyone with ambitions to master scientific/technical topics.</p>
+
+
+                <p>Because if your subject matter is too complicated to learn comprehensively (and this must be true in almost every field) then wwhich parts of the field are you going to choose NOT to learn?
+                And if you field has a strong dependence on other fields, then in which of those fields will you be forced to merely dabble, which will you learn, and which other ones will you ignore completely?
+                I regularly encounter this question as I study the topics surrounding drug discovery, since modern drug development/discovery (at least as I think about it) has strong dependencies on so many other fields; biology,
+                mathematics, chemistry, and computer science to name a few. Any since the scope of any of those dependent fields is by itself is overwhelming,  what is the ambitious researcher to do if they want to make meaningful inroads
+                in their primary field of interest?</p>
+
+
+                <p>Of course the answer must be to effectively balance breadth and depth.  You need depth in some subfields, but every moment spent diving deeply takes you away from learning some other topic. Perhaps the most successful people
+                are those who can balance these two quantities effectively, and who happen to be skillful/lucky in choosing the subfields that they will spend their time on. When I come across one of those successful people
+                I definitely want to ask them how they do it, because the whole question  leaves me feeling stumped.</p>
+
+
+            </div><!-- /.blog-post -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <nav>
                     <ul class="pager">
                         <li><a href="#">Previous</a></li>
                         <li><a href="#">Next</a></li>
@@ -268,6 +317,7 @@
                         <li><a href="#t2014nov15">November 15, 2014<br/><em>Brain algae virus</em></a></li>
                         <li><a href="#t2014nov28">November 28, 2014<br/><em>Maps and open source</em></a></li>
                         <li><a href="#t2014dec26">December 26, 2014<br/><em>Clean D3 code</em></a></li>
+                        <li><a href="#t2014dec28">December 28, 2014<br/><em>Infinite mind</em></a></li>
                     </ol>
                 </div>
 
