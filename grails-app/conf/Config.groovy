@@ -102,6 +102,9 @@ grails.hibernate.pass.readonly = false
 // configure passing read-only to OSIV session by default, requires "singleSession = false" OSIV mode
 grails.hibernate.osiv.readonly = false
 
+personalserverbovine='http://bovinecontemplation.org/'
+personalserverbaget='http://baget-prod.elasticbeanstalk.com/'
+personalservercow='http://graphicscow.com/'
 
 server.URL = 'http://69.173.71.178:8080/dev/rest/server/'
 t2dRestServer {

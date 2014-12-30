@@ -104,7 +104,7 @@
         <div class="footer" class="pull-right">
             <div class="col-lg-9"></div>
             <div class="col-lg-3">
-                <p style="font-size: 8pt">Built on ${BuildInfo?.buildHost}<br/>${BuildInfo?.buildTime}.  Version=${BuildInfo?.appVersion}.${BuildInfo?.buildNumber}&nbsp;&nbsp;&nbsp;  /BA</p>
+                <p style="font-size: 8pt">Built on ${BuildInfo?.buildHost}${BuildInfo?.buildTime}.  Version=${BuildInfo?.appVersion}.${BuildInfo?.buildNumber}</p>
             </div>
 
         </div>

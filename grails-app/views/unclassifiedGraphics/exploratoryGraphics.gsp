@@ -27,34 +27,34 @@
     <div class="container linkContainerHolder">
 
 
-        <g:linkDesc buttonName="Sierpinski" linkUrl="http://graphicscow.org/cookin/sierpinski">
+        <g:linkDesc buttonName="Sierpinski" linkUrl="${grailsApplication.config.personalservercow}cookin/sierpinski">
             Here we have a JavaScript implementation that will draw multiple recursive levels of the <a class="standardLinks" href="http://en.wikipedia.org/wiki/Sierpinski_triangle">Sierpinski triangle</a>.
             I find I can't go too far before my browser runs out of memory -- maybe eight or nine levels.  Of course for good clean fun (and pedagogical potential) I prefer
             <a class="standardLinks" href="https://www.youtube.com/watch?v=DK5Z709J2eo">Vi Harts</a> presentations on the topic.
         </g:linkDesc>
 
 
-        <g:linkDesc buttonName="Mandelbrot" linkUrl="http://graphicscow.org/cookin/mandelbrot">
+        <g:linkDesc buttonName="Mandelbrot" linkUrl="${grailsApplication.config.personalservercow}cookin/mandelbrot">
             A representation of the <a class="standardLinks" href="http://en.wikipedia.org/wiki/Mandelbrot_set">Mandelbrot set</a> written using D3.  This classic of computer graphics is in fact not terribly well-suited
             to SVG output (since the image bitmapped, not vector at heart) or to JavaScript (tight loops and high-speed processing would be better).  It was a fun exercise on a rainy Sunday afternoon, however, and I present it despite its limitations.
         </g:linkDesc>
 
-        <g:linkDesc buttonName="patterns" linkUrl="http://graphicscow.org/cookin/histocruise">
+        <g:linkDesc buttonName="patterns" linkUrl="${grailsApplication.config.personalservercow}cookin/histocruise">
             The purpose of this graphic is as follows:  put it on screen and then click the randomize button a few times.  If you're anything like me you'll start seeing patterns in the ordering of the bars even though
             the process is driven by add  decent pseudorandom generator. That's our brains in action -- we detect patterns whether they exist or not.
         </g:linkDesc>
 
-        <g:linkDesc buttonName="fountain" linkUrl="http://graphicscow.org/cookin/multiElementTransition">
+        <g:linkDesc buttonName="fountain" linkUrl="${grailsApplication.config.personalservercow}cookin/multiElementTransition">
             I found the core of this number fountain  in the book 'Data Visualization with D3.js Cookbook' by Nick Qi Zhu (who also did the awesome dc.js package.  Check out his work  <a href="https://github.com/NickQiZhu">here</a>.
             To me it's kind of a neat demo that could be made into something thoroughly decorative with just a little work.
         </g:linkDesc>
 
-        <g:linkDesc buttonName="force" linkUrl="http://graphicscow.org/curvedForce/index">
+        <g:linkDesc buttonName="force" linkUrl="${grailsApplication.config.personalservercow}curvedForce/index">
             This is a D3 force-directed graph.  I wanted to use it to represent a nonhierarchical set of network relationships but I couldn't find a way to keep the labels from the steering one another. Once I can get this one working
             I'll move it into the scientific  graphics category, but for now it's just an experiment.
         </g:linkDesc>
 
-        <g:linkDesc buttonName="map" linkUrl="http://graphicscow.org/map/mapbox">
+        <g:linkDesc buttonName="map" linkUrl="${grailsApplication.config.personalservercow}map/mapbox">
             Incorporating maps into a webpage can be quite simple. There is an open source library called 'mapbox.js' which handles many of the low-level details. The example provided here comes from <a href="https://www.packtpub.com/web-development/mastering-d3js"> mastering D3.js</a>,
             a book by Pablo Castillo which I'm currently reading and which I quite like.
         </g:linkDesc>
