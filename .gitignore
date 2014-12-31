@@ -34,3 +34,5 @@
 *.iml
 *.ipr
 
+BuildInfo.groovy
+
