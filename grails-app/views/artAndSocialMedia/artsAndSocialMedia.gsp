@@ -20,6 +20,7 @@
     }
     </style>
 
+    <meta name="keywords" content="deviant art,LinkedIn, github">
 
 
 </head>

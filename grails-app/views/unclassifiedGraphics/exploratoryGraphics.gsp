@@ -7,6 +7,8 @@
     <r:layoutResources/>
 
 
+    <meta name="keywords" content="scientific graphics, D3, D3 examples,Sierpinski triangle,Mandelbrot set, JavaScript">
+
 <style>
     body {background-image: url('../images/connect.png')}
 </style>
@@ -56,9 +58,12 @@
 
         <g:linkDesc buttonName="map" linkUrl="${grailsApplication.config.personalservercow}map/mapbox">
             Incorporating maps into a webpage can be quite simple. There is an open source library called 'mapbox.js' which handles many of the low-level details. The example provided here comes from <a href="https://www.packtpub.com/web-development/mastering-d3js"> mastering D3.js</a>,
-            a book by Pablo Castillo which I'm currently reading and which I quite like.
+            a book by Pablo Castillo which I quite like.
         </g:linkDesc>
 
+        <g:linkDesc buttonName="star map" linkUrl="${grailsApplication.config.personalservercow}map/fullScreen">
+            A full screen celestial star map, with draggable rotation, color-coded stars, and labels over prominent heavenly bodies.  This graphic is based on D3 functionality, and was also derived based on code from Pablo Castillo's excellent book.
+        </g:linkDesc>
 
     </div>
 

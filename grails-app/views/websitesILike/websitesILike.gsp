@@ -13,6 +13,8 @@
     body {background-image: url('../images/grey_sandbag.png')}
     </style>
 
+    <meta name="keywords" content="democracy now, Mike Bostock, Drew Berry,global revolution, EdX,Lynda.com, cyriak">
+
 
 </head>
 

@@ -6,6 +6,8 @@
 
     <r:layoutResources/>
 
+<meta name="keywords" content="scientific graphics, D3, D3 examples, JavaScript, Linked Hierarchies Visualization, qq plot">
+
 <link rel="icon" href="${resource(dir: 'images/icons', file: 'dna-strands.ico')}" type="image/x-icon" />
 <style>
 body {background-image: url('../images/old_mathematics.png')}

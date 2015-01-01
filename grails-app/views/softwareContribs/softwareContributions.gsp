@@ -13,6 +13,8 @@
     body {background-image: url('../images/light_noise_diagonal.png')}
     </style>
 
+    <meta name="keywords" content="BARD, CTRP, Firebrowse, Chalice">
+
 
 </head>
 
