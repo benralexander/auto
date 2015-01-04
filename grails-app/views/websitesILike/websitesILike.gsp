@@ -35,29 +35,22 @@
     <div class="container linkContainerHolder">
 
 
-        <g:linkDesc buttonName="DN!" linkUrl="http://www.democracynow.org/">
-            This is where I like to get my news
-        </g:linkDesc>
-
-
         <g:linkDesc buttonName="D3" linkUrl="https://github.com/mbostock/d3/wiki">
             Mike Bostock is amazing, and D3  is far and away my favorite graphics package.  Follow this link and look through some of his graphics examples if you haven't already..
         </g:linkDesc>
-
-
-        <g:linkDesc buttonName="BKA" linkUrl="http://www.brucekalexander.com/index.php">
-            My dad's website-- other family members to follow (likely excepting my daughter, who is utterly appalled at the very notion of linking
-            her web presence to mine).
-        </g:linkDesc>
-
 
         <g:linkDesc buttonName="D. Berry" linkUrl="http://www.molecularmovies.com/movies/viewanimatorstudio/Drew%20Berry/">
             A collection of some of the molecular biology animations that have been created by Drew Berry.  I find his work really amazing, and after I view it
             I feel as if I can grasp some of the intricacies of biological processes in a deeper way.
         </g:linkDesc>
 
-        <g:linkDesc buttonName="revolution" linkUrl="http://globalrevolution.tv/">
-            Global revolution.tv.  The resulting website  seems a bit scattershot, but I like the idea.
+        <g:linkDesc buttonName="DN!" linkUrl="http://www.democracynow.org/">
+            This is where I like to get my news
+        </g:linkDesc>
+
+        <g:linkDesc buttonName="BKA" linkUrl="http://www.brucekalexander.com/index.php">
+            My dad's website-- other family members to follow (likely excepting my daughter, who is utterly appalled at the very notion of linking
+            her web presence to mine).
         </g:linkDesc>
 
         <g:linkDesc buttonName="EdX" linkUrl="https://www.edx.org/">
@@ -71,6 +64,10 @@
 
         <g:linkDesc buttonName="ngram" linkUrl="https://books.google.com/ngrams/graph?content=&case_insensitive=on&year_start=1600&year_end=2000&corpus=15&smoothing=3&share=&direct_url=">
             Answers this question: how commonly are particular words/phrases encountered in published works over the last few hundred years? What a fascinating tool.
+        </g:linkDesc>
+
+        <g:linkDesc buttonName="revolution" linkUrl="http://globalrevolution.tv/">
+            Global revolution.tv.  The resulting website  seems a bit scattershot, but I like the idea.
         </g:linkDesc>
 
         <g:linkDesc buttonName="cyriak" linkUrl="http://cyriak.co.uk/blog/">

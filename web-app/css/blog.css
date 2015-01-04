@@ -82,6 +82,14 @@ h6, .h6 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.blog-month-leader {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: underline;
+}
 .blog-title {
     margin-top: 30px;
     margin-bottom: 0;
