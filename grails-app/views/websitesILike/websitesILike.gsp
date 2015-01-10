@@ -36,12 +36,18 @@
 
 
         <g:linkDesc buttonName="D3" linkUrl="https://github.com/mbostock/d3/wiki">
-            Mike Bostock is amazing, and D3  is far and away my favorite graphics package.  Follow this link and look through some of his graphics examples if you haven't already..
+            Mike Bostock is amazing, and D3  is far and away my favorite graphics package.  Follow this link and look through some of his graphics examples if you haven't already.
         </g:linkDesc>
 
         <g:linkDesc buttonName="D. Berry" linkUrl="http://www.molecularmovies.com/movies/viewanimatorstudio/Drew%20Berry/">
             A collection of some of the molecular biology animations that have been created by Drew Berry.  I find his work really amazing, and after I view it
             I feel as if I can grasp some of the intricacies of biological processes in a deeper way.
+        </g:linkDesc>
+
+        <g:linkDesc buttonName="Genomes" linkUrl="http://genome.ucsc.edu/">
+            There are so very many sources for free information describing human biology that it's hard to pick a favorite.  At the least everyone should know that the human genome
+            is an open resource (<a class="standardLinks" href="http://www.cafc.uscourts.gov/images/stories/opinions-orders/14-1361.Opinion.12-15-2014.1.PDF">Myriad</a> be damned), and that anyone can
+            look through the sequence of bases that make up our DNA and draw their own conclusions. I provide a link to the venerable old UCSC Genome Browser.
         </g:linkDesc>
 
         <g:linkDesc buttonName="DN!" linkUrl="http://www.democracynow.org/">
