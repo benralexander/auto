@@ -9,6 +9,8 @@ chosenName=''
 if [ $# -eq 0 ]; then
     echo "No arguments provided. default name=${defaultName}"
     chosenName=${defaultName}
+else
+    chosenName=${1}
 fi
 revisionNumber="$(git rev-parse HEAD)"
 echo 'got it'

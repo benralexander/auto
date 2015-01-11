@@ -21,9 +21,9 @@
 
 
     <p>Sunburst visualizations can be visually appealing. The idea of the sunburst chart is one of nested pie charts, with adjacent rings
-        retain connections within each arc, as suggested by the coloring of the example below. (Which I cribbed from one of <a href="See http://bl.ocks.org/mbostock/4348373">Bostock's examples</a>.)
-        In addition to the rich opportunities for suggesting connections between data in the static picture, note that clicking on any of the arcs
-        allows you to zoom in, while clicking on the blue centerpiece zooms back out.
+        implying connections within each arc, as suggested by the coloring of the example below (one of Bostock's many <a href="See http://bl.ocks.org/mbostock/4348373">examples</a>.)
+        In addition to the rich network of associations suggested by a visual inspection of the graphic, note that clicking on any of the indicudual subsections
+        will allow you to zoom in to view only that subsection and its children, ignoring everyting else in the plot. (Click on the center to reset the original display.)
     </p>
     <div id="graphicHere"></div>
     <script>
@@ -88,54 +88,63 @@
 
      <div class="pull-right"></div>
 
-    <p>This is all great, but the challenge is that this complex, hierarchical visual representation requires a complex, hierarchical JSON-based data structure.
+    <p>This is all great, but the challenge for anyone wanting to utilize a sunburst is that this complex, hierarchical visual representation requires a complex, hierarchical JSON-based data structure.
       Therefore even if you have a good reason for such an illustration and good underlying data, you have to build up a structure in legal JSON bbefore you can
         consider using some borrowed D3 code to create the picture in your webpage.  When I was  drawing a similar picture for someone recently I asked her to put her data
-        into a structure that is fundamentally linear, but which is then converted internally into the necessary hierarchical structure. In case this capability is useful
-        I'm including a link to the operational web-based server below.
+        into a structure that is fundamentally linear, but which is then converted internally into the necessary hierarchical structure. In case anyone else could use such a capability
+        I'll include a link to the operational web-based server below.
     </p>
 
 
-    <p>Note that there is still no getting away from generating legal JSON -- all in claiming is that the structure might be a little easier to generate.   In particular,
-        you'll need to make two files; one containing the name of every arc, and the other using a series of strings delimited by periods describing exactly how those arcs
+    <p>Note: that there is still no getting away from generating legal JSON -- all I'm claiming is that this new structure might be a little easier to generate.   This new approach
+        requires two files; one containing the name of every distinct subsection, and the other using a series of strings delimited by periods that describes exactly how those subsections
         are related to one another.      The first file I'll call 'categories', and here's an example of how it might look:
     </p>
     <pre>
-        [
+    [
         {"index":"1","name":"protein"},
         {"index":"2","name":"chaperone"},
         {"index":"3","name":"cytoskeletal protein"},
         {"index":"4","name":"enzyme modulator"},
         {"index":"5","name":"kinase"}
-        ]
-    </pre>
-    <p>
-        This file should have one line for every single arc in the graphic. Each arc should have an index number ( they don't have to be sequential) and the name ( arbitrary, but it will show up
-        in a tooltip so you may as well make it sensible.
-    </p>
-
-    <p>The second file  is called 'elements' for no very good reason and it consists of references to the index numbers in the categories file. Here's an example of how it might look:</p>
-    <pre>
-    [
-    {"hierarchy":"1.2"},
-    {"hierarchy":"1.3"},
-    {"hierarchy":"4"},
-    {"hierarchy":"4.5"},
-    {"hierarchy":"4.5"}
     ]
     </pre>
     <p>
-        The idea is that numbers on the left refer to  inner rings, while numbers that follow one or more periods refer to rings on the outside. In the example above
-        the Sunburst would have two elements in the innermost ring, with one of those arcs having two children and the other arc having one.  Repetitions are okay,
-        and they simply indicate that there is another instance of a particular category (  and that the specified arc should therefore be pproportionally bigger).
+        This file should have one line for every single subsection in the graphic. Each subsection should have an index number ( they don't have to be sequential) and a name ( which will show up
+        in the final graphic).
     </p>
 
+    <p>The second file  is called 'elements' and it consists of references to the index numbers in the categories file. Here's an example of how it might look:</p>
+    <pre>
+    [
+        {"hierarchy":"1"},
+        {"hierarchy":"1.2"},
+        {"hierarchy":"1.3"},
+        {"hierarchy":"1.5"},
+        {"hierarchy":"1.5.4"},
+        {"hierarchy":"1.5.4"}
+    ]
+    </pre>
+    <p>
+        The idea is that numbers on the left side of the numeric string with periods refer to  inner rings in the sunburst, while the numbers later in the string refer to rings progressively further to the outside of the sunburst. In the example above
+        the Sunburst would have one root element at the very center,  three elements in the surrounding ring, with one of those subsections having two children and the other subsection having one.  Repetitions nnumerical sequences are okay,
+        and they simply indicate that there is another instance of a particular category (  and that the specified arc should therefore be proportionally bigger).
+    </p>
+
+
+<p><strong>Here is the graphic the program created when I fed the contents of the above two files in through the user interface:</strong></p>
+
+
+<div id="sunburstdiv">
+    <svg width="920" height="900"><g transform="translate(450,350)"><path d="M0,175A175,175 0 1,1 0,-175A175,175 0 1,1 0,175Z" id="protein" class="indicateZoomIn" style="stroke: rgb(0, 0, 0); stroke-width: 1px; fill: rgb(49, 130, 189); fill-opacity: 1;"></path><path d="M-303.10889132455367,-174.99999999999977A350,350 0 0,1 -3.7515640385027986e-13,-350L-1.8757820192513993e-13,-175A175,175 0 0,0 -151.55444566227683,-87.49999999999989Z" id="chaperone" class="indicateZoomIn" style="stroke: rgb(0, 0, 0); stroke-width: 1px; fill: rgb(107, 174, 214); fill-opacity: 1;"></path><path d="M-454.6633369868305,-262.49999999999966A525,525 0 0,1 -5.627346057754198e-13,-525L-3.7515640385027986e-13,-350A350,350 0 0,0 -303.10889132455367,-174.99999999999977Z" id="zzull39" class="indicateZoomIn" style="stroke: rgb(255, 255, 255); stroke-width: 0px; fill: rgb(255, 255, 255); fill-opacity: 1;"></path><path d="M-303.1088913245535,175.0000000000001A350,350 0 0,1 -303.10889132455367,-174.99999999999977L-151.55444566227683,-87.49999999999989A175,175 0 0,0 -151.55444566227675,87.50000000000006Z" id="cytoskeletal_protein" class="indicateZoomIn" style="stroke: rgb(0, 0, 0); stroke-width: 1px; fill: rgb(158, 202, 225); fill-opacity: 1;"></path><path d="M-454.6633369868302,262.50000000000017A525,525 0 0,1 -454.6633369868305,-262.49999999999966L-303.10889132455367,-174.99999999999977A350,350 0 0,0 -303.1088913245535,175.0000000000001Z" id="zzull40" class="indicateZoomIn" style="stroke: rgb(255, 255, 255); stroke-width: 0px; fill: rgb(255, 255, 255); fill-opacity: 1;"></path><path d="M303.1088913245535,-175A350,350 0 1,1 -303.1088913245535,175.0000000000001L-151.55444566227675,87.50000000000006A175,175 0 1,0 151.55444566227675,-87.5Z" id="kinase" class="indicateZoomIn" style="stroke: rgb(0, 0, 0); stroke-width: 1px; fill: rgb(198, 219, 239); fill-opacity: 1;"></path><path d="M454.6633369868303,262.4999999999999A525,525 0 0,1 -454.6633369868302,262.50000000000017L-303.1088913245535,175.0000000000001A350,350 0 0,0 303.10889132455355,174.99999999999994Z" id="enzyme_modulator" class="indicateZoomIn" style="stroke: rgb(0, 0, 0); stroke-width: 1px; fill: rgb(230, 85, 13); fill-opacity: 1;"></path><path d="M606.2177826491071,349.9999999999999A700,700 0 0,1 -606.217782649107,350.0000000000002L-454.6633369868302,262.50000000000017A525,525 0 0,0 454.6633369868303,262.4999999999999Z" id="zzull41" class="indicateZoomIn" style="stroke: rgb(255, 255, 255); stroke-width: 0px; fill: rgb(255, 255, 255); fill-opacity: 1;"></path><path d="M454.66333698683025,-262.5A525,525 0 0,1 454.6633369868303,262.4999999999999L303.10889132455355,174.99999999999994A350,350 0 0,0 303.1088913245535,-175Z" id="zzull42" class="indicateZoomIn" style="stroke: rgb(255, 255, 255); stroke-width: 0px; fill: rgb(255, 255, 255); fill-opacity: 1;"></path><path d="M2.1431318985078682e-14,-350A350,350 0 0,1 303.1088913245535,-175L151.55444566227675,-87.5A175,175 0 0,0 1.0715659492539341e-14,-175Z" id="zzull43" class="indicateZoomIn" style="stroke: rgb(255, 255, 255); stroke-width: 0px; fill: rgb(255, 255, 255); fill-opacity: 1;"></path><text text-anchor="start" dy=".2em" transform="rotate(90)translate(5)rotate(0)" style="fill-opacity: 1; pointer-events: none; fill: rgb(0, 0, 0);"><tspan x="0"></tspan><tspan x="0" dy="1em"></tspan><tspan x="0" dy="1em"></tspan><tspan x="0" dy="1em"></tspan></text><text text-anchor="start" dy=".2em" transform="rotate(-60)translate(180)rotate(0)" style="fill-opacity: 1; pointer-events: none; fill: rgb(255, 255, 255);"><tspan x="0"></tspan><tspan x="0" dy="1em"></tspan><tspan x="0" dy="1em"></tspan><tspan x="0" dy="1em"></tspan></text><text text-anchor="start" dy=".2em" transform="rotate(59.99999999999997)translate(180)rotate(0)" style="fill-opacity: 1; pointer-events: none; fill: rgb(0, 0, 0);"><tspan x="0">kinase</tspan><tspan x="0" dy="1em"></tspan><tspan x="0" dy="1em"></tspan><tspan x="0" dy="1em"></tspan></text><text text-anchor="start" dy=".2em" transform="rotate(0)translate(355)rotate(0)" style="fill-opacity: 1; pointer-events: none; fill: rgb(255, 255, 255);"><tspan x="0"></tspan><tspan x="0" dy="1em"></tspan><tspan x="0" dy="1em"></tspan><tspan x="0" dy="1em"></tspan></text><text text-anchor="start" dy=".2em" transform="rotate(89.5)translate(355)rotate(0)" style="fill-opacity: 1; pointer-events: none; fill: rgb(0, 0, 0);"><tspan x="0">enzyme</tspan><tspan x="0" dy="1em">modulator</tspan><tspan x="0" dy="1em"></tspan><tspan x="0" dy="1em"></tspan></text><text text-anchor="start" dy=".2em" transform="rotate(90)translate(530)rotate(0)" style="fill-opacity: 1; pointer-events: none; fill: rgb(255, 255, 255);"><tspan x="0"></tspan><tspan x="0" dy="1em"></tspan><tspan x="0" dy="1em"></tspan><tspan x="0" dy="1em"></tspan></text><text text-anchor="end" dy=".2em" transform="rotate(179.5)translate(180)rotate(-180)" style="fill-opacity: 1; pointer-events: none; fill: rgb(0, 0, 0);"><tspan x="0">cytoskeletal</tspan><tspan x="0" dy="1em">protein</tspan><tspan x="0" dy="1em"></tspan><tspan x="0" dy="1em"></tspan></text><text text-anchor="end" dy=".2em" transform="rotate(180)translate(355)rotate(-180)" style="fill-opacity: 1; pointer-events: none; fill: rgb(255, 255, 255);"><tspan x="0"></tspan><tspan x="0" dy="1em"></tspan><tspan x="0" dy="1em"></tspan><tspan x="0" dy="1em"></tspan></text><text text-anchor="end" dy=".2em" transform="rotate(239.99999999999994)translate(180)rotate(-180)" style="fill-opacity: 1; pointer-events: none; fill: rgb(0, 0, 0);"><tspan x="0">chaperone</tspan><tspan x="0" dy="1em"></tspan><tspan x="0" dy="1em"></tspan><tspan x="0" dy="1em"></tspan></text><text text-anchor="end" dy=".2em" transform="rotate(239.99999999999994)translate(355)rotate(-180)" style="fill-opacity: 1; pointer-events: none; fill: rgb(255, 255, 255);"><tspan x="0"></tspan><tspan x="0" dy="1em"></tspan><tspan x="0" dy="1em"></tspan><tspan x="0" dy="1em"></tspan></text></g></svg></div>
+
      <p>
-         Two cautions: <ul>
+         Three cautions: <ul>
     <li>every number referenced in the elements file must correspond to an index in the categories file, or else the results will be unpredictable.</li>
-    <li>The resulting data structure is strictly hierarchical, which means every child can only have one parent ( the parents can of course have multiple children).  This means that
-    iif you include to child indexes that refer to different parent indices than the software will assume that the children are distinct ccopies of one another.  You could end up
+    <li>The resulting data structure is strictly hierarchical, which means every child can only have one parent ( the parents can of course have multiple children).
+    If you go ahead and connect a child index to multiple parent indices then the software will assume that the children are distinct copies of one another.  You could end up
     with more children arcs that way than you expected.</li>
+    <li> you should probably provide a common index (in the example above its index 1) from which all other arcs to send, since that approach tells the program explicitly how the whole picture should fit together</li>
 </ul>
      </p>
 
