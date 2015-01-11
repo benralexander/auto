@@ -15,15 +15,15 @@
     </style>
 
 
-    <h2 class="blog-post-title"><a name="t2015jan04"></a></h2>
+    <h2 class="blog-post-title"><a name="t2015jan04">DIY sunburst</a></h2>
 
     <p class="blog-post-meta">January 10, 2015</p>
 
 
     <p>Sunburst visualizations can be visually appealing. The idea of the sunburst chart is one of nested pie charts, with adjacent rings
         implying connections within each arc, as suggested by the coloring of the example below (one of Bostock's many <a href="See http://bl.ocks.org/mbostock/4348373">examples</a>.)
-        In addition to the rich network of associations suggested by a visual inspection of the graphic, note that clicking on any of the indicudual subsections
-        will allow you to zoom in to view only that subsection and its children, ignoring everyting else in the plot. (Click on the center to reset the original display.)
+        In addition to the rich network of associations suggested by a visual inspection of the graphic, note that clicking on any of the individual subsections
+        will allow you to zoom in to view only that subsection and its children, ignoring everything else in the plot. (Click on the center to reset the original display.)
     </p>
     <div id="graphicHere"></div>
     <script>
@@ -127,7 +127,7 @@
     </pre>
     <p>
         The idea is that numbers on the left side of the numeric string with periods refer to  inner rings in the sunburst, while the numbers later in the string refer to rings progressively further to the outside of the sunburst. In the example above
-        the Sunburst would have one root element at the very center,  three elements in the surrounding ring, with one of those subsections having two children and the other subsection having one.  Repetitions nnumerical sequences are okay,
+        the Sunburst would have one root element at the very center,  three elements in the surrounding ring, with one of those subsections having two children and the other subsection having one.  Repetitions numerical sequences are okay,
         and they simply indicate that there is another instance of a particular category (  and that the specified arc should therefore be proportionally bigger).
     </p>
 
@@ -151,9 +151,108 @@
 
 
 <p>
-    Anyway here is the link <a href='http://graphicscow.com/probe/uploadPrep'>http://graphicscow.com/probe/uploadPrep</a>.  Give it a try if you like, and if you come up with any especially neat
-    sunburst graphics tthen I would love to receive a copy of your data set ( use the 'contact' link) so that I can see the picture for myself. Thanks!
+    Here is the link <a href='http://graphicscow.com/probe/uploadPrep'>http://graphicscow.com/probe/uploadPrep</a>.  Give it a try if you like, and if you come up with any especially interesting
+    sunburst graphics then I would love to receive a copy of your data set ( use the 'contact' link) and see the picture for myself. Thanks!
 </p>
 
+
+</div><!-- /.blog-post -->
+
+
+<div class="blog-post">
+
+
+    <h2 class="blog-post-title"><a name="t2015jan11">How clean is your JavaScript?</a></h2>
+
+    <p class="blog-post-meta">January 11, 2015</p>
+
+    <p><em>[incomplete]</em></p>
+
+    <p>JavaScript  as a language  has undergone a vast surge in popularity over the past few years.  As recently as five years ago
+    the language was despised by many (including me) as unreliable and filled with browser dependent peculiarities.
+    Furthermore I would've claimed at that time that writing any sort of a large project in JavaScript would've been
+    a frustrating and probably futile effort, since the lack of an object orientation led inevitably
+    to poorly structured and fundamentally unmaintainable code.  My, how things have changed.
+    ECMA 5 has brought reliable standardization across browsers, JavaScript has become the principal
+     tool for giving websites interactivity, and people (including me again) are finally learning to use the
+     language in a way that makes large-scale software development quite feasible.
+    </p>
+
+    <p>The language is still loosely typed, of course, and makes no claims about object orientation. The trick,
+    therefore,  is to adopt language patterns well-suited to Java's  functional nature. I thought I'd sketch out
+    a few of my favorites.  Like all software patterns the ones I'll cite here are in wide use, whether
+    with explicit intentionality or not.   I'll provide references when possible, but some of these patterns come from
+    the JavaScript zeitgeist and aren't ( to my knowledge) attributable to any one author.</p>
+
+    <p>The goal of this exercise is simply stated:  we seek to make computer code as simple as it can possibly be.
+    Can we categorize approaches to achieving simplicity, I wonder?
+    <ul>
+    <li>module interfaces should be expressed with very few functions</li>
+    </ul>
+    </p>
+
+     <p>Pattern 1: explicitly identifying publicly accessible interface functions.  Here is my preferred approach:
+     <pre>
+          var myFunctionName = function (argument1) {
+
+           var privateFunction = (function () {
+             return 1;
+           },
+
+           publicFunction = function () {
+             return privateFunction()
+           };
+
+           return {
+                publicFunction: publicFunction;
+           }
+        }());
+     </pre>
+         </p>
+
+     <p>Pattern number 2: encapsulate everything, even if only inside of an immediately executed function</p>
+          <pre>
+          (function (argument1) {
+
+              var hi = 47;
+              console.log('hi='+hi);
+
+        }());
+     </pre>
+    </p>
+
+     <p>Pattern number 2: encapsulate everything, even if only inside of and immediately executed function</p>
+          <pre>
+          (function (argument1) {
+
+              var hi = 47;
+              console.log('hi='+hi);
+
+          }());
+          </pre>
+          Or alternatively (though what to me it seems more obscure)
+           <pre>
+          !function (argument1) {
+              var hi = 47;
+              console.log('hi='+hi);
+          }();
+          </pre>
+
+     <p>Pattern number 3: Namespace management</p>
+
+     <p>For larger projects it is critically important not to pollute your namespace with any unnecessary
+     variable names. Therefore you might think to start every file with a single global variable declaration
+     and then to add all subsequent definitions inside that single variable name. That plan  works well enough
+     if you have only one external file, but if multiple files each begin by creating a global variable of the same name
+     then these files worldwide about all the definitions that came before them. My preferred approach  is to
+     define a global variable, but to use the existing global variable if another file is already created it.
+     A one-liner can accomplish this goal like this:</p>
+
+
+     <pre>
+       var baget = baget || {};  // encapsulating variable
+
+       baget.someFineNewVariable = 47;  // adding something to your encapsulating variable
+      </pre>
 
 </div><!-- /.blog-post -->
