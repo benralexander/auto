@@ -39,16 +39,18 @@ class DeliveryController {
     def blog() {
         String year = params.year ?: defaultYear
         String month = params.month ?: defaultMonth
+        String fragment  = params.fragment
         int index =  indexOfTheMonth ( year, month)
         if (index==-1)  {    //error.  Go to default
             render(view:'blog', model:[year:defaultYear,month:defaultMonth])
         } else   {   // verified.  go there
-            render(view:'blog', model:[year:year,month:month])
+            render(view:'blog', fragment:'t2015jan18',model:[year:year,month:month,fragment:fragment])
         }
     }
     def blogPrevMonth() {
         String year = params.year ?: defaultYear
         String month = params.month ?: defaultMonth
+        String fragment  = params.fragment
         int index =  indexOfTheMonth ( year, month)
         if (index==-1)  {    //error.  Go to default
             render(view:'blog', model:[year:defaultYear,month:defaultMonth])
@@ -57,12 +59,13 @@ class DeliveryController {
             Map newTarget =   retrieveValue(index-1)
             render(view:'blog', model:newTarget)
         }  else   {   // can't go back any further -- stay where we are
-            render(view:'blog', model:[year:year,month:month])
+            render(view:'blog', model:[year:year,month:month,fragment:fragment])
         }
     }
     def blogNextMonth() {
         String year = params.year ?: defaultYear
         String month = params.month ?: defaultMonth
+        String fragment  = params.fragment
         int index =  indexOfTheMonth ( year, month)
         if (index==-1)  {    //error.  Go to default
             render(view:'blog', model:[year:defaultYear,month:defaultMonth])
@@ -71,7 +74,7 @@ class DeliveryController {
             Map newTarget =   retrieveValue(index+1)
             render(view:'blog', model:newTarget)
         }  else   {   // can't go back any further -- stay where we are
-            render(view:'blog', model:[year:year,month:month])
+            render(view:'blog', model:[year:year,month:month,fragment:fragment])
         }
     }
 

@@ -6,6 +6,9 @@
 
     <r:layoutResources/>
 
+    <meta name="keywords" content="deviant art,LinkedIn, github">
+    <meta name="description" content="social media connections for Ben Alexander">
+    <title>social media links for Ben Alexander</title>
 
 
     <style>
@@ -20,7 +23,6 @@
     }
     </style>
 
-    <meta name="keywords" content="deviant art,LinkedIn, github">
 
 
 </head>

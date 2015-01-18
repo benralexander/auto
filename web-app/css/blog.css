@@ -119,6 +119,10 @@ h6, .h6 {
 .sidebar-module li {
     margin: 15px 0 15px 0;
 }
+.sidebar-module li>a {
+    font-size: 18px;
+    text-decoration: underline;
+}
 .sidebar-module-inset {
     padding: 15px;
     background-color: #f5f5f5;

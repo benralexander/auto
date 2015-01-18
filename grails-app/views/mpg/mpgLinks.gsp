@@ -14,6 +14,10 @@
     <r:layoutResources/>
 
 
+    <meta name="keywords" content="Broad Institute, medical population genetics">
+    <meta name="description" content="Diabetes websites for Medical Population Genetics at the Broad Institute">
+    <title>Diabetes and Medical Population Genetics  at the Broad Institute</title>
+
     %{--<link rel="icon" href="../../favicon.ico">--}%
 
 </head>

@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>${grailsApplication.config.site.title}</title>
 
     <r:require modules="core"/>
     <r:layoutResources/>
@@ -13,7 +12,7 @@
     <meta name="keywords" content="Ben Alexander, benralexander, benr, scientific graphics, bovine, Styrofoam heads, left nostril">
     <meta name="subject" content="software, science, graphics, diabetes, and uncategorized randomness">
     <meta name="language" content="ES">
-    <meta name="description" content="BA's homepage">
+    <meta name="description" content="Homepage for Ben Alexander">
     <meta name="author" content="Ben R Alexander">
     <meta name="url" content="http://bovinecontemplation.org">
     <meta name="identifier-URL" content="http://bovinecontemplation.org">

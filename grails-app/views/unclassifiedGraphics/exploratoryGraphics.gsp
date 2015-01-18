@@ -8,6 +8,9 @@
 
 
     <meta name="keywords" content="scientific graphics, D3, D3 examples,Sierpinski triangle,Mandelbrot set, JavaScript">
+    <meta name="description" content="assorted exploratory graphics, often scientific graphics still in development">
+    <title>Exploratory graphics still in development</title>
+
 
 <style>
     body {background-image: url('../images/connect.png')}

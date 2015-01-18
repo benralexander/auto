@@ -13,7 +13,10 @@
     body {background-image: url('../images/light_noise_diagonal.png')}
     </style>
 
-    <meta name="keywords" content="BARD, CTRP, Firebrowse, Chalice">
+
+    <meta name="keywords" content="Broad Institute, medical population genetics">
+    <meta name="description" content="Assorted websites with software engineering by Ben Alexander">
+    <title>Assorted websites with software engineering by Ben Alexander</title>
 
 
 </head>

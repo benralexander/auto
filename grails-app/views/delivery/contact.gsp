@@ -6,10 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Ben R Alexander">
+    <meta name="keywords" content="ccontact, email">
+    <meta name="description" content="Provides a method of sending information to Ben R Alexander">
 
-    <title>Clean Blog - Contact</title>
+    <title>Contact page for Ben Alexander</title>
 
     %{--<r:require modules="core"/>--}%
 

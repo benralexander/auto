@@ -14,7 +14,8 @@
     </style>
 
     <meta name="keywords" content="democracy now, Mike Bostock, Drew Berry,global revolution, EdX,Lynda.com, cyriak">
-
+    <meta name="description" content="Assorted websites that I happen to like for some reason">
+    <title>Some favorite websites</title>
 
 </head>
 

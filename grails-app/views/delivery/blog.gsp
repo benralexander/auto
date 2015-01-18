@@ -32,7 +32,11 @@
 
 <body>
 <script>
-
+    (function(){
+        if ("${fragment}") {
+            window.location.href = '#${fragment}';
+        }
+    }());
 </script>
 
 
@@ -49,23 +53,27 @@
 
         <div class="col-sm-8" style="top: 65px; z-index: 1">
 
-            <div class="btn-group pull-right" role="group" aria-label="blog" >
-                <a class="btn btn-default" href="<g:createLink controller='delivery' action='blogPrevMonth' params='[year:"${year}",month:"${month}"]'/>"><span class="glyphicon glyphicon-hand-left" aria-hidden="true"></span></a>
-                <a class="btn btn-default" href="<g:createLink controller='delivery' action='blogNextMonth' params='[year:"${year}",month:"${month}"]'/>"><span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span></a>
+            <div class="btn-group pull-right" role="group" aria-label="blog">
+                <a class="btn btn-default" href="<g:createLink controller='delivery' action='blogPrevMonth'
+                                                               params='[year: "${year}", month: "${month}"]'/>"><span
+                        class="glyphicon glyphicon-hand-left" aria-hidden="true"></span></a>
+                <a class="btn btn-default" href="<g:createLink controller='delivery' action='blogNextMonth'
+                                                               params='[year: "${year}", month: "${month}"]'/>"><span
+                        class="glyphicon glyphicon-hand-right" aria-hidden="true"></span></a>
 
             </div>
         </div>
+
         <div class="col-sm-4">
 
-            </div>
+        </div>
     </div>
 
-        <div class="row">
+    <div class="row">
 
-            <div class="col-sm-8 blog-main">
+        <div class="col-sm-8 blog-main">
 
-
-                <g:render template="../blogEntries/d${year}_${month}"/>
+            <g:render template="../blogEntries/d${year}_${month}"/>
 
 
 
@@ -81,37 +89,60 @@
 
 
             <nav>
-                    <ul class="pager">
-                        <li><a href="<g:createLink controller='delivery' action='blogPrevMonth' params='[year:"${year}",month:"${month}"]'/>">Previous</a></li>
-                        <li><a href="<g:createLink controller='delivery' action='blogNextMonth' params='[year:"${year}",month:"${month}"]'/>">Next</a></li>
-                    </ul>
-                </nav>
+                <ul class="pager">
+                    <li><a href="<g:createLink controller='delivery' action='blogPrevMonth'
+                                               params='[year: "${year}", month: "${month}"]'/>">Previous</a></li>
+                    <li><a href="<g:createLink controller='delivery' action='blogNextMonth'
+                                               params='[year: "${year}", month: "${month}"]'/>">Next</a></li>
+                </ul>
+            </nav>
 
-            </div><!-- /.blog-main -->
+        </div><!-- /.blog-main -->
 
-            <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-                <div class="sidebar-module sidebar-module-inset">
-                    <h4>Archives</h4>
-                    <ol class="list-unstyled">
-                        <li><a href="<g:createLink controller='delivery' action='blog' params='[year:"2014",month:"11"]'/>">November (2)</a>
-                            <br/><em>Brain algae virus</em>
-                            <br/><em>Maps and open source</em></li>
-                        <li><a href="<g:createLink controller='delivery' action='blog' params='[year:"2014",month:"12"]'/>">December (2)</a>
-                            <br/><em>Clean D3 code</em>
-                            <br/><em>Infinite mind</em>
-                        </li>
-                        <li><a href="<g:createLink controller='delivery' action='blog' params='[year:"2015",month:"01"]'/>">January (1)</a>
-                            <br/><em>Do it Yourself sunburst</em>
-                        </li>
-                    </ol>
-                </div>
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+            <div class="sidebar-module sidebar-module-inset">
+                <h4>Archives</h4>
+                <ol class="list-unstyled">
+                    <li><a href="<g:createLink controller='delivery' action='blog'
+                                               params='[year: "2014", month: "11"]'/>">November</a> (2)
+                        <br/><em><a href="<g:createLink controller='delivery' action='blog'
+                                                        params='[year: "2014", month: "11", fragment: "t2014nov15"]'/>">Brain algae virus</a>
+                    </em>
+                        <br/><em><a href="<g:createLink controller='delivery' action='blog'
+                                                        params='[year: "2014", month: "11", fragment: "t2014nov28"]'/>">Maps and open source</a>
+                    </em>
+                    </li>
+                    <li><a href="<g:createLink controller='delivery' action='blog'
+                                               params='[year: "2014", month: "12"]'/>">December</a> (2)
+                        <br/><em><a href="<g:createLink controller='delivery' action='blog'
+                                                        params='[year: "2014", month: "12", fragment: "t2014dec26"]'/>">Clean D3 code</a>
+                    </em>
+                        <br/><em><a href="<g:createLink controller='delivery' action='blog'
+                                                        params='[year: "2014", month: "12", fragment: "t2014dec28"]'/>">Infinite mind</a>
+                    </em>
 
-                <div class="sidebar-module">
-                 </div>
+                    </li>
+                    <li><a href="<g:createLink controller='delivery' action='blog'
+                                               params='[year: "2015", month: "01"]'/>">January</a> (3)
+                        <br/><em><a href="<g:createLink controller='delivery' action='blog'
+                                                        params='[year: "2015", month: "01", fragment: "t2015jan04"]'/>">Do it Yourself sunburst</a>
+                    </em>
+                        <br/><em><a href="<g:createLink controller='delivery' action='blog'
+                                                        params='[year: "2015", month: "01", fragment: "t2015jan11"]'/>">Clean JavaScript?</a>
+                    </em>
+                        <br/><em><a href="<g:createLink controller='delivery' action='blog'
+                                                        params='[year: "2015", month: "01", fragment: "t2015jan18"]'/>">Chikungunya virus</a>
+                    </em>
+                    </li>
+                </ol>
+            </div>
 
-            </div><!-- /.blog-sidebar -->
+            <div class="sidebar-module">
+            </div>
 
-        </div>
+        </div><!-- /.blog-sidebar -->
+
+    </div>
 
     %{--</div><!-- /.row -->--}%
 

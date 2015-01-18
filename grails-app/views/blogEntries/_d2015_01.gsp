@@ -1,5 +1,6 @@
 <h2 class="blog-month-leader">January, 2015</h2>
 
+
 <div class="blog-post">
 
     <script>
@@ -21,7 +22,7 @@
 
 
     <p>Sunburst visualizations can be visually appealing. The idea of the sunburst chart is one of nested pie charts, with adjacent rings
-        implying connections within each arc, as suggested by the coloring of the example below (one of Bostock's many <a href="See http://bl.ocks.org/mbostock/4348373">examples</a>.)
+        implying connections within each arc, as suggested by the coloring of the example below (one of Bostock's many <a href="http://bl.ocks.org/mbostock/4348373">examples</a>.)
         In addition to the rich network of associations suggested by a visual inspection of the graphic, note that clicking on any of the individual subsections
         will allow you to zoom in to view only that subsection and its children, ignoring everything else in the plot. (Click on the center to reset the original display.)
     </p>
@@ -161,7 +162,6 @@
 
 <div class="blog-post">
 
-
     <h2 class="blog-post-title"><a name="t2015jan11">How clean is your JavaScript?</a></h2>
 
     <p class="blog-post-meta">January 11, 2015</p>
@@ -253,8 +253,36 @@
 </div><!-- /.blog-post -->
 
 
+<div class="blog-post">
+
 <h2 class="blog-post-title"><a name="t2015jan18">New disease rising</a></h2>
 
 <p class="blog-post-meta">January 18, 2015</p>
+
+<p>While science steadily continues to improve our ability to identify new therapeutic drugs, the dangers
+of infectious disease are actually increasing over time. While a variety of forces are at work, there are two
+crucial, largely unavoidable problems:
+<ul>
+    <li>  microorganisms reproduce very quickly and commonly mutate readily, allowing them to
+    evolve compensatory mechanisms to address many of the ways we would fight them, and</li>
+    <li>increasing movement of people and organism around the globe leads to outbreaks of invasive species, especially
+    microscopic species that can lead to pathology and death</li>
+</ul>
+These problems are intertwined of course, with global travel bringing species into novel contact, leading to
+evolutionary interactions that will often favor small, rapidly reproducing organisms. One or both of these factors
+are presumably behind the troubling outbreak of the <strong>Chikungunya</strong>  virus which is rapidly invading the Americas.
+</p>
+
+<p>The geographical spread of <a href="http://www.who.int/mediacentre/factsheets/fs327/en/">Chikungunya virus</a> was limited to sub-Saharan Africa,
+India, parts of Southeast Asia  and Indonesia.   While the disease is not typically fatal it is still pretty nasty: rash, headache, nausea
+and inflammation of the eyes may all be present, often along with fever and pain in the joints.  Sufferers usually exhibit symptoms
+lasting from several days to several weeks, but occasionally the disease morphs into a chronic condition that can be debilitating.
+The disease is known to be spread by mosquitoes, and was first identified in Tanzania in 1952.</p>
+
+The geographical range of the disease is currently rapidly expanding, as explained in this   <a href="http://www.cdc.gov/chikungunya/">update</a>
+from the <a href="http://www.cdc.gov/">Centers for  Disease Control</a>.   Puerto Rico has seen roughly <a href="http://outbreaknewstoday.com/puerto-rico-chikungunya-death-toll-now-at-10-38236/">25,000 suspected cases</a>,
+and cases have been reported in <a href="http://www.cdc.gov/chikungunya/geo/americas.html/">42 other countries</a> in North, Central, and South America.
+The problem is not restricted to tropical areas, with Canada reporting <a href="http://outbreaknewstoday.com/canada-reports-over-300-confirmed-chikungunya-cases-in-2014-ontario-sees-the-most-33824/">300</a>
+confirmed cases in 2014.  Clearly this story is sstill very actively unfolding. Watch out, and keep your DEET handy!</a>
 
 </div><!-- /.blog-post -->

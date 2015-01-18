@@ -6,7 +6,11 @@
 
     <r:layoutResources/>
 
-<meta name="keywords" content="scientific graphics, D3, D3 examples, JavaScript, Linked Hierarchies Visualization, qq plot">
+
+
+<meta name="keywords" content="sscientific graphics">
+<meta name="description" content="Assorted scientific graphics emphasizing interactivity and D3">
+<title>Scientific graphics</title>
 
 <link rel="icon" href="${resource(dir: 'images/icons', file: 'dna-strands.ico')}" type="image/x-icon" />
 <style>
@@ -101,8 +105,8 @@ body {background-image: url('../images/old_mathematics.png')}
 
         <g:linkDesc buttonName="DIY sunburst" linkUrl="${grailsApplication.config.personalservercow}probe/uploadPrep">
             Here is one last Sunburst, this one different from the others in that you can supply your own data. in principle this process should be applicable
-            to any strictly hierarchical data, limited only by screen real estate. I provided some additional information ia a
-            <a class="standardLinks" href="<g:createLink controller='delivery' action='blog' params='[year:"2015",month:"01"]'/>">blog post</a>.
+            to any strictly hierarchical data, limited only by screen real estate. I provide some additional information in this
+            <a class="standardLinks" href="<g:createLink controller='delivery' action='blog' params='[year:"2015",month:"01", fragment: "t2015jan04"]'/>">blog post</a>.
         </g:linkDesc>
 
         <g:linkDesc buttonName="scatter plot" linkUrl="${grailsApplication.config.personalservercow}box/scatter">

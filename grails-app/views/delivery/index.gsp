@@ -13,8 +13,11 @@
 
     <r:layoutResources/>
 
+    <meta name="author" content="Ben R Alexander">
+    <meta name="keywords" content="home page">
+    <meta name="description" content="Root for Ben R Alexander's homepage">
 
-    %{--<link rel="icon" href="../../favicon.ico">--}%
+    <title>Homepage for Ben Alexander</title>
 
     <style>
     body {background-image: url('')}
