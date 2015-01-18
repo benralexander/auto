@@ -89,7 +89,7 @@
      <div class="pull-right"></div>
 
     <p>This is all great, but the challenge for anyone wanting to utilize a sunburst is that this complex, hierarchical visual representation requires a complex, hierarchical JSON-based data structure.
-      Therefore even if you have a good reason for such an illustration and good underlying data, you have to build up a structure in legal JSON bbefore you can
+      Therefore even if you have a good reason for such an illustration and good underlying data, you have to build up a structure in real, parseable JSON before you can
         consider using some borrowed D3 code to create the picture in your webpage.  When I was  drawing a similar picture for someone recently I asked her to put her data
         into a structure that is fundamentally linear, but which is then converted internally into the necessary hierarchical structure. In case anyone else could use such a capability
         I'll include a link to the operational web-based server below.
@@ -166,32 +166,27 @@
 
     <p class="blog-post-meta">January 11, 2015</p>
 
-    <p><em>[incomplete]</em></p>
 
     <p>JavaScript  as a language  has undergone a vast surge in popularity over the past few years.  As recently as five years ago
     the language was despised by many (including me) as unreliable and filled with browser dependent peculiarities.
     Furthermore I would've claimed at that time that writing any sort of a large project in JavaScript would've been
-    a frustrating and probably futile effort, since the lack of an object orientation led inevitably
-    to poorly structured and fundamentally unmaintainable code.  My, how things have changed.
-    ECMA 5 has brought reliable standardization across browsers, JavaScript has become the principal
-     tool for giving websites interactivity, and people (including me again) are finally learning to use the
+    a futile effort, since the lack of an object orientation led inevitably
+    to poorly structured and fundamentally unmaintainable code.  A few years,, however, have changed everything.
+    ECMA 5  brought reliable standardization across browsers, and JavaScript has become the principal
+     tool for giving websites interactivity, and people (aagain including me) are learning to use the
      language in a way that makes large-scale software development quite feasible.
     </p>
 
     <p>The language is still loosely typed, of course, and makes no claims about object orientation. The trick,
-    therefore,  is to adopt language patterns well-suited to Java's  functional nature. I thought I'd sketch out
-    a few of my favorites.  Like all software patterns the ones I'll cite here are in wide use, whether
-    with explicit intentionality or not.   I'll provide references when possible, but some of these patterns come from
+    therefore,  is to adopt language patterns suited to Java's  functional nature. I thought I'd sketch out
+    three of my favorites.   I'll provide references when possible, but some of these patterns come from
     the JavaScript zeitgeist and aren't ( to my knowledge) attributable to any one author.</p>
 
-    <p>The goal of this exercise is simply stated:  we seek to make computer code as simple as it can possibly be.
-    Can we categorize approaches to achieving simplicity, I wonder?
-    <ul>
-    <li>module interfaces should be expressed with very few functions</li>
-    </ul>
-    </p>
-
-     <p>Pattern 1: explicitly identifying publicly accessible interface functions.  Here is my preferred approach:
+     <ol>
+         <li>
+     <h3>The module pattern</h3>
+     <p>The focus of this pattern is the explicit identification of accessible interface functions.  I first
+     saw this pattern identified by name in  JavaScript Patterns, by Stoyan Stefanov.</p>
      <pre>
           var myFunctionName = function (argument1) {
 
@@ -208,9 +203,13 @@
            }
         }());
      </pre>
-         </p>
-
-     <p>Pattern number 2: encapsulate everything, even if only inside of an immediately executed function</p>
+     <p>This is one of my favorite patterns for holding  together a collection of related methods. You will see it
+     used repeatedly in the D3 code and make available on this site.</p>
+         </li>
+         <li>
+     <h3>The encapsulate immediate execution pattern</h3>
+     <p>Encapsulate absolutely everything, minimizing namespace pollution.  I may have seen this in Secrets of the JavaScript Ninja (by John Resig)
+     but I'm not sure</p>
           <pre>
           (function (argument1) {
 
@@ -219,40 +218,43 @@
 
         }());
      </pre>
-    </p>
+     <p>Instead of wrapping the whole function in parentheses there is another approach to forcing immediate execution, and that is
+     by prepending an exclamation mark</p>
 
-     <p>Pattern number 2: encapsulate everything, even if only inside of and immediately executed function</p>
-          <pre>
-          (function (argument1) {
-
-              var hi = 47;
-              console.log('hi='+hi);
-
-          }());
-          </pre>
-          Or alternatively (though what to me it seems more obscure)
-           <pre>
+            <pre>
           !function (argument1) {
               var hi = 47;
               console.log('hi='+hi);
           }();
           </pre>
 
-     <p>Pattern number 3: Namespace management</p>
-
-     <p>For larger projects it is critically important not to pollute your namespace with any unnecessary
-     variable names. Therefore you might think to start every file with a single global variable declaration
-     and then to add all subsequent definitions inside that single variable name. That plan  works well enough
-     if you have only one external file, but if multiple files each begin by creating a global variable of the same name
-     then these files worldwide about all the definitions that came before them. My preferred approach  is to
-     define a global variable, but to use the existing global variable if another file is already created it.
-     A one-liner can accomplish this goal like this:</p>
-
+     <p>It works just as well  and takes one fewer character, but to me it seems a little more obscure.</p>
+         </li>
+         <li>
+    <h3>A trick for namespace management</h3>
+    <p>The following is a one-liner I use to hold all code (including immediately executed blocks, as in
+    the previous pattern) inside of encapsulating variables</p>
 
      <pre>
        var baget = baget || {};  // encapsulating variable
 
        baget.someFineNewVariable = 47;  // adding something to your encapsulating variable
       </pre>
+
+    <p>The idea here is to store everything you write inside one (or else a very small number) of global variables.
+    The idea of the one line of code is to define a new variable 'baget', in my example.  If it already exists
+    then assign it to itself, no harm done.  If it doesn't exist then create a new object upon which
+    you can hang everything else.  The advantage of this approach is that multiple references
+    to the same high level variable in different JavaScript files will not clobber one another.</p>
+         </li>
+
+     </ol>
+
+</div><!-- /.blog-post -->
+
+
+<h2 class="blog-post-title"><a name="t2015jan18">New disease rising</a></h2>
+
+<p class="blog-post-meta">January 18, 2015</p>
 
 </div><!-- /.blog-post -->

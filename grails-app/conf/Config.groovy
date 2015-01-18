@@ -103,7 +103,7 @@ grails.hibernate.pass.readonly = false
 grails.hibernate.osiv.readonly = false
 
 personalserverbovine='http://bovinecontemplation.org/'
-personalserverbaget='http://bagetprod.elasticbeanstalk.com/'
+personalserverbaget='http://www.bagetsoftware.org/'
 personalservercow='http://graphicscow.com/'
 
 server.URL = 'http://69.173.71.178:8080/dev/rest/server/'

@@ -21,7 +21,7 @@
     h4 {
         margin: 20px 0px 0 0;
     }
-    h4+p {
+    h4+h5 {
         margin-top: 4px;
         margin-bottom: 14px;
          }
@@ -43,24 +43,24 @@
     <div class="row mainnav">
         <div class="col-lg-6">
             <h4><a href='<g:createLink controller="mpg" action="mpgLinks"/>'>Medical Population Genetics</a></h4>
-            <p>Diabetes portals (and others soon to come) for the Broad Institute</p>
+            <h5>Diabetes portals for the Broad Institute</h5>
 
             <h4><a href='<g:createLink controller="ScientificGraphics" action="index"/>'>Scientific graphics</a></h4>
-            <p>Recent scientific graphics I've worked on</p>
+            <h5>Recent scientific graphics work</h5>
 
             <h4><a href='<g:createLink controller="UnclassifiedGraphics" action="index"/>'>Exploratory graphics</a></h4>
-            <p>Other kinds of graphics</p>
+            <h5>Other graphics, some still in development</h5>
         </div>
 
         <div class="col-lg-6">
             <h4><a href='<g:createLink controller="WebsitesILike" action="index"/>'>Websites I like</a></h4>
-            <p>Websites written by other people that I happen to like</p>
+            <h5>Other people's websites</h5>
 
-            <h4><a href='<g:createLink controller="SoftwareContribs" action="index"/>'>Other websites I've worked on</a></h4>
-            <p>Websites to which I have contributed but for which I am not the primary author</p>
+            <h4><a href='<g:createLink controller="SoftwareContribs" action="index"/>'>Collaborative Websites</a></h4>
+            <h5>Collaborative efforts to which I have contributed</h5>
 
             <h4><a href='<g:createLink controller="ArtAndSocialMedia" action="index"/>'>Arts and social media</a></h4>
-            <p>All the usual links for a 21st century schizoid man</p>
+            <h5>All the usual links</h5>
         </div>
     </div>
 

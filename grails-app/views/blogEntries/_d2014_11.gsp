@@ -38,13 +38,13 @@
 <p class="blog-post-meta">November 28, 2014</p>
 
 
-<p>How difficult would it be to add a map to a website? Provided that you're hoping to go beyond a simple static image, I might have thought that it would be pretty tricky, and probably expensive as well. It seems that there is a way
-to build a powerful mapping application into a webpage, and to give panning and zooming to your users, along with all the other fun things that we've come to expect from online maps.  Technically it's pretty trivial, requiring only a few lines of JavaScript and a little CSS.  Financially
-the cost is a little less clear, though I'm actively  working to try and figure it out.</p>
+<p>How difficult would it be to add a map to a website? I might have thought that beyond a simple static images map creation would be pretty tricky, and probably expensive as well. It seems, however, that there is a way
+to build a powerful mapping application into a webpage, with tool tips, panning, zooming aand all the other  interactions that we've come to expect from online maps.  Technically it's pretty trivial, requiring only a few lines of JavaScript and a little CSS.  Financially
+the cost is a little less clear, though eventually I'm going to take the time to figure it out.</p>
 
 <p>First let's consider the technical story.  I'll use a library that is distributed by a company called  <a
         href="https://www.mapbox.com/">mapbox</a>, and they certainly make the process easy.  You need only make
-one call containing exactly 4 parameters ( your starting place on the globe, your level of zoom, an identifier called a map ID, and a selector providing the idea of a DOM object.)  You'll also need to create that DOM object, and
+one call containing 4 parameters ( your starting place on the globe, your level of zoom, an identifier called a map ID, and a selector providing the idea of a DOM object.)  You'll also need to create that DOM object, and
 include enough CSS to hold that DOM object in place. The sum total of  the code used in my example is reproduced below:
 </p>
 
@@ -104,21 +104,21 @@ include enough CSS to hold that DOM object in place. The sum total of  the code 
 
 <p>And all of this, both in terms of the power of the resulting graphical widget and the straightforward simplicity of the implementation,
 is most impressive. The tricky part about all of this, however, is whether or not it's actually free.  The code itself is mostly open source after all,
-(apparently a mixture of a volunteer-donated open source project, along with code that was commercially developed
-under an open-source license) so the code should in principle be available for download.  The data are also publicly available (some of it coming from NASA satellite imagery
-and some coming from the massive and fascinating <a
+(apparently a mixture of a volunteer-donated open source, along with code that was commercially developed
+under an open-source license) so the code should be available for download.  The data are also publicly available (some of it coming from NASA satellite imagery, as well as from
+the massive, fascinating <a
         href="http://www.openstreetmap.org">openstreetmap</a> project) so the data are also there for the taking.  So is all of
 mapbox therefore available like air is for anyone to breathe?</p>
 
 <p>Definitely not.  Mapbox is a for-profit company and they sell services, server time, processed data, and certain kinds of code. A quick look at their price list ranges from
-their starter kit (up to 3000 map views per month aare available for free), to their Premium plan ($499/month) up to Mapbox Enterprise for $49,000/year.  And why, after all, would
+their starter kit (up to 3000 map views per month are available for free), to their Premium plan ($499/month) up to Mapbox Enterprise for $49,000/year.  And why, after all, would
 anyone expect these capabilities to come be free?  The company has 25+ employees  hard at work developing new code and harmonizing data. I approve of the fact that some large portion of their code
-is open source, but there is always the challenge of how a company dedicated to sharing code and data can  actually sustain themselves.  Software is difficult to develop,
-and if you're going to extend and maintain high-quality code then it doesn't seem surprising that such a project asks for funding.</p>
+is open source, and every company based in open source must address the question of how they  sustain themselves.  Software is difficult to develop,
+and if you're going to extend and maintain high-quality code then funding is usually required.</p>
 
 <p>So, for small-end websites there does is in fact seem to be a way to access a well-crafted and well-maintained JavaScript library along with the vast quantities of supporting data
 necessary to power a zoomable map with a global range. If you want to build a business around a map-related application then you're going to have to pay some money, even if the data
-and the code originated in the public domain.  To me this approach seems like a pretty reasonable compromise, and maybe provides one model of how for-profit, software driven businesses can adopt
-an open source approach to most of their code.  I'm not yet familiar enough with the project to endorse it, or even to be confident that I can perceive the project's real strengths
+and the code originated in the public domain.  To me this approach seems like a pretty reasonable compromise, and maybe provides a good model of how a for-profit businesses can adopt
+an open source approach.  I'm not yet familiar enough with the project to endorse it, or even to be confident that I can perceive the project's real strengths
 or weaknesses yet. At least it sounds like some fun programming for snowy afternoon indoors, however, so I plan to give it another try.</p>
 </div><!-- /.blog-post -->

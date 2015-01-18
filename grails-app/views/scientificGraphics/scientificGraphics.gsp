@@ -34,7 +34,7 @@ body {background-image: url('../images/old_mathematics.png')}
 
         <g:linkDesc buttonName="qq plot" linkUrl="${grailsApplication.config.personalserverbaget}qqPlot/index">
             A <a class="standardLinks" href="http://en.wikipedia.org/wiki/Q%E2%80%93Q_plot">Q-Q plot</a> written with generalized JavaScript code. I put this together as one of the initial offerings in the
-            <a class="standardLinks" href="${grailsApplication.config.personalserverbaget}">BAGET project</a>, but it has yet to make its way into any production software.
+            <a class="standardLinks" href="${grailsApplication.config.personalserverbaget}">BAGET project</a>, but the graphic has yet to make its way into any other production software.
         </g:linkDesc>
 
 
@@ -46,7 +46,7 @@ body {background-image: url('../images/old_mathematics.png')}
 
         <g:linkDesc buttonName="LVH" linkUrl="${grailsApplication.config.personalservercow}veryCross/index">
               The Linked Hierarchies Visualization shown here in currently running in the <a class="standardLinks" href="https://bard.nih.gov/BARD/">BARD project</a>.  This interactive tool
-            combines a simple, pie chart-driven filtering mechanism with a drill down that filters based on hierarchy membership. Traversing between the two
+            combines a pie chart-driven filtering mechanism with filters based on hierarchy membership. Combining the two
             representations allows interesting possibilities in set management.
         </g:linkDesc>
 
@@ -62,16 +62,16 @@ body {background-image: url('../images/old_mathematics.png')}
         </g:linkDesc>
 
         <g:linkDesc buttonName="box whisker 2" linkUrl="${grailsApplication.config.personalserverbaget}boxWhisker/index">
-            Here's a different version of the box whisker that I'm currently working on. The idea is to provide a more detailed idea of the data distribution distribution each box
+            Here's a different version of the box whisker that I'm still working on. The idea is to provide a representation of the data distribution within each box
             by superimposing a histogram along the vertical axis. I've move this new version into the <a class="standardLinks" href="${grailsApplication.config.personalserverbaget}">BAGET project</a>,
-            though it is not yet running in any production environment (it still needs a little work).
+            though it is not yet running in any production environment (it still needs work).
         </g:linkDesc>
 
         <g:linkDesc buttonName="dose resp." linkUrl="${grailsApplication.config.personalservercow}box/doseResponse">
             Here is a dose response curve also used as a part of the <a class="standardLinks" href="http://www.broadinstitute.org/ctrp.v2/">CTRP project</a> .
             This one uses a log scale on the x-axis and includes error bars on the points. The curve is provided by the server in the form of the four
-            standard hill slope parameters. The JavaScript code then uses these parameters to generate the curve (which is supposed to match the points, though
-            it doesn't look so great in this example).
+            standard logistic parameters. The JavaScript code then uses these parameters to generate the curve (which is supposed to match the points, though
+            the regression analysis in this example looks suspect).
         </g:linkDesc>
 
         <g:linkDesc buttonName="jqGrid" linkUrl="${grailsApplication.config.personalservercow}jqgrid/index">
@@ -90,8 +90,7 @@ body {background-image: url('../images/old_mathematics.png')}
 
         <g:linkDesc buttonName="MLP sunburst" linkUrl="${grailsApplication.config.personalservercow}probe/probe_targets">
             Here is a presentation that shows the protein classes for every molecule we pushed forward as a probe as part of the
-            <a class="standardLinks" href="http://mli.nih.gov/mli/">Molecular Library  Program</a>, which was
-            a focus for much of the work I did over in the Chemical Biology platform in 2011 and 2012. The publication is still in the queue.  The graphic is live and interactive.
+            <a class="standardLinks" href="http://mli.nih.gov/mli/">Molecular Library  Program</a>. The publication has made it past the referees, and will allegedly appeared in Cell in April 2015.  The graphic is live and interactive.
         </g:linkDesc>
 
         <g:linkDesc buttonName="CTD sunburst" linkUrl="${createLink(controller:'ScientificGraphics', action: 'ccls')}">
@@ -101,16 +100,15 @@ body {background-image: url('../images/old_mathematics.png')}
         </g:linkDesc>
 
         <g:linkDesc buttonName="DIY sunburst" linkUrl="${grailsApplication.config.personalservercow}probe/uploadPrep">
-            Here is one last Sunburst, this one different from the others in that you can supply your own data. As long as you take your data
-            and converted into the JSON format specified on this link you should in principle be able to turn any data that is strictly hierarchical (that is,
-            parents may or may not have children,  but every child has only one parent) and creative visualization. In practice yyou will no doubt eventually
-            run out of screen real estate bbut I haven't pushed it that far in any of my tests.
+            Here is one last Sunburst, this one different from the others in that you can supply your own data. in principle this process should be applicable
+            to any strictly hierarchical data, limited only by screen real estate. I provided some additional information ia a
+            <a class="standardLinks" href="<g:createLink controller='delivery' action='blog' params='[year:"2015",month:"01"]'/>">blog post</a>.
         </g:linkDesc>
 
         <g:linkDesc buttonName="scatter plot" linkUrl="${grailsApplication.config.personalservercow}box/scatter">
             Here is a simple scatter plot also used as a part of the <a class="standardLinks" href="http://www.broadinstitute.org/ctrp.v2/">CTRP project</a> .
             Other than the  tooltip over the data points there's no particular interactivity in this example ( though in the live software clicking on the dots
-            brings up a matched dose response curve )
+            brings up the matched dose response curve )
         </g:linkDesc>
 
         <g:linkDesc buttonName="histogram" linkUrl="${grailsApplication.config.personalservercow}histogram/histogram">
