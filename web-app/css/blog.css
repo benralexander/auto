@@ -113,8 +113,26 @@ h6, .h6 {
 
 /* Sidebar modules for boxing content */
 .sidebar-module {
-    padding: 15px;
-    margin: 0 -15px 15px;
+/*@media (min-width: @screen-sm-min) {*/
+    /*padding: 15px;*/
+    /*margin: 0 -15px 15px;*/
+/*}*/
+/*@media (min-width: @screen-md-min) {*/
+    /*position: fixed;*/
+    /*top: 80px;*/
+    /*right: 50px;*/
+/*}*/
+/*@media (min-width: @screen-lg-min) {*/
+    /*position: fixed;*/
+    /*top: 80px;*/
+    /*right: 50px;*/
+/*}*/
+    position: fixed;
+    top: 80px;
+    right: 50px;
+
+    /*padding: 15px;*/
+    /*margin: 0 -15px 15px;*/
 }
 .sidebar-module li {
     margin: 15px 0 15px 0;
