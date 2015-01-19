@@ -113,7 +113,9 @@ h6, .h6 {
 
 /* Sidebar modules for boxing content */
 .sidebar-module {
-/*@media (min-width: @screen-sm-min) {*/
+/* media queries */
+/*@media only screen and (max-width: 1023px){*/
+    /*@media (min-width: @screen-sm-min) {*/
     /*padding: 15px;*/
     /*margin: 0 -15px 15px;*/
 /*}*/
@@ -128,9 +130,9 @@ h6, .h6 {
     /*right: 50px;*/
 /*}*/
     position: fixed;
-    top: 80px;
+   /* top: 80px; */
     right: 50px;
-
+     /* old way */
     /*padding: 15px;*/
     /*margin: 0 -15px 15px;*/
 }
@@ -140,6 +142,9 @@ h6, .h6 {
 .sidebar-module li>a {
     font-size: 18px;
     text-decoration: underline;
+}
+.sidebar-module li em {
+    padding-left: 15px;
 }
 .sidebar-module-inset {
     padding: 15px;

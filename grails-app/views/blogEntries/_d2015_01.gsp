@@ -255,7 +255,7 @@
 
 <div class="blog-post">
 
-<h2 class="blog-post-title"><a name="t2015jan18">New disease rising</a></h2>
+<h2 class="blog-post-title"><a name="t2015jan18">Disease rising</a></h2>
 
 <p class="blog-post-meta">January 18, 2015</p>
 
