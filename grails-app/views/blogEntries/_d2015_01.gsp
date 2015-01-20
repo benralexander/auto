@@ -261,21 +261,21 @@
 
 <p>While science steadily continues to improve our ability to identify new therapeutic drugs, the dangers
 of infectious disease are actually increasing over time. While a variety of forces are at work, there are two
-crucial, largely unavoidable problems:
+crucial, largely unavoidable factors:
 <ul>
     <li>  microorganisms reproduce very quickly and commonly mutate readily, allowing them to
-    evolve compensatory mechanisms to address many of the ways we would fight them, and</li>
+    evolve compensatory mechanisms to address the ways we would fight them, and</li>
     <li>increasing movement of people and organism around the globe leads to outbreaks of invasive species, especially
-    microscopic species that can lead to pathology and death</li>
+    microscopic species that can travel within host species</li>
 </ul>
-These problems are intertwined of course, with global travel bringing species into novel contact, leading to
-evolutionary interactions that will often favor small, rapidly reproducing organisms. One or both of these factors
-are presumably behind the troubling outbreak of the <strong>Chikungunya</strong>  virus which is rapidly invading the Americas.
+These problems are intertwined of course, with global travel bringing previously geographically separated species into contact, leading to
+evolutionary interactions favoring the smaller, rapidly reproducing organisms. One or both of these factors
+are presumably behind the troubling outbreak of  <strong>Chikungunya</strong>  into the Americas.
 </p>
 
-<p>The geographical spread of <a href="http://www.who.int/mediacentre/factsheets/fs327/en/">Chikungunya virus</a> was limited to sub-Saharan Africa,
+<p>The geographical spread of <a href="http://www.who.int/mediacentre/factsheets/fs327/en/">Chikungunya virus</a> was previously limited to sub-Saharan Africa,
 India, parts of Southeast Asia  and Indonesia.   While the disease is not typically fatal it is still pretty nasty: rash, headache, nausea
-and inflammation of the eyes may all be present, often along with fever and pain in the joints.  Sufferers usually exhibit symptoms
+and inflammation of the eyes may all be present, often along with fever and severe joint pain.  Sufferers usually exhibit symptoms
 lasting from several days to several weeks, but occasionally the disease morphs into a chronic condition that can be debilitating.
 The disease is known to be spread by mosquitoes, and was first identified in Tanzania in 1952.</p>
 
@@ -283,6 +283,7 @@ The geographical range of the disease is currently rapidly expanding, as explain
 from the <a href="http://www.cdc.gov/">Centers for  Disease Control</a>.   Puerto Rico has seen roughly <a href="http://outbreaknewstoday.com/puerto-rico-chikungunya-death-toll-now-at-10-38236/">25,000 suspected cases</a>,
 and cases have been reported in <a href="http://www.cdc.gov/chikungunya/geo/americas.html/">42 other countries</a> in North, Central, and South America.
 The problem is not restricted to tropical areas, with Canada reporting <a href="http://outbreaknewstoday.com/canada-reports-over-300-confirmed-chikungunya-cases-in-2014-ontario-sees-the-most-33824/">300</a>
-confirmed cases in 2014.  Clearly this story is sstill very actively unfolding. Watch out, and keep your DEET handy!</a>
+confirmed cases in 2014.  Clearly this story is still very actively unfolding. Keep on the lookout, especially if you live in or travel through
+warm climates.</a>
 
 </div><!-- /.blog-post -->
