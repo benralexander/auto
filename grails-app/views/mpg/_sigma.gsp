@@ -9,7 +9,7 @@
                 <div class="serverDescrSmall">Production</div>
 
                 <p>
-                    <a href="http://sigmat2d.org/" class="btn btn-primary" role="button">go to site</a>
+                    <a href="${grailsApplication.config.mpgPortal.sigmaProd}" class="btn btn-primary" role="button">go to site</a>
                  </p>
             </div>
         </div>
@@ -23,7 +23,7 @@
             <div class="serverDescrBig">Sigma T2D</div>
             <div class="serverDescrSmall">QA</div>
                 <p>
-                    <a href="http://sigmat2dqasrv-env.elasticbeanstalk.com/" class="btn btn-primary"
+                    <a href="${grailsApplication.config.mpgPortal.sigmaQa}" class="btn btn-primary"
                       role="button">go to site</a>
                 </p>
             </div>
@@ -39,7 +39,7 @@
                 <div class="serverDescrSmall">Development</div>
 
                 <p>
-                    <a href="http://sigmat2ddev-env.elasticbeanstalk.com/home/portalHome" class="btn btn-primary"
+                    <a href="${grailsApplication.config.mpgPortal.sigmaDev}" class="btn btn-primary"
                       role="button">go to site</a>
                 </p>
             </div>

@@ -29,4 +29,25 @@ class MpgController {
         render """{"server":${serverNumber},"status":${(success?1:0)}}""".toString()
     }
 
+
+    def getPortalStatus() {
+        String serverNumberAsString = params['serverNumber']
+        int serverNumber  = 0
+        try {
+            serverNumber = Integer.parseInt(serverNumberAsString)
+        }  catch (Exception exception) {
+            exception.printStackTrace()
+            log.error "Unexpected server number returned from client = ${serverNumberAsString}"
+        }
+        JSONObject versionInformation = restServerService.pingWebServer(RestServerService.Server.getServerById(serverNumber))
+
+
+        render(status:200, contentType:"application/json") {
+            [info: versionInformation]
+        }
+
+    }
+
+
+
 }

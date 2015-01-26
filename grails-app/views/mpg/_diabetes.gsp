@@ -1,4 +1,22 @@
-
+<script>
+    var checkAWebHost = function  (serverNumber) {
+        $.ajax({
+            cache: false,
+            type: "post",
+            url: "${createLink(controller: 'mpg', action:'getPortalStatus' )}",
+            data: {serverNumber: serverNumber},
+            async: true,
+            success: function (data) {
+                var obj = JSON.parse(data.info);
+                console.log('hi='+obj);
+            },
+            error: function (jqXHR, exception) {
+                loading.hide();
+                core.errorReporter(jqXHR, exception);
+            }
+        });
+    };
+</script>
 <div class="row">
     <div class="col-sm-6 col-md-3">
         <div class="thumbnail">
@@ -8,7 +26,7 @@
                 <div class="serverDescrBig">T2D Genes</div>
                 <div class="serverDescrSmall">Production</div>
                 <p>
-                    <a href="http://type2diabetesgenetics.org" class="btn btn-primary" role="button">go to site</a>
+                    <a href="${grailsApplication.config.mpgPortal.t2dProd}" class="btn btn-primary" role="button">go to site</a>
                  </p>
             </div>
         </div>
@@ -20,7 +38,7 @@
                 <div class="serverDescrBig">T2D Genes</div>
                 <div class="serverDescrSmall">QA</div>
                 <p>
-                    <a href="http://type2diabetesgen-qasrvr.elasticbeanstalk.com//" class="btn btn-primary" role="button">go to site</a>
+                    <a href="${grailsApplication.config.mpgPortal.t2dQa}" class="btn btn-primary" role="button">go to site</a>
                 </p>
             </div>
         </div>
@@ -32,7 +50,7 @@
                 <div class="serverDescrBig">T2D Genes</div>
                 <div class="serverDescrSmall">Development</div>
                 <p>
-                    <a href="http://type2diabetes-dev.elasticbeanstalk.com/login/auth" class="btn btn-primary" role="button">go to site</a>
+                    <a href="${grailsApplication.config.mpgPortal.t2dQa}" class="btn btn-primary" role="button">go to site</a>
                 </p>
             </div>
         </div>
@@ -45,7 +63,10 @@
                 <div class="serverDescrBig">T2D Genes</div>
                 <div class="serverDescrSmall">CI</div>
                 <p>
-                    <a href="http://ci-env.elasticbeanstalk.com" class="btn btn-primary" role="button">go to site</a>
+                    <a href="${grailsApplication.config.mpgPortal.t2dCi}" class="btn btn-primary" role="button">go to site</a>
+                    <script>
+                       checkAWebHost(7);
+                    </script>
                 </p>
             </div>
         </div>

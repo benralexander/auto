@@ -135,6 +135,16 @@ t2dProdRestServer {
 }
 server.URL = t2dDevRestServer.base+t2dDevRestServer.name+t2dDevRestServer.path
 
+mpgPortal {
+    t2dProd = 'http://type2diabetesgenetics.org'
+    t2dQa = 'http://type2diabetesgen-qasrvr.elasticbeanstalk.com'
+    t2dDev  = 'http://type2diabetes-dev.elasticbeanstalk.com'
+    t2dCi =  'http://ci-env.elasticbeanstalk.com'
+    sigmaProd =  'http://sigmat2d.org/'
+    sigmaQa  =  'http://sigmat2dqasrv-env.elasticbeanstalk.com'
+    sigmaDev   = 'http://sigmat2ddev-env.elasticbeanstalk.com'
+}
+
 
 environments {
     development {

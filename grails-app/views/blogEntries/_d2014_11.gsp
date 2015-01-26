@@ -7,7 +7,7 @@
 
     <p class="blog-post-meta">November 15, 2014</p>
 
-    <p>I read a story last week about algae growing in people's brains that seems pretty disturbing. Why this story isn't making more waves I'm not sure, since the potential implications of this report are huge.</p>
+    <p>I read a story last week about an algae virus growing in people's brains that seems pretty disturbing. Why this story isn't making more waves I'm not sure, since the potential implications of this report are huge.</p>
     <hr>
 
     <p>Robert Yolken, an infectious disease expert at John Hopkins University, recently discovered a virus in the throats of people with psychiatric disease. This virus, ATCV-1, had been identified before but its prevalence was unclear. Literature searches indicated only that

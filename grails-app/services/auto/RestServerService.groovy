@@ -21,17 +21,26 @@ class RestServerService {
     private  String PROD_REST_SERVER = ""
     private  String BASE_URL = ""
     private  String GENE_INFO_URL = "gene-info"
-
+    private  String PING_VERSION_URL = "system/determineVersion"
 
     public enum Server {
-        test(0), dev(1), qa(2), prod(3)
+        test(0), dev(1), qa(2), prod(3),
+        t2dProd(4),t2dQa(5),t2dDev(6),t2dCi(7),
+        sigmaProd(8),sigmaQa(9),sigmaDev(10);
         static Server  getServerById (int id)  {
             Server server
             switch (id)  {
-            case 0:  server = Server.test; break;
-            case 1:  server = Server.dev; break;
-            case 2:  server = Server.qa; break;
-            case 3:  server = Server.prod; break;
+                case 0:  server = Server.test; break;
+                case 1:  server = Server.dev; break;
+                case 2:  server = Server.qa; break;
+                case 3:  server = Server.prod; break;
+                case 4:  server = Server.t2dProd; break;
+                case 5:  server = Server.t2dQa; break;
+                case 6:  server = Server.t2dDev; break;
+                case 7:  server = Server.t2dCi; break;
+                case 8:  server = Server.sigmaProd; break;
+                case 9:  server = Server.sigmaQa; break;
+                case 10:  server = Server.sigmaDev; break;
                 default: server = Server.test;
             }
             return server
@@ -220,6 +229,27 @@ class RestServerService {
             case  Server.prod:
                 url =  grailsApplication.config.t2dProdRestServer.base+grailsApplication.config.t2dProdRestServer.name+grailsApplication.config.t2dProdRestServer.path
                 break;
+            case Server.t2dProd:
+                url =  grailsApplication.config.mpgPortal.t2dProd
+                break;
+            case Server.t2dQa:
+                url =  grailsApplication.config.mpgPortal.t2dQa
+                break;
+            case Server.t2dDev:
+                url =  grailsApplication.config.mpgPortal.t2dDev
+                break;
+            case Server.t2dCi:
+                url =  grailsApplication.config.mpgPortal.t2dCi
+                break;
+            case Server.sigmaProd:
+                url =  grailsApplication.config.mpgPortal.sigmaProd
+                break;
+            case Server.sigmaQa:
+                url =  grailsApplication.config.mpgPortal.sigmaQa
+                break;
+            case Server.sigmaDev:
+                url =  grailsApplication.config.mpgPortal.sigmaDev
+                break;
             default :
                 log.error("Attempted to connect to unexpected server = ${server.toString()}")
                 break;
@@ -297,6 +327,14 @@ time required=${(afterCall.time-beforeCall.time)/1000} seconds
     }
 
 
+    JSONObject retrieveVersionInfo (Server server) {
+        JSONObject returnValue = null
+        String drivingJson = ""
+        returnValue = postRestCall( drivingJson, PING_VERSION_URL,server)
+        return returnValue
+    }
+
+
 
     public  Boolean testRestServer(Server server, Boolean sigma) {
         Boolean returnValue = false
@@ -304,6 +342,15 @@ time required=${(afterCall.time-beforeCall.time)/1000} seconds
         if (jsonObject != null) {
             returnValue = ((jsonObject["is_error"] == false)  &&
                     (jsonObject["gene-info"].size() > 0))
+        }
+        return returnValue
+    }
+
+    public  JSONObject pingWebServer(Server server) {
+        JSONObject returnValue = false
+        JSONObject jsonObject = retrieveVersionInfo(server)
+        if (jsonObject != null) {
+            returnValue = jsonObject["info"]
         }
         return returnValue
     }
