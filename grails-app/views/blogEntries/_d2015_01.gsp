@@ -90,7 +90,7 @@
      <div class="pull-right"></div>
 
     <p>This is all great, but the challenge for anyone wanting to utilize a sunburst is that this complex, hierarchical visual representation requires a complex, hierarchical JSON-based data structure.
-      Therefore even if you have a good reason for such an illustration and good underlying data, you have to build up a structure in real, parseable JSON before you can
+      Therefore even if you have a good reason for such an illustration and good underlying data, you have to build up a structure in real, parse-able JSON before you can
         consider using some borrowed D3 code to create the picture in your webpage.  When I was  drawing a similar picture for someone recently I asked her to put her data
         into a structure that is fundamentally linear, but which is then converted internally into the necessary hierarchical structure. In case anyone else could use such a capability
         I'll include a link to the operational web-based server below.
@@ -171,9 +171,9 @@
     the language was despised by many (including me) as unreliable and filled with browser dependent peculiarities.
     Furthermore I would've claimed at that time that writing any sort of a large project in JavaScript would've been
     a futile effort, since the lack of an object orientation led inevitably
-    to poorly structured and fundamentally unmaintainable code.  A few years,, however, have changed everything.
+    to poorly structured and fundamentally unmaintainable code.  A few years, however, have changed everything.
     ECMA 5  brought reliable standardization across browsers, and JavaScript has become the principal
-     tool for giving websites interactivity, and people (aagain including me) are learning to use the
+     tool for giving websites interactivity, and people (again including me) are learning to use the
      language in a way that makes large-scale software development quite feasible.
     </p>
 
@@ -269,7 +269,7 @@ crucial, largely unavoidable factors:
     microscopic species that can travel within host species</li>
 </ul>
 These problems are intertwined of course, with global travel bringing previously geographically separated species into contact, leading to
-evolutionary interactions favoring the smaller, rapidly reproducing organisms. One or both of these factors
+evolutionary interactions favoring smaller, rapidly reproducing organisms. One or both of these factors
 are presumably behind the troubling outbreak of  <strong>Chikungunya</strong>  into the Americas.
 </p>
 
@@ -279,7 +279,7 @@ and inflammation of the eyes may all be present, often along with fever and seve
 lasting from several days to several weeks, but occasionally the disease morphs into a chronic condition that can be debilitating.
 The disease is known to be spread by mosquitoes, and was first identified in Tanzania in 1952.</p>
 
-The geographical range of the disease is currently rapidly expanding, as explained in this   <a href="http://www.cdc.gov/chikungunya/">update</a>
+The geographical range of the disease is currently expanding rapidly, as explained in this   <a href="http://www.cdc.gov/chikungunya/">update</a>
 from the <a href="http://www.cdc.gov/">Centers for  Disease Control</a>.   Puerto Rico has seen roughly <a href="http://outbreaknewstoday.com/puerto-rico-chikungunya-death-toll-now-at-10-38236/">25,000 suspected cases</a>,
 and cases have been reported in <a href="http://www.cdc.gov/chikungunya/geo/americas.html/">42 other countries</a> in North, Central, and South America.
 The problem is not restricted to tropical areas, with Canada reporting <a href="http://outbreaknewstoday.com/canada-reports-over-300-confirmed-chikungunya-cases-in-2014-ontario-sees-the-most-33824/">300</a>
