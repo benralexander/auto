@@ -50,7 +50,7 @@
                 <div class="serverDescrBig">T2D Genes</div>
                 <div class="serverDescrSmall">Development</div>
                 <p>
-                    <a href="${grailsApplication.config.mpgPortal.t2dQa}" class="btn btn-primary" role="button">go to site</a>
+                    <a href="${grailsApplication.config.mpgPortal.t2dDev}" class="btn btn-primary" role="button">go to site</a>
                 </p>
             </div>
         </div>
