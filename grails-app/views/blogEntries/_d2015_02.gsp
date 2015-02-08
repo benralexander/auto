@@ -2,29 +2,31 @@
 
 <div class="blog-post">
 
-<h2 class="blog-post-title"><a name="t2015feb8">breast cancer, myriad, and the BRCA Challenge</a></h2>
+<h2 class="blog-post-title"><a name="t2015feb8">Breast cancer, myriad, and the BRCA Challenge</a></h2>
 
-<p class="blog-post-meta">February, 2015</p>
+<p class="blog-post-meta">February 7, 2015</p>
 
     <p>
         Myriad Genetics has been at the center of an ongoing tug-of-war between private profits and the public good for almost 20 years.  At issue has been the question of whether
-        genes are subject to corporate control, or whether the information in our DNA is not subject to private ownership.  In June 2013 the Supreme Court of the United States ruled
-        that Myriad Genetics patents of the genes BRCA 1 and 2 were invalid, but Myriads’ attempt to extract money from breast cancer patients still continues.
+        genes are subject to corporate control, or whether the information in our DNA icannot be thus controlled.  In June 2013 the Supreme Court of the United States ruled
+        that Myriad Genetics patents of the genes BRCA 1 and 2 were invalid, but Myriads’ attempts to extract money from breast cancer patients still continue.
     </p>
 
     <p>
         The story began in 1991 when scientists led by Mary-Claire King at UC Berkeley identified a tumor suppressor gene on chromosome 17.  This gene normally helps to repair damaged DNA,
-        or else trigger cell death if the DNA cannot be repaired. When mutated this gene is unable to play its usual role, however, and this condition greatly increases the risk for both
+        or else can trigger cell death if the DNA is beyond repair. When this gene is mutated it becomes incapable of playing its usual role, however, and this mutation therefore greatly
+        increases the risk for both
         breast and ovarian cancer. This gene was eventually named BRCA1 (standing for Breast Cancer, early-onset), and, along with the related gene BRCA2, may explain 5 – 10% of all breast
-        cancers. A diagnostic test able to identify the mutated form of either gene can thus provide critically important medical information.
+        cancers. A diagnostic test able to identify the mutated form of either gene might therefore provide critically important medical information.
     </p>
 
     <p>
         The desirability of such a test was not lost on the business community, and in 1991 Myriad Genetics was incorporated in order to explore topics related to genomic-driven medicine.
-        By 1993  <a href="http://www.ncbi.nlm.nih.gov/pubmed/8173065">BRCA1 had been cloned</a>  and by 1996  Myriad launched their diagnostic
-        <a href="http://www.myriad.com/products-services/hereditary-cancers/bracanalysis/">kit</a>.  Not content to be one of the players in this rapidly growing field, however,
-        Myriad moved to obtain patents over both BRCA1 and BRCA2.  While the laboratory of Mark Skolnick at the University of Utah definitely was the site of important early research,
-        it is also true that much of the pioneering scientific work was done elsewhere, and the majority of that work was publicly funded.   Genomic data in quantity was an unfamiliar commodity,
+        By 1993  <a href="http://www.ncbi.nlm.nih.gov/pubmed/8173065">BRCA1 had been cloned</a>  and by 1996  Myriad launched their
+        <a href="http://www.myriad.com/products-services/hereditary-cancers/bracanalysis/">diagnostic kit</a>.  Not content to be one of many players in this rapidly growing field, however,
+        Myriad moved to obtain patents over both BRCA1 and BRCA2.  While the laboratory of Mark Skolnick at the University of Utah definitely performed important early research,
+        it is also true that much of the pioneering scientific work was done elsewhere, and that the majority of thr work was ultimately funded by the public.   Genomic data in quantity was
+    an unfamiliar commodity,
         so it’s hardly surprising that the patent office was not well-equipped to determine the scientific merits of these patent applications, let alone the larger issue of whether genetic
         material was suitable for patenting.
     </p>
@@ -53,29 +55,26 @@
     </p>
 
     <p>
-        Around this time David Altshuler and 13 other leading geneticists from around the world were independently starting an organization which would eventually be named
-        the <a href="http://genomicsandhealth.org/">Global Alliance for Genomics and Health</a>.  This non-profit organization focused on disseminating genomic information,
-        and developing interoperable standards and techniques intended make the information learned from DNA available for the public good.   As one of its critical early, signature
-        projects, the Global Alliance has initiated the <a href="http://genomicsandhealth.org/our-work/current-initiatives/brca-challenge">BRCA Challenge</a>.
-        The BRCA Challenge iis attempting to  develop a catalog of all known mutations (variants) in the BRCA genes, and to link these variants  to clinical courses,
-        medication regimens, and eventual outcomes.
-        “BRCA Challenge” .  This organization is running under the auspices of The global Alliance for Genomics and Health (http://genomicsandhealth.org/) makes the exact opposite argument of Myriad’s, and instead argues for the open sharing of clinical genomics data.  They are now attempting to
+        Around this time David Altshuler and 13 other leading geneticists from around the world were started an organization which would eventually be named
+        the <a href="http://genomicsandhealth.org/">Global Alliance for Genomics and Health</a>.  This non-profit group focused on disseminating genomic information,
+        and developing interoperable standards and techniques intended make publicly available the information inherent in DNA.   And natural enough, as one of its signature
+        projects, the Global Alliance has initiated a project called the <a href="http://genomicsandhealth.org/our-work/current-initiatives/brca-challenge">BRCA Challenge</a>.
+        The BRCA Challenge is attempting to  develop a catalog of all known mutations (variants) in the BRCA genes, and to link these variants  to clinical courses,
+        medication regimens, and eventual outcomes. If it succeeds then all women interested in, worried about, or at risk for breast or ovarian cancer
+        attributable in part to BRCA mutations will have access to the best care that current science allows, rather than only that science  that
+        aassists in furthering Myriad Genetics financial goals.
     </p>
 
     <p>
-
+       At least as of this writing, many challenges still exist.  Myriad is still unwilling to systematically share their variant database, and scientists affiliated with
+        the BRCA challenge are therefore reduced to contacting patients who have received paper reports from Myriad and transcribing the contained information into an electronic
+       format.   While the size of the variant database thus acquired is increasing, it likely does not match the proprietary database still guarded by Myriad (though
+       the exact size of their database is a protected secret, so we don't know for sure).  If you'd like to know more, here is a
+       <a href="http://genomicsandhealth.org/files/GA-Hi-Plenary-Oct18-2014-ExemplarProjects-BRCA-JohnBurn-StephenChanock.mp4">video</a> providing a status update
+        of the BRCA challenge.  You can also go to the <a href="http://genomicsandhealth.org/">Global Alliance</a>  website  and explore some of the other
+        excellent initiatives their undertaking.  This is a time of rapid change and grand possibilities in the world of genomic information, and one in which corporate monetary aspirations
+        sometimes need to take a backseat to the public good.
     </p>
 
-    <p>
-
-    </p>
-
-    <p>
-
-    </p>
-
-    <p>
-
-    </p>
 
 </div><!-- /.blog-post -->
