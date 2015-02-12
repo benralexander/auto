@@ -113,6 +113,23 @@
 <g:javascript src="lib/bootstrap.js" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <g:javascript src="lib/ie10-viewport-bug-workaround.js"/>
+<g:javascript src="lib/tooltip.js"/>
+<g:javascript src="lib/popover.js"/>
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip({
+            delay: { show: 300, hide: 0 },
+            animation: true,
+            html: true
+        });
+        $('[data-toggle="popover"]').popover({
+            animation: true,
+            html: true,
+            template: '<div class="popover" role="tooltip"><div class="arrow"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>'
+        });
+    });
+</script>
+)
 
 </body>
 </html>

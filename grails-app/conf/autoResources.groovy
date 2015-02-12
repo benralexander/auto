@@ -6,6 +6,7 @@ modules = {
         resource url: 'http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'
         resource url: 'http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'
         resource url: 'http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'
+        resource url: 'js/lib/tooltip.js'
     }
     core {
         dependsOn "jquery"

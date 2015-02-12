@@ -69,7 +69,6 @@
             async: true,
             success: function (data) {
                   updateServerFlag(data["server"],data["status"]);
-//                loading.hide();
             },
             error: function (jqXHR, exception) {
                 console.log('failed to reach web server') ;
@@ -77,7 +76,6 @@
                 updateServerFlag(1,2);
                 updateServerFlag(2,2);
                 updateServerFlag(3,2);
-//                loading.hide();
             }
         });
     };
