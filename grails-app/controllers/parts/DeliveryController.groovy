@@ -7,7 +7,8 @@ class DeliveryController {
     SharedService sharedService
     List <String> monthsWithBlogs = ["2014_11",
                                      "2014_12",
-                                     "2015_01"]
+                                     "2015_01",
+                                     "2015_02"]
     String defaultYear =  "2014"
     String defaultMonth =  "11"
 
