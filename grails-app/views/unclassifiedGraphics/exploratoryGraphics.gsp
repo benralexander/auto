@@ -68,6 +68,10 @@
             A full screen celestial star map, with draggable rotation, color-coded stars, and labels over prominent heavenly bodies.  This graphic is based on D3 functionality, and was also derived based on code from Pablo Castillo's excellent book.
         </g:linkDesc>
 
+        <g:linkDesc buttonName="test harness" linkUrl="${grailsApplication.config.personalservercow}">
+            Here's a link to my testing website.  I have permanent links to some of the more complete examples on my testing website, but here's a link to the main page in case anyone is interested.
+        </g:linkDesc>
+
     </div>
 
 

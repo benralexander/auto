@@ -136,9 +136,12 @@
                     </li>
 
                     <li><a href="<g:createLink controller='delivery' action='blog'
-                                               params='[year: "2015", month: "02"]'/>">February</a> (1)
+                                               params='[year: "2015", month: "02"]'/>">February</a> (2)
                         <br/><em><a href="<g:createLink controller='delivery' action='blog'
                                                         params='[year: "2015", month: "02", fragment: "t2015feb8"]'/>">BRCA challenge</a>
+                    </em>
+                        <br/><em><a href="<g:createLink controller='delivery' action='blog'
+                                                        params='[year: "2015", month: "02", fragment: "t2015feb9"]'/>">Chromothripsis</a>
                     </em>
                    </li>
 
