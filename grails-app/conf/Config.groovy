@@ -141,8 +141,8 @@ mpgPortal {
     t2dDev  = 'http://type2diabetes-dev.elasticbeanstalk.com'
     t2dCi =  'http://ci-env.elasticbeanstalk.com'
     sigmaProd =  'http://sigmat2d.org/'
-    sigmaQa  =  'http://sigmat2dqasrv-env.elasticbeanstalk.com'
-    sigmaDev   = 'http://sigmat2ddev-env.elasticbeanstalk.com'
+    sigmaQa  =  'http://sigmat2dqasrv.elasticbeanstalk.com'
+    sigmaDev   = 'http://sigmat2ddev.elasticbeanstalk.com'
 }
 
 
