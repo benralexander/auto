@@ -59,13 +59,12 @@
             I'll move it into the scientific  graphics category, but for now it's just an experiment.
         </g:linkDesc>
 
-        <g:linkDesc buttonName="map" linkUrl="${grailsApplication.config.personalservercow}map/mapbox">
-            Incorporating maps into a webpage can be quite simple. There is an open source library called 'mapbox.js' which handles many of the low-level details. The example provided here comes from <a href="https://www.packtpub.com/web-development/mastering-d3js"> mastering D3.js</a>,
-            a book by Pablo Castillo which I quite like.
+        <g:linkDesc buttonName="star map" linkUrl="${grailsApplication.config.personalservercow}map/fullScreen">
+            A full screen celestial star map, with draggable rotation, color-coded stars, and labels over prominent heavenly bodies.  This graphic is based on D3 functionality, and was derived based on code from <a href="https://www.packtpub.com/web-development/mastering-d3js"> mastering D3.js</a>, Pablo Castillo's excellent book.
         </g:linkDesc>
 
-        <g:linkDesc buttonName="star map" linkUrl="${grailsApplication.config.personalservercow}map/fullScreen">
-            A full screen celestial star map, with draggable rotation, color-coded stars, and labels over prominent heavenly bodies.  This graphic is based on D3 functionality, and was also derived based on code from Pablo Castillo's excellent book.
+        <g:linkDesc buttonName="local thoughts" linkUrl="${grailsApplication.config.personalservercow}map/localThoughts">
+            An interactive world map with a locator pin.  Place the locator wherever you like on the map and the server will pull back all tweets originating within a specified radius of that location.
         </g:linkDesc>
 
         <g:linkDesc buttonName="test harness" linkUrl="${grailsApplication.config.personalservercow}">
