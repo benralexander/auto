@@ -86,6 +86,8 @@
 
 </div><!-- /.blog-post -->
 
+<div class="blog-post">
+
 <h2 class="blog-post-title"><a name="t2015feb9">The utility of chromothripsis</a></h2>
 
 <p class="blog-post-meta">February 9, 2015</p>
@@ -102,9 +104,10 @@
     then replicated, leading to a predominance of white blood cells lacking the deleterious mutation. As a result the woman
     appears to no longer have the syndrome that had troubled her throughout her life (though her two sons continue to be afflicted).  This surprising case
     suggests that the poorly understood phenomenon of chromothripsis may have some utility, representing the body's
-    attempt to deal itself a new genetic hand in the face of severe illness. This is all breaking news -- further analysis from scientists and the area is no doubt
+    attempt to deal itself a new genetic hand in the face of severe illness. This is all breaking news -- further analysis from scientists and the area is
     ongoing.
 </p>
 
 
 </div><!-- /.blog-post -->
+

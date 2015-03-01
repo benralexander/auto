@@ -46,13 +46,22 @@
         </g:linkDesc>
 
         <g:linkDesc buttonName="Genomes" linkUrl="http://genome.ucsc.edu/">
-            There are so very many sources for free information describing human biology that it's hard to pick a favorite.  At the least everyone should know that the human genome
+            Everyone should know that the human genome
             is an open resource (<a class="standardLinks" href="http://www.cafc.uscourts.gov/images/stories/opinions-orders/14-1361.Opinion.12-15-2014.1.PDF">Myriad</a> be damned), and that anyone can
             look through the sequence of bases that make up our DNA and draw their own conclusions. I provide a link to the venerable old UCSC Genome Browser.
         </g:linkDesc>
 
+        <g:linkDesc buttonName="Exome proj" linkUrl="http://exac.broadinstitute.org/">
+            The website describing Daniel MacArthur's Exome Aggregation project.  Examine the data here or else
+            download everything  and process it yourself.
+        </g:linkDesc>
+
+        <g:linkDesc buttonName="Tumor portal" linkUrl="http://www.tumorportal.org/">
+            What is the relationship between particular genes and cancer lines? Investigate further at the tumor portal.
+        </g:linkDesc>
+
         <g:linkDesc buttonName="DN!" linkUrl="http://www.democracynow.org/">
-            This is where I like to get my news
+            Amy Goodman is definitely a hero of mine, and Democracy Now! is my first choice for broadcast news.
         </g:linkDesc>
 
         <g:linkDesc buttonName="BKA" linkUrl="http://www.brucekalexander.com/index.php">

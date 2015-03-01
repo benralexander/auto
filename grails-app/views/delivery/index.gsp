@@ -63,7 +63,7 @@
             <h5>Collaborative efforts to which I have contributed</h5>
 
             <h4><a href='<g:createLink controller="ArtAndSocialMedia" action="index"/>'>Arts and social media</a></h4>
-            <h5>All the usual links</h5>
+            <h5>Links that I find interesting</h5>
         </div>
     </div>
     <div class="row" style="margin-bottom: 20px">

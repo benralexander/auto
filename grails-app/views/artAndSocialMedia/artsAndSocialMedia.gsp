@@ -62,7 +62,7 @@
                 <div class="plinkHolder">
                     <div class="col-sm-10 col-md-9 col-lg-8">
                         <p>
-                            I use this site as a resting place for the photo manipulations I sometimes do for fun.
+                            I use this site as a resting place for my recreational photo manipulations.
                         </p>
                     </div>
 
@@ -98,7 +98,7 @@
                         <p>
                             A large number of developers store their computer code on the site.  The ideals of
                             <a  class="standardLinks" href="http://en.wikipedia.org/wiki/Open_source">open source</a> ( that source code should be
-                             available to anyone) are receiving popular attention, and to    <a  class="standardLinks" href="https://github.com">GitHub</a>
+                             available to anyone) are receiving popular attention, and <a  class="standardLinks" href="https://github.com">GitHub</a>
                              plays a big role.
                         </p>
                     </div>
@@ -116,7 +116,7 @@
                     <div class="col-sm-10 col-md-9 col-lg-8">
                         <p>
                             There are plenty of sites which allow people to share photographs. I've choose to upload mind to Pixabay because
-                            they favor high-definition photographs, index extensively, and offer the resulting images without licensing restrictions.
+                            they favor high-definition photographs, they index extensively, and the resulting images are offered without licensing restrictions.
                         </p>
                     </div>
 
@@ -134,7 +134,7 @@
                 <div class="plinkHolder">
                     <div class="col-sm-10 col-md-9 col-lg-8">
                         <p>
-                            I have a twitter account.  Though I dismissed Twitter at first, I am coming to understand the significance of this service ( use it to keep your finger on the world's pulse --
+                            Though I dismissed Twitter at first, I am coming to understand the significance of this service ( use it to keep your finger on the world's pulse --
                             see my  <a  class="standardLinks" href="${grailsApplication.config.personalservercow}map/localThoughts">map</a> tie-in as an example. )
                         </p>
                     </div>
@@ -152,7 +152,7 @@
                 <div class="plinkHolder">
                     <div class="col-sm-10 col-md-9 col-lg-8">
                         <p>
-                            YouTube is already a hugely important force and continues to grow rapidly. I do not yet have many videos myself
+                            YouTube is already a hugely important force and continues to grow rapidly. I don't have many videos myself
                             but I'm learning.  Here is a link to my channel.
                         </p>
                     </div>
@@ -169,7 +169,7 @@
                 <div class="plinkHolder">
                     <div class="col-sm-10 col-md-9 col-lg-8">
                         <p>
-                            I have a Facebook page, though I admit that I have yet to contribute much to the service
+                            I have a Facebook page, though I have yet to contribute much.
                         </p>
                     </div>
 
@@ -186,7 +186,7 @@
                 <div class="plinkHolder">
                     <div class="col-sm-10 col-md-9 col-lg-8">
                         <p>
-                            Here is my Google+ page, which gets no more attention than my Facebook page
+                            Here is my Google+ page, which currently gets no more attention than my Facebook page
                         </p>
                     </div>
 

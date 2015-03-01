@@ -8,9 +8,11 @@ class DeliveryController {
     List <String> monthsWithBlogs = ["2014_11",
                                      "2014_12",
                                      "2015_01",
-                                     "2015_02"]
-    String defaultYear =  "2014"
-    String defaultMonth =  "11"
+                                     "2015_02",
+                                     "2015_03"
+    ]
+    String defaultYear =  "2015"
+    String defaultMonth =  "02"
 
     int indexOfTheMonth (String year,String month){
         String lookupKey =  "${year}_${month}"
