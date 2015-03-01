@@ -22,8 +22,8 @@
     which would maybe explain a thing or two, such as the popularity of celebrities or reality TV.  The story is still unfolding but so far I find the implications pretty troubling.
     </p>
 
-    <p>If you want to see a journalistic summary of this story then check out <a
-            href="http://news.sciencemag.org/biology/2014/10/algal-virus-found-humans-slows-brain-activity?utm_campaign=email-news-latest&utm_source=eloqua">this article</a>
+    <p>Additional details are available at the following <a class="standardLinks"
+                                                                                 href="http://news.sciencemag.org/biology/2014/10/algal-virus-found-humans-slows-brain-activity?utm_campaign=email-news-latest&utm_source=eloqua">link</a>
     </p>
 
 </div><!-- /.blog-post -->
@@ -39,7 +39,7 @@
 to build a powerful mapping application into a webpage, with tool tips, panning, zooming aand all the other  interactions that we've come to expect from online maps.  Technically it's pretty trivial, requiring only a few lines of JavaScript and a little CSS.  Financially
 the cost is a little less clear, though eventually I'm going to take the time to figure it out.</p>
 
-<p>First let's consider the technical story.  I'll use a library that is distributed by a company called  <a
+<p>First let's consider the technical story.  I'll use a library that is distributed by a company called  <a  class="standardLinks"
         href="https://www.mapbox.com/">mapbox</a>, and they certainly make the process easy.  You need only make
 one call containing 4 parameters ( your starting place on the globe, your level of zoom, an identifier called a map ID, and a selector providing the idea of a DOM object.)  You'll also need to create that DOM object, and
 include enough CSS to hold that DOM object in place. The sum total of  the code used in my example is reproduced below:
@@ -103,7 +103,7 @@ include enough CSS to hold that DOM object in place. The sum total of  the code 
 is most impressive. The tricky part about all of this, however, is whether or not it's actually free.  The code itself is mostly open source after all,
 (apparently a mixture of a volunteer-donated open source, along with code that was commercially developed
 under an open-source license) so the code should be available for download.  The data are also publicly available (some of it coming from NASA satellite imagery, as well as from
-the massive, fascinating <a
+the massive, fascinating <a class="standardLinks"
         href="http://www.openstreetmap.org">openstreetmap</a> project) so the data are also there for the taking.  So is all of
 mapbox therefore available like air is for anyone to breathe?</p>
 

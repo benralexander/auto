@@ -677,6 +677,16 @@ div.mainnav{
     background-color: #ffffff;
     padding: 15px;
 }
+div.jobadd{
+    margin-top: 10px;
+    border: 1px dashed;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; /* future proofing */
+    -khtml-border-radius: 3px; /* for old Konqueror browsers */
+    background-color: #ffffff;
+    padding: 25px;
+}
 .captionStyle{
     text-align: center;
 }

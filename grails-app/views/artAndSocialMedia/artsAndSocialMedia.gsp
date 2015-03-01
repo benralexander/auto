@@ -78,7 +78,9 @@
                 <div class="plinkHolder">
                     <div class="col-sm-10 col-md-9 col-lg-8">
                         <p>
-                            A social media site  where everybody lists their professional qualifications
+                            A social media site  where everybody lists their professional qualifications.  The division between
+                            presenting useful information on the one hand and shameless self-promotion on the other is
+                            nowhere less clear.
                         </p>
                     </div>
 
@@ -94,7 +96,10 @@
                 <div class="plinkHolder">
                     <div class="col-sm-10 col-md-9 col-lg-8">
                         <p>
-                            A large number of open source developers store their  computer code on the site, myself among them
+                            A large number of developers store their computer code on the site.  The ideals of
+                            <a  class="standardLinks" href="http://en.wikipedia.org/wiki/Open_source">open source</a> ( that source code should be
+                             available to anyone) are receiving popular attention, and to    <a  class="standardLinks" href="https://github.com">GitHub</a>
+                             plays a big role.
                         </p>
                     </div>
 
@@ -110,7 +115,8 @@
                 <div class="plinkHolder">
                     <div class="col-sm-10 col-md-9 col-lg-8">
                         <p>
-                            A site which allows people to share their photographs without licensing restrictions.    I've uploaded a small number of photographs which like for one reason or another.
+                            There are plenty of sites which allow people to share photographs. I've choose to upload mind to Pixabay because
+                            they favor high-definition photographs, index extensively, and offer the resulting images without licensing restrictions.
                         </p>
                     </div>
 
@@ -122,11 +128,32 @@
 
             <hr class="small">
 
+
+
             <div class="row">
                 <div class="plinkHolder">
                     <div class="col-sm-10 col-md-9 col-lg-8">
                         <p>
-                            I have uploaded a small number  of videos to YouTube. Here is a link to my channel
+                            I have a twitter account.  Though I dismissed Twitter at first, I am coming to understand the significance of this service ( use it to keep your finger on the world's pulse --
+                            see my  <a  class="standardLinks" href="${grailsApplication.config.personalservercow}map/localThoughts">map</a> tie-in as an example. )
+                        </p>
+                    </div>
+
+                    <div class="col-sm-2 col-md-3 col-lg-4">
+                        <a class="emphasizedLinks  pull-right"
+                           href="https://twitter.com/benralexander">Twitter</a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="small">
+
+            <div class="row">
+                <div class="plinkHolder">
+                    <div class="col-sm-10 col-md-9 col-lg-8">
+                        <p>
+                            YouTube is already a hugely important force and continues to grow rapidly. I do not yet have many videos myself
+                            but I'm learning.  Here is a link to my channel.
                         </p>
                     </div>
 
@@ -142,7 +169,7 @@
                 <div class="plinkHolder">
                     <div class="col-sm-10 col-md-9 col-lg-8">
                         <p>
-                            I have a Facebook page, though I admit that I rarely contribute to it
+                            I have a Facebook page, though I admit that I have yet to contribute much to the service
                         </p>
                     </div>
 
@@ -166,22 +193,6 @@
                     <div class="col-sm-2 col-md-3 col-lg-4">
                         <a class="emphasizedLinks  pull-right"
                            href="https://plus.google.com/u/0/+BenjaminAlexander47/posts">Google+</a>
-                    </div>
-                </div>
-            </div>
-
-            <hr class="small">
-            <div class="row">
-                <div class="plinkHolder">
-                    <div class="col-sm-10 col-md-9 col-lg-8">
-                        <p>
-                            I have a twitter page too.  I keep meaning to participate in this form of media and maybe I will one day.
-                        </p>
-                    </div>
-
-                    <div class="col-sm-2 col-md-3 col-lg-4">
-                        <a class="emphasizedLinks  pull-right"
-                           href="https://twitter.com/benralexander">Twitter</a>
                     </div>
                 </div>
             </div>

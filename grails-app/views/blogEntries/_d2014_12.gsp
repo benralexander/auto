@@ -9,7 +9,7 @@
     <p class="blog-post-meta">December 26, 2014</p>
 
     <p>I've been coding  in D3 (among other languages) for the last 18 months or so.  During that time I've been ever searching for the perfect, all-knowing book that would  explore all the little D3 stubling blocks
-    and still have some modicum of readability. I'm not sure if I found the perfect volume yet, but this weekend I've been going through <a href="https://www.packtpub.com/web-development/mastering-d3js">
+    and still have some modicum of readability. I'm not sure if I found the perfect volume yet, but this weekend I've been going through <a class="standardLinks" href="https://www.packtpub.com/web-development/mastering-d3js">
         Mastering D3.js by  Pablo Navarro Castillo</a> and so far I'm pretty impressed.  I want to commit the lesson I learned today to the page  before I have a chance to forget it.</p>
 
     <p>Previously  I had written D3 modules that followed the normal sorts of principles regarding encapsulation in JavaScript (no global variables, avoid side effects, use accessors, etc) all of which is fine,

@@ -66,10 +66,10 @@
             <h5>All the usual links</h5>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1" style="margin-top:30px;">
-            <div style="border: 1px dashed black; padding: 15px">
-            <h5><strong>Short-term notice:  We are looking for an unusually capable software engineer.  If you live in Massachusetts, know Grails/Groovy,
+    <div class="row" style="margin-bottom: 20px">
+        <div class="col-md-10 col-md-offset-1" style="margin-top:40px;">
+            <div class="jobadd text-center">
+            <h5><strong>Short-term notice:  We are looking for an highly capable software engineer.  If you live in Massachusetts, know Grails/Groovy,
             and are interested in biology then let me know via the 'contact' link above, or else apply through the following link:</strong></h5>
 
             <h4><a href='https://www.glassdoor.com/job-listing/software-engineer-JV_IC1154545_KO0,17_IE101270.htm?jl=1328926309' style="font-size: 12pt">Job opportunity:

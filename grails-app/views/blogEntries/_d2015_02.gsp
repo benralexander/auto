@@ -22,8 +22,8 @@
 
     <p>
         The importance of genetic testing was not lost on the business community, and in 1991 Myriad Genetics was incorporated in order to explore topics related to genomic medicine.
-        By 1993  <a href="http://www.ncbi.nlm.nih.gov/pubmed/8173065">BRCA1 had been cloned</a>  and in 1996  Myriad launched their
-        <a href="http://www.myriad.com/products-services/hereditary-cancers/bracanalysis/">diagnostic kit</a>.  Not content to be one of many players in this rapidly growing field,
+        By 1993  <a class="standardLinks" href="http://www.ncbi.nlm.nih.gov/pubmed/8173065">BRCA1 had been cloned</a>  and in 1996  Myriad launched their
+        <a class="standardLinks" href="http://www.myriad.com/products-services/hereditary-cancers/bracanalysis/">diagnostic kit</a>.  Not content to be one of many players in this rapidly growing field,
         Myriad moved to obtain patents over both BRCA1 and BRCA2.  While the laboratory of Myriad genetics founder Mark Skolnick at the University of Utah performed important early research,
         pioneering scientific work was also done elsewhere, and that the majority of the work across all institutions was publicly funded.   In the late 1990s genomic data in quantity was
         an unfamiliar commodity, so it’s hardly surprising that the patent office was ill-equipped to determine the scientific merits of Myriad's patent applications, let
@@ -43,15 +43,15 @@
         23 patents in a litigious fervor that restricted all scientific and medical access to BRCA1 and 2.  Eventually, however, the Association for Molecular Pathology, joined by the ACLU,
        challenged Myriad’s
         patents in court. An escalating series of verdicts eventually led to the Supreme Court, where in June 2013 the court ruled that Myriad’s patents were
-        <a href="http://www.supremecourt.gov/opinions/12pdf/12-398_1b7d.pdf">invalid</a>.  Myriad tried again by pushing forward with another series of patent claims, but on December 17
-        the Federal Court of Appeals <a href="http://www.supremecourt.gov/opinions/12pdf/12-398_1b7d.pdf">rejected</a> Myriad’s attempt to an alternative set of patent-based arguments.
+        <a class="standardLinks" href="http://www.supremecourt.gov/opinions/12pdf/12-398_1b7d.pdf">invalid</a>.  Myriad tried again by pushing forward with another series of patent claims, but on December 17
+        the Federal Court of Appeals <a class="standardLinks" href="http://www.supremecourt.gov/opinions/12pdf/12-398_1b7d.pdf">rejected</a> Myriad’s attempt to an alternative set of patent-based arguments.
         While the legal case might seem to be settled, Myriad’s sorry influence continues to negatively impact women’s attempt to learn about their cancer risk.
     </p>
 
     <p>
         At issue is the information about  specific mutations that underlie dysfunction in the two BRCA gene sequences. BRCA1 is over 80,000 bases long, after all,
         and there are many ways in which such a sequence can become dysfunctional (BRCA2 is shorter but still lengthy). During those years in which Myriad offered
-        the sole diagnostic test tthey were able to accumulate information from each woman who used their test,
+        the sole diagnostic test they were able to accumulate information from each woman who used their test,
         and associating specific mutations with outcomes the bottom linein this sort of clinical work.  While other researchers could now legally explore
         this region of the human genome, nobody else had had such a comprehensive database of specific mutations (known as 'variants'),
         and Myriad was unwilling to share their data.  Myriad's claim became that while you, the patient, were indeed entitled to use someone else’s kit,  you’d nevertheless
@@ -61,10 +61,10 @@
 
     <p>
         Around this time David Altshuler and 13 other leading geneticists from around the world  started an organization which would eventually be named
-        the <a href="http://genomicsandhealth.org/">Global Alliance for Genomics and Health</a>.  This non-profit group focused on disseminating genomic information,
+        the <a class="standardLinks" href="http://genomicsandhealth.org/">Global Alliance for Genomics and Health</a>.  This non-profit group focused on disseminating genomic information,
         and developing interoperable standards intended make the information in DNA into a public resource.   The Global Alliance
         brought academics and scientists to create a
-        project called the <a href="http://genomicsandhealth.org/our-work/current-initiatives/brca-challenge">BRCA Challenge</a>.
+        project called the <a class="standardLinks" href="http://genomicsandhealth.org/our-work/current-initiatives/brca-challenge">BRCA Challenge</a>.
         The BRCA Challenge is currently attempting to  develop a catalog of all known variants in the BRCA genes, and linking these variants  to clinical courses,
         medication regimens, and eventual outcomes. If the project succeeds then all women at risk for breast or ovarian cancer
         attributable to BRCA mutations will have access to the best care that science allows, rather than only the science  that
@@ -77,8 +77,8 @@
        reports are then transcribed into an electronic
        format but the goal of creating a public resource.   While the size of the variant database thus acquired is increasing, it likely does not match the proprietary database still guarded by Myriad (though
        the exact size of their database is a protected secret, so we don't know for sure).  If you'd like to know more, here is a
-       <a href="http://genomicsandhealth.org/files/GA-Hi-Plenary-Oct18-2014-ExemplarProjects-BRCA-JohnBurn-StephenChanock.mp4">video</a> providing a status update
-        of the BRCA challenge.  You can also go to the <a href="http://genomicsandhealth.org/">Global Alliance</a>  website  and explore some of the other
+       <a class="standardLinks" href="http://genomicsandhealth.org/files/GA-Hi-Plenary-Oct18-2014-ExemplarProjects-BRCA-JohnBurn-StephenChanock.mp4">video</a> providing a status update
+        of the BRCA challenge.  You can also go to the <a class="standardLinks" href="http://genomicsandhealth.org/">Global Alliance</a>  website  and explore some of the other
         excellent initiatives they are currently undertaking.  This is a time of rapid change and grand possibilities in the world of genomic information, and one in which corporate profits
         sometimes need to take a backseat to the public good.
     </p>
@@ -95,9 +95,9 @@
     DNA within a particular region of the chromosome, presumably leading to the activation/deactivation of many parts of the affected genetic code. Since this condition is
     observed in patients with cancer is usually considered to be a consequence of a pathological DNA replication, though chromothripsis may also cause or worsen
     certain types of cancer. In any case the event seemed inevitably to be bad news, UNTIL this recent
-    <a href="http://news.sciencemag.org/biology/2015/02/shattered-chromosome-cures-woman-immune-disease?utm_campaign=email-news-latest&utm_src=email">news story</a>.
+    <a class="standardLinks" href="http://news.sciencemag.org/biology/2015/02/shattered-chromosome-cures-woman-immune-disease?utm_campaign=email-news-latest&utm_src=email">news story</a>.
     In this case on woman with a rare congenital defect appears to have been cured when a chromothripsis event occurred in one of her
-    <a href="http://www.sciencedirect.com/science/article/pii/S0092867415000161">blood stem cells</a>, rearranging her DNA so as to remove
+    <a class="standardLinks" href="http://www.sciencedirect.com/science/article/pii/S0092867415000161">blood stem cells</a>, rearranging her DNA so as to remove
     the mutated CXCR4 gene that was the cause of her troubles.  The resulting healthy stem cell
     then replicated, leading to a predominance of white blood cells lacking the deleterious mutation. As a result the woman
     appears to no longer have the syndrome that had troubled her throughout her life (though her two sons continue to be afflicted).  This surprising case
