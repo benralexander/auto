@@ -4,7 +4,7 @@ Eleanor:
 BioAssay Research Database (BARD): chemical biology and probe-development enabled by structured metadata and result types
 Howe, Eleanor; de Souza, Andrea; Lahr, David; Chatwin, Simon; Montgomery, Philip; Alexander, Benjamin; Nguyen, Dac-Trung; Cruz, Yasel; Stonich, Derek; Walzer, Gil; Rose, Jason; Picard, Shaita; Liu, Zihan; Rose, Jaime; Xiang, Xiaorong; Asiedu, Jacob; Durkin, Daniel; Levine, Jeri; Yang, Jeremy; Schurer, Stephan; Braisted, Johnathan; Southall, Noel; Southern, Mark; Chung, Thomas; Brudz, Stephen; Tanega, Cordelle; Schreiber, Stuart L; Bittker, Joshua; Guha, Rajarshi; Clemons, Paul
 NAR-02453-Data-N-2014.R2
-...published
+...published, Nucleic Acids Research, November 12, 2014
 
 Matt:
 Title: Combining cancer cell-line sensitivity and gene expression reveals small-molecule mechanism of action

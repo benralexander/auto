@@ -63,6 +63,8 @@
         <div class="thumbnail">
             <img class='logoholder' src="http://www.cellprofiler.org/images/BroadInstituteLogo_smaller.png" alt="Broad Institute">
             <span class="pull-right"><a class="subtle" href="https://005901288866.signin.aws.amazon.com/console">.</a></span>
+            <span class="pull-right"><a class="subtle" href="http://tgreen-vm.broadinstitute.org:9090/">,</a></span>
+
             <div class="caption" style="text-align: center">
                 <div class="serverDescrBig">T2D Genes</div>
                 <div class="serverDescrSmall">CI</div>
