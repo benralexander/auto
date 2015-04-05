@@ -80,6 +80,10 @@
                     <a href="<g:createLink controller="delivery" action="contact"/>" role="presentation">Contact</a>
                 </li>
                 <li>
+                    <a href="<g:createLink controller="artAndSocialMedia" action="bovineForum"/>" role="presentation">Forum</a>
+                </li>
+
+                <li>
                     <a href="<g:createLink controller="delivery" action="blog"/>" role="presentation">Blog</a>
                 </li>
             </ul>

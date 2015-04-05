@@ -9,7 +9,8 @@ class DeliveryController {
                                      "2014_12",
                                      "2015_01",
                                      "2015_02",
-                                     "2015_03"
+                                     "2015_03",
+                                     "2015_04"
     ]
     String defaultYear =  "2015"
     String defaultMonth =  "02"

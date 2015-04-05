@@ -67,7 +67,12 @@
             To me it's kind of a neat demo that could be made into something thoroughly decorative with just a little work.
         </g:linkDesc>
 
-       <g:linkDesc buttonName="test harness" linkUrl="${grailsApplication.config.personalservercow}">
+        <g:linkDesc buttonName="D3, JS talk" linkUrl="${createLink(controller:'unclassifiedGraphics',action:'downloadPowerpoint')}">
+            I gave a talk while back regarding graphics, D3, JavaScript, and some of my notions about relevant best practices. The slides are available here.  For the full monty you can also catch the video presentation of the talk
+            on my YouTube channel.
+        </g:linkDesc>
+
+        <g:linkDesc buttonName="test harness" linkUrl="${grailsApplication.config.personalservercow}">
             Here's a link to my testing website.  Some of the examples I like best already have links that you can find elsewhere on this site, but here's a link to the index page for the complete
             test harness in case anyone is interested.
         </g:linkDesc>
