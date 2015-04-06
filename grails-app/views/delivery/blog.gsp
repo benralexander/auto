@@ -162,7 +162,7 @@
                     <li><a href="<g:createLink controller='delivery' action='blog'
                                                params='[year: "2015", month: "04"]'/>">April</a> (1)
                         <br/><em><a href="<g:createLink controller='delivery' action='blog'
-                                                        params='[year: "2015", month: "04", fragment: "t2015qpr05"]'/>">DNA sequencing</a>
+                                                        params='[year: "2015", month: "04", fragment: "t2015qpr05"]'/>">Climate change</a>
                     </em>
                     </li>
 
