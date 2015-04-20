@@ -38,9 +38,18 @@
 
     <h1>Open public forum</h1>
 
-    <h4>This form doesn't seem to be working very well yet.  I'm still investigating...</h4>
+    <h3>Bovine contemplation forum</h3>
 
-    <h3 style="display:none">Bovine contemplation forum</h3>
+    <p>Google Groups (or any of the equally easy-to-use alternatives) now make the construction of a forum trivially simple.
+    The limiting factor in communicating with other humans
+    is apparently no longer the absence of a container for your words, but
+    instead the lack of a topic worthy of the time it takes to write down.
+    I think I'll call this switch the Gutenberg Inversion, and claim it to be
+    a great challenge of our times.  If anyone wants to
+    argue the point (or extend it, or say anything else) then feel free to use the
+    topic pages below.</p>
+
+
     <div class="container linkContainerHolder">
 
         <div class="container-fluid personalLinks" style="border: 2px solid black; background-color: #eeeeee">

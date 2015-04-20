@@ -197,6 +197,20 @@
                 </div>
             </div>
 
+            <div class="row">
+                <div class="col-sm-12">
+                    <hr style="color: black; height: 1px; background-color:black;">
+                    <ul class="list-inline">
+                        <li>
+                            <g:link controller="artAndSocialMedia" action="feed" absolute="true">
+                                <g:img dir="images" file="rss2_buttons_04.png" width="128" height="48"/>
+                            </g:link>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
 
         </div>
     </div>
