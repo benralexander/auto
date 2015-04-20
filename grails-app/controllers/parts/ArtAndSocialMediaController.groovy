@@ -45,7 +45,7 @@ class ArtAndSocialMediaController {
         }
     }
     def nov2014 = {
-        redirect(controller: 'delivery', action:'blog', params:'[year:"2014",month:"11"]')
+        redirect(controller: 'delivery', action:'blog', params:[year:"2014",month:"11"])
     }
 
     def dec2014 = {
