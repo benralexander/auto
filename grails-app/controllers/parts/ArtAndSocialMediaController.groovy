@@ -27,15 +27,15 @@ class ArtAndSocialMediaController {
                 }
                 entry("January 2015") {
                     link = """${grailsLinkGenerator.link(controller: 'artAndSocialMedia', action: 'jan2015',absolute:true)}""".toString()
-                    "November 2014 content"
+                    "January 2015 content"
                 }
                 entry("February 2015") {
                     link = """${grailsLinkGenerator.link(controller: 'artAndSocialMedia', action: 'feb2015',absolute:true)}""".toString()
-                    "December 2014 content"
+                    "February 2015 content"
                 }
                 entry("March 2015") {
                     link = """${grailsLinkGenerator.link(controller: 'artAndSocialMedia', action: 'mar2015',absolute:true)}""".toString()
-                    "November 2014 content"
+                    "March 2015 content"
                 }
                 entry("April 2015") {
                     link = """${grailsLinkGenerator.link(controller: 'artAndSocialMedia', action: 'apr2015',absolute:true)}""".toString()

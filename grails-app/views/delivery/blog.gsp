@@ -12,6 +12,17 @@
     <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css" type="text/css">
     %{--<link type="text/css" href="${resource(dir: 'css', file: 'blog.css')}" rel="stylesheet" media="screen, projection" />--}%
 
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-62269801-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
     <style>
     .map-container {
         position: relative;
@@ -160,9 +171,13 @@
 
 
                     <li><a href="<g:createLink controller='delivery' action='blog'
-                                               params='[year: "2015", month: "04"]'/>">April</a> (1)
+                                               params='[year: "2015", month: "04"]'/>">April</a> (2)
+
                         <br/><em><a href="<g:createLink controller='delivery' action='blog'
                                                         params='[year: "2015", month: "04", fragment: "t2015qpr05"]'/>">Climate change</a>
+                    </em>
+                        <br/><em><a href="<g:createLink controller='delivery' action='blog'
+                                                        params='[year: "2015", month: "04", fragment: "t2015qpr26"]'/>">Antibiotic resistance</a>
                     </em>
                     </li>
 

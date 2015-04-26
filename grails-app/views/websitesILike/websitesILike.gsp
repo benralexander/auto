@@ -36,8 +36,26 @@
     <div class="container linkContainerHolder">
 
 
+        <g:linkDesc buttonName="Bioinfo" linkUrl="${createLink(controller:'websitesILike',action:'bioinformaticsResources')}">
+            The bioinformatics links reside on their own page
+        </g:linkDesc>
+
+         <g:linkDesc buttonName="Green" linkUrl=" http://www.alexastone.branded.me">
+            My sister's website. She created a business around the goal of increasing the efficiency of buildings in
+            Florida and nearby states. Her company takes on big projects. Check out this website to learn more.
+        </g:linkDesc>
+
+        <g:linkDesc buttonName="BKA" linkUrl="http://www.brucekalexander.com/index.php">
+            My father's website.  He conceived a new approach to understanding addiction, and this approach is now, 40
+            years after its introduction, finally gaining more public attention.
+        </g:linkDesc>
+
         <g:linkDesc buttonName="D3" linkUrl="https://github.com/mbostock/d3/wiki">
-            Mike Bostock is amazing, and D3  is far and away my favorite graphics package.  Follow this link and look through some of his graphics examples if you haven't already.
+            Mike Bostock is amazing, and D3  is my favorite graphics package.  Follow this link and look through some of his graphics examples if you haven't already.
+        </g:linkDesc>
+
+        <g:linkDesc buttonName="DN!" linkUrl="http://www.democracynow.org/">
+            Each day Amy Goodman provides the news you don't hear through corporate-controlled media. Democracy Now! is my first choice for broadcast news.
         </g:linkDesc>
 
         <g:linkDesc buttonName="D. Berry" linkUrl="http://www.molecularmovies.com/movies/viewanimatorstudio/Drew%20Berry/">
@@ -45,40 +63,12 @@
             I feel as if I can grasp some of the intricacies of biological processes in a deeper way.
         </g:linkDesc>
 
-        <g:linkDesc buttonName="Genomes" linkUrl="http://genome.ucsc.edu/">
-            Everyone should know that the human genome
-            is an open resource (<a class="standardLinks" href="http://www.cafc.uscourts.gov/images/stories/opinions-orders/14-1361.Opinion.12-15-2014.1.PDF">Myriad</a> be damned), and that anyone can
-            look through the sequence of bases that make up our DNA and draw their own conclusions. I provide a link to the venerable old UCSC Genome Browser.
+        <g:linkDesc buttonName="MOOC" linkUrl="${createLink(controller:'websitesILike',action:'educationalResources')}">
+            Anyone with a computer, some time, and the will to increase their understanding can now further their education. There is a sea change
+            in education going on right now, driven by but not limited to MOOCs.  Some of my favorite links are available here.
         </g:linkDesc>
 
-        <g:linkDesc buttonName="Exome proj" linkUrl="http://exac.broadinstitute.org/">
-            The website describing Daniel MacArthur's Exome Aggregation project.  Examine the data here or else
-            download everything  and process it yourself.
-        </g:linkDesc>
-
-        <g:linkDesc buttonName="Tumor portal" linkUrl="http://www.tumorportal.org/">
-            What is the relationship between particular genes and cancer lines? Investigate further at the tumor portal.
-        </g:linkDesc>
-
-        <g:linkDesc buttonName="DN!" linkUrl="http://www.democracynow.org/">
-            Amy Goodman is definitely a hero of mine, and Democracy Now! is my first choice for broadcast news.
-        </g:linkDesc>
-
-        <g:linkDesc buttonName="BKA" linkUrl="http://www.brucekalexander.com/index.php">
-            My dad's website-- other family members to follow (likely excepting my daughter, who is utterly appalled at the very notion of linking
-            her web presence to mine).
-        </g:linkDesc>
-
-        <g:linkDesc buttonName="EdX" linkUrl="https://www.edx.org/">
-            I love the idea of free education for the masses  from many of the best universities in the world.  I've taken more than a few of these classes myself and learned a huge amount.
-            (I only audit the courses  usually, but it seems like a great way to get free access to awesome lectures, and who can complain about that?)
-        </g:linkDesc>
-
-        <g:linkDesc buttonName="Lynda" linkUrl="http://www.lynda.com/">
-            This is a commercial site and I'm not endorsing them in any way. I am a member, however, and for the money I have to say that I've learned quite a bit.
-        </g:linkDesc>
-
-        <g:linkDesc buttonName="ngram" linkUrl="https://books.google.com/ngrams/graph?content=&case_insensitive=on&year_start=1600&year_end=2000&corpus=15&smoothing=3&share=&direct_url=">
+         <g:linkDesc buttonName="ngram" linkUrl="https://books.google.com/ngrams/graph?content=&case_insensitive=on&year_start=1600&year_end=2000&corpus=15&smoothing=3&share=&direct_url=">
             Answers this question: how commonly are particular words/phrases encountered in published works over the last few hundred years? What a fascinating tool.
         </g:linkDesc>
 
