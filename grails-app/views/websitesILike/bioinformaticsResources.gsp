@@ -59,6 +59,40 @@
                 <div class="plinkHolder">
                     <div class="col-sm-10 col-md-9 col-lg-8">
                         <p>
+                          This large, collaborative project represents an attempt to identify characteristic attributes of human DNA around the globe.   It was a relatively early effort  (starting in 2002)
+                            with enormous, ongoing impact in the field.
+                        </p>
+                    </div>
+
+                    <div class="col-sm-2 col-md-3 col-lg-4">
+                        <a class="emphasizedLinks  pull-right" href="http://hapmap.ncbi.nlm.nih.gov/">HapMap</a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="small">
+
+            <div class="row">
+                <div class="plinkHolder">
+                    <div class="col-sm-10 col-md-9 col-lg-8">
+                        <p>
+                            Sequence data from the 1000 genomes project. This was a project intended to capture the majority of the genetic variability
+                            present in down to 1% of the human population.
+                        </p>
+                    </div>
+
+                    <div class="col-sm-2 col-md-3 col-lg-4">
+                        <a class="emphasizedLinks  pull-right" href=http://www.1000genomes.org/">1000 genomes</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <hr class="small">
+            <div class="row">
+                <div class="plinkHolder">
+                    <div class="col-sm-10 col-md-9 col-lg-8">
+                        <p>
                             The website describing Daniel MacArthur's Exome Aggregation project.  Examine the data here or else
                             download everything  and process it yourself.
                         </p>
@@ -134,6 +168,22 @@
 
                     <div class="col-sm-2 col-md-3 col-lg-4">
                         <a class="emphasizedLinks  pull-right" href="http://genome.ucsc.edu/">UCSC</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="plinkHolder">
+                    <div class="col-sm-10 col-md-9 col-lg-8">
+                        <p>
+                             A useful tool for estimating the linkage disequilibrium between any two nearby snips.  A combination of
+                            great functionality with a rather unwieldy user interface.
+                         </p>
+                    </div>
+
+                    <div class="col-sm-2 col-md-3 col-lg-4">
+                        <a class="emphasizedLinks  pull-right" href="http://www.broadinstitute.org/mpg/snap">SNAP</a>
                     </div>
                 </div>
             </div>
