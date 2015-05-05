@@ -5,6 +5,9 @@ class UnclassifiedGraphicsController {
     def index() {
         render(view: 'exploratoryGraphics')
     }
+    def dataHierarchy() {
+        render(view: 'dataHierarchy')
+    }
 
     def downloadPowerpoint(){
         String fileName =  "/WEB-INF/resources/D3JavascriptPresentation.ppt"

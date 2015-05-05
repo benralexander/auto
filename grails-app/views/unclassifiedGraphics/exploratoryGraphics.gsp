@@ -67,6 +67,11 @@
             To me it's kind of a neat demo that could be made into something thoroughly decorative with just a little work.
         </g:linkDesc>
 
+        <g:linkDesc buttonName="Hierarchy" linkUrl="${createLink(controller:'unclassifiedGraphics',action:'dataHierarchy')}">
+            We are using a data set that can be broken down into a nested set of hierarchies. It was useful to convert into a sunburst.
+        </g:linkDesc>
+
+
         <g:linkDesc buttonName="D3, JS talk" linkUrl="${createLink(controller:'unclassifiedGraphics',action:'downloadPowerpoint')}">
             I gave a talk while back regarding graphics, D3, JavaScript, and some of my notions about relevant best practices. The slides are available here.  For the full monty you can also catch the video presentation of the talk
             on my YouTube channel.
