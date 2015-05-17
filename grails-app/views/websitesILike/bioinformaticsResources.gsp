@@ -171,6 +171,36 @@
                     </div>
                 </div>
             </div>
+            <hr class="small">
+
+            <div class="row">
+                <div class="plinkHolder">
+                    <div class="col-sm-10 col-md-9 col-lg-8">
+                        <p>
+                            The Source Read Archive is an excellent resource if you want to download DNA sequencing data. This time without the genome browser, but instead a better source
+                            from which to download raw FASTA files to perform your own analysis
+                        </p>
+                    </div>
+
+                    <div class="col-sm-2 col-md-3 col-lg-4">
+                        <a class="emphasizedLinks  pull-right" href="http://www.ncbi.nlm.nih.gov/sra">SRA</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="plinkHolder">
+                    <div class="col-sm-10 col-md-9 col-lg-8">
+                        <p>
+                            So you have sequencing data and you'd like to align it to one of the referenced genomes. This NCBI site is a great place to get started.
+                        </p>
+                    </div>
+
+                    <div class="col-sm-2 col-md-3 col-lg-4">
+                        <a class="emphasizedLinks  pull-right" href="http://blast.ncbi.nlm.nih.gov/Blast.cgi">Blast</a>
+                    </div>
+                </div>
+            </div>
 
 
             <div class="row">

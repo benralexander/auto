@@ -43,14 +43,16 @@
            assorted UI development, as well as a fair bit of architectural development.
         </g:linkDesc>
 
+        <g:linkDesc buttonName="Firebrowse" linkUrl="http://firebrowse.org/viewGene.html?egfr">
+            In this case I integrated a graphical widget which was in fact written by a different engineer (Kane Hadley).  The purpose of this plot is to show the relative degree of expression
+            for a single gene across multiple tissue types in both cancerous and noncancerous conditions. The data come from the well known
+            <a class="standardLinks" href="http://www.gtexportal.org/home/">GTEX project</a>
+        </g:linkDesc>
+
         <g:linkDesc buttonName="CTRP" linkUrl="http://www.broadinstitute.org/ctrp.v2/">
             The Cancer Therapeutics Response Portal,  which attempts to draw conclusions about the impact  of a select set of small molecules on a large number of different cancer subtypes.  My work
             on this project was mostly limited to graphics development.  Note that an earlier version of the <a class="standardLinks" href="http://www.broadinstitute.org/ctrp.v1/">portal</a> also exists
             (for which I did nothing at all).
-        </g:linkDesc>
-
-        <g:linkDesc buttonName="Firebrowse" linkUrl="http://firebrowse.org/exploreGene.html">
-            Some recent work I did for the Cancer Department. Here I nearly integrated a graphical widget that was written by another engineer.
         </g:linkDesc>
 
         <g:linkDesc buttonName="Chalice" linkUrl="http://cwr.horizondiscovery.com/slides/index.html">

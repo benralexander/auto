@@ -58,6 +58,13 @@
             Each day Amy Goodman provides the news you don't hear through corporate-controlled media. Democracy Now! is my first choice for broadcast news.
         </g:linkDesc>
 
+        <g:linkDesc buttonName="Diabetes" linkUrl="http://www.idf.org/diabetesatlas">
+            The international Diabetes Federation has put together an excellent
+            resource with information about this terrible disease. Their diabetes atlas page in particular
+            is filled with useful information to help explain the prevalence and spread of type 2 diabetes.
+        </g:linkDesc>
+
+
         <g:linkDesc buttonName="D. Berry" linkUrl="http://www.molecularmovies.com/movies/viewanimatorstudio/Drew%20Berry/">
             A collection of some of the molecular biology animations that have been created by Drew Berry.  I find his work really amazing, and after I view it
             I feel as if I can grasp some of the intricacies of biological processes in a deeper way.
