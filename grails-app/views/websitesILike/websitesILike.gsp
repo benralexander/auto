@@ -40,7 +40,7 @@
             The bioinformatics links reside on their own page
         </g:linkDesc>
 
-         <g:linkDesc buttonName="Green" linkUrl=" http://www.alexastone.branded.me">
+         <g:linkDesc buttonName="Green Queen" linkUrl=" http://www.alexastone.branded.me">
             My sister's website. She created a business around the goal of increasing the efficiency of buildings in
             Florida and nearby states. Her company takes on big projects. Check out this website to learn more.
         </g:linkDesc>
@@ -48,6 +48,11 @@
         <g:linkDesc buttonName="BKA" linkUrl="http://www.brucekalexander.com/index.php">
             My father's website.  He conceived a new approach to understanding addiction, and this approach is now, 40
             years after its introduction, finally gaining more public attention.
+        </g:linkDesc>
+
+        <g:linkDesc buttonName="Clara Eve" linkUrl="https://www.youtube.com/channel/UCLw_CNkwgEr7oMLc-IF0Pzw">
+            My lovely daughter has been making better and better short films for YouTube for over a year,
+            and now she is finally given me permission to post a link.
         </g:linkDesc>
 
         <g:linkDesc buttonName="D3" linkUrl="https://github.com/mbostock/d3/wiki">

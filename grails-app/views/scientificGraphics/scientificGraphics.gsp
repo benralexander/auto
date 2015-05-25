@@ -60,6 +60,19 @@ body {background-image: url('../images/old_mathematics.png')}
             the outer product comparisons. The possibilities for interactivity have not been fully explored.
         </g:linkDesc>
 
+
+        <g:linkDesc buttonName="Manhattan" linkUrl="${grailsApplication.config.personalserverbaget}man/manhattanPlot">
+            This graphic is called a "Manhattan plot", and it is used to compare the relative impacts of different Single Nucleotide Polymorphisms on a  population broken into
+            cases and controls on the basis of phenotype.  This graphic will eventually be deployed on the Diabetes Portal, though this version still needs work.
+            The challenge with these plots is the large number of points, which can push up against client memory limits (though not in this toy example).
+        </g:linkDesc>
+
+        <g:linkDesc buttonName="Trait SNPs" linkUrl="${grailsApplication.config.personalserverbaget}crossMap/crossTrait">
+            This graphic I developed only recently for the diabetes portal. The goal is to take a specified portion of the genome and display a cross-section of
+            Single Nucleotide Polymorphisms (SNPs) associated with various traits which bear relevance to diabetes. The size and direction of effect are also indicated,
+            so that you might look for dependencies between the traits.  I've added this to the  <a class="standardLinks" href="${grailsApplication.config.personalserverbaget}">BAGET project</a>.
+        </g:linkDesc>
+
         <g:linkDesc buttonName="box whisker 2" linkUrl="${grailsApplication.config.personalserverbaget}boxWhisker/index">
             Here's a version of the box whisker that I'm still working on. The idea is to provide a representation of the data distribution within each box
             by superimposing a histogram along the vertical axis. I've move this new version into the <a class="standardLinks" href="${grailsApplication.config.personalserverbaget}">BAGET project</a>,
@@ -102,12 +115,6 @@ body {background-image: url('../images/old_mathematics.png')}
             Here is one last Sunburst, this one different from the others in that you can supply your own data. in principle this process should be applicable
             to any strictly hierarchical data, limited only by screen real estate. I provide some additional information in this
             <a class="standardLinks" href="<g:createLink controller='delivery' action='blog' params='[year:"2015",month:"01", fragment: "t2015jan04"]'/>">blog post</a>.
-        </g:linkDesc>
-
-        <g:linkDesc buttonName="Manhattan" linkUrl="${grailsApplication.config.personalserverbaget}man/manhattanPlot">
-            This graphic is called a "Manhattan plot", and it is used to compare the relative impacts of different Single Nucleotide Polymorphisms on a  population broken into
-            cases and controls on the basis of phenotype.  This graphic will eventually be deployed on the Diabetes Portal, though this version still needs work.
-            The challenge with these plots is the large number of points, which can push up against client memory limits (though not in this toy example).
         </g:linkDesc>
 
         <g:linkDesc buttonName="box whisker" linkUrl="${grailsApplication.config.personalservercow}box/index">
