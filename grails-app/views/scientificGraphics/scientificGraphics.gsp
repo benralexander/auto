@@ -61,10 +61,10 @@ body {background-image: url('../images/old_mathematics.png')}
         </g:linkDesc>
 
 
-        <g:linkDesc buttonName="Manhattan" linkUrl="${grailsApplication.config.personalserverbaget}man/manhattanPlot">
+        <g:linkDesc buttonName="manhattan" linkUrl="${grailsApplication.config.personalserverbaget}man/manhattanPlot">
             This graphic is called a "Manhattan plot", and it is used to compare the relative impacts of different Single Nucleotide Polymorphisms on a  population broken into
             cases and controls on the basis of phenotype.  This graphic will eventually be deployed on the Diabetes Portal, though this version still needs work.
-            The challenge with these plots is the large number of points, which can push up against client memory limits (though not in this toy example).
+            The challenge with these plots is the large number of points, which can push up against client memory limits.
         </g:linkDesc>
 
         <g:linkDesc buttonName="Trait SNPs" linkUrl="${grailsApplication.config.personalserverbaget}crossMap/crossTrait">
