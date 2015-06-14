@@ -182,10 +182,19 @@
                     </li>
 
                     <li><a href="<g:createLink controller='delivery' action='blog'
-                                               params='[year: "2015", month: "01"]'/>">May</a> (1)
+                                               params='[year: "2015", month: "05"]'/>">May</a> (1)
 
                         <br/><em><a href="<g:createLink controller='delivery' action='blog'
                                                         params='[year: "2015", month: "05", fragment: "t2015may15"]'/>">Obama's opportunity</a>
+                    </em>
+                    </li>
+
+
+                    <li><a href="<g:createLink controller='delivery' action='blog'
+                                               params='[year: "2015", month: "06"]'/>">June</a> (1)
+
+                        <br/><em><a href="<g:createLink controller='delivery' action='blog'
+                                                        params='[year: "2015", month: "06", fragment: "t2015jun14"]'/>">Recent evolution</a>
                     </em>
                     </li>
 

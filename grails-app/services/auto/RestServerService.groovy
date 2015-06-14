@@ -13,27 +13,22 @@ class RestServerService {
     private static final log = LogFactory.getLog(this)
 
 
-    private  String MYSQL_REST_SERVER = ""
-    private  String BIGQUERY_REST_SERVER = ""
-    private  String TEST_REST_SERVER = ""
-    private  String DEV_REST_SERVER = ""
-    private  String QA_REST_SERVER = ""
-    private  String PROD_REST_SERVER = ""
+
     private  String BASE_URL = ""
-    private  String GENE_INFO_URL = "gene-info"
+    private  String HEARTBEAT_URL = "heartbeat"
     private  String PING_VERSION_URL = "system/determineVersion"
 
     public enum Server {
-        test(0), dev(1), qa(2), prod(3),
+        test(0), udev(1), uqa(2), uprod(3), bdev(1), bqa(2), bprod(3),
         t2dProd(4),t2dQa(5),t2dDev(6),t2dCi(7),
         sigmaProd(8),sigmaQa(9),sigmaDev(10);
         static Server  getServerById (int id)  {
             Server server
             switch (id)  {
                 case 0:  server = Server.test; break;
-                case 1:  server = Server.dev; break;
-                case 2:  server = Server.qa; break;
-                case 3:  server = Server.prod; break;
+                case 1:  server = Server.udev; break;
+                case 2:  server = Server.uqa; break;
+                case 3:  server = Server.uprod; break;
                 case 4:  server = Server.t2dProd; break;
                 case 5:  server = Server.t2dQa; break;
                 case 6:  server = Server.t2dDev; break;
@@ -41,6 +36,10 @@ class RestServerService {
                 case 8:  server = Server.sigmaProd; break;
                 case 9:  server = Server.sigmaQa; break;
                 case 10:  server = Server.sigmaDev; break;
+                case 11:  server = Server.bdev; break;
+                case 12:  server = Server.bqa; break;
+                case 13:  server = Server.bprod; break;
+
                 default: server = Server.test;
             }
             return server
@@ -50,167 +49,13 @@ class RestServerService {
         public int id() { return id }
     }
 
-    static List <String> VARIANT_SEARCH_COLUMNS = [
-            'ID',
-            'CHROM',
-            'POS',
-            'DBSNP_ID',
-            'CLOSEST_GENE',
-            'MOST_DEL_SCORE',
-            'Consequence',
-            'IN_GENE',
-            '_13k_T2D_TRANSCRIPT_ANNOT',
-            "Protein_change"
-    ]
-
-
-    static List <String> EXSEQ_VARIANT_SEARCH_COLUMNS = [
-            'IN_EXSEQ',
-            '_13k_T2D_P_EMMAX_FE_IV',
-            '_13k_T2D_EU_MAF',
-            '_13k_T2D_HS_MAF',
-            '_13k_T2D_AA_MAF',
-            '_13k_T2D_EA_MAF',
-            '_13k_T2D_SA_MAF',
-            '_13k_T2D_MINA',
-            '_13k_T2D_MINU',
-            '_13k_T2D_OR_WALD_DOS_FE_IV',
-            '_13k_T2D_SE'
-    ]
-
-
-    static List <String> EXCHP_VARIANT_SEARCH_COLUMNS = [
-            'IN_EXCHP',
-            'EXCHP_T2D_P_value',
-            'EXCHP_T2D_MAF',
-            'EXCHP_T2D_BETA',
-            'EXCHP_T2D_SE'
-    ]
-
-
-    static List <String> GWAS_VARIANT_SEARCH_COLUMNS = [
-            'IN_GWAS',
-            'GWAS_T2D_PVALUE',
-            'GWAS_T2D_OR',
-    ]
-
-
-    static List <String> SIGMA_VARIANT_SEARCH_COLUMNS = [
-            'SIGMA_T2D_P',
-            'SIGMA_T2D_OR',
-            'SIGMA_T2D_MINA',
-            'SIGMA_T2D_MINU',
-            'SIGMA_T2D_MAF',
-            'SIGMA_SOURCE',
-            'IN_SIGMA',
-    ]
-
-
-
-
-
-    static List <String> EXSEQ_VARIANT_COLUMNS = EXSEQ_VARIANT_SEARCH_COLUMNS + [
-            '_13k_T2D_HET_ETHNICITIES',
-            '_13k_T2D_HET_CARRIERS',
-            '_13k_T2D_HETA',
-            '_13k_T2D_HETU',
-            '_13k_T2D_HOM_ETHNICITIES',
-            '_13k_T2D_HOM_CARRIERS',
-            '_13k_T2D_HOMA',
-            '_13k_T2D_HOMU',
-            '_13k_T2D_OBSA',
-            '_13k_T2D_OBSU',
-    ]
-
-    static List <String> SIGMA_VARIANT_COLUMNS = SIGMA_VARIANT_SEARCH_COLUMNS + [
-            'SIGMA_T2D_N',
-            'SIGMA_T2D_MAC',
-            'SIGMA_T2D_OBSA',
-            'SIGMA_T2D_OBSU',
-            'SIGMA_T2D_HETA',
-            'SIGMA_T2D_HETU',
-            'SIGMA_T2D_HOMA',
-            'SIGMA_T2D_HOMU',
-            'SIGMA_T2D_SE',
-    ]
-
-
-    static List <String> GENE_COLUMNS = [
-            'ID',
-            'CHROM',
-            'BEG',
-            'END',
-            'Function_description',
-    ]
-
-
-    static List <String> EXSEQ_GENE_COLUMNS = [
-            '_13k_T2D_VAR_TOTAL',
-            '_13k_T2D_ORIGIN_VAR_TOTALS',
-            '_13k_T2D_lof_NVAR',
-            '_13k_T2D_lof_MINA_MINU_RET',
-            '_13k_T2D_lof_METABURDEN',
-            '_13k_T2D_GWS_TOTAL',
-            '_13k_T2D_LWS_TOTAL',
-            '_13k_T2D_NOM_TOTAL',
-            '_13k_T2D_lof_OBSA',
-            '_13k_T2D_lof_OBSU'
-    ]
-
-
-    static List <String> EXCHP_GENE_COLUMNS = [
-            'EXCHP_T2D_VAR_TOTALS',
-            'EXCHP_T2D_GWS_TOTAL',
-            'EXCHP_T2D_LWS_TOTAL',
-            'EXCHP_T2D_NOM_TOTAL',
-    ]
-
-
-    static List <String> GWAS_GENE_COLUMNS = [
-            'GWS_TRAITS',
-            'GWAS_T2D_GWS_TOTAL',
-            'GWAS_T2D_LWS_TOTAL',
-            'GWAS_T2D_NOM_TOTAL',
-            'GWAS_T2D_VAR_TOTAL',
-    ]
-
-
-    static List <String> SIGMA_GENE_COLUMNS = [
-            'SIGMA_T2D_VAR_TOTAL',
-            'SIGMA_T2D_VAR_TOTALS',
-            'SIGMA_T2D_NOM_TOTAL',
-            'SIGMA_T2D_GWS_TOTAL',
-            'SIGMA_T2D_lof_NVAR',
-            'SIGMA_T2D_lof_MAC',
-            'SIGMA_T2D_lof_MINA',
-            'SIGMA_T2D_lof_MINU',
-            'SIGMA_T2D_lof_P',
-            'SIGMA_T2D_lof_OBSA',
-            'SIGMA_T2D_lof_OBSU',
-    ]
 
     /***
      * plug together the different collections of column specifications we typically use
      */
     public void initialize (){
-        MYSQL_REST_SERVER = grailsApplication.config.t2dRestServer.base+grailsApplication.config.t2dRestServer.mysql+grailsApplication.config.t2dRestServer.path
-        BIGQUERY_REST_SERVER = grailsApplication.config.server.URL
-        TEST_REST_SERVER = grailsApplication.config.t2dTestRestServer.base+grailsApplication.config.t2dTestRestServer.name+grailsApplication.config.t2dTestRestServer.path
-        DEV_REST_SERVER = grailsApplication.config.t2dDevRestServer.base+grailsApplication.config.t2dDevRestServer.name+grailsApplication.config.t2dDevRestServer.path
-        QA_REST_SERVER = grailsApplication.config.t2dQaRestServer.base+grailsApplication.config.t2dQaRestServer.name+grailsApplication.config.t2dQaRestServer.path
-        PROD_REST_SERVER = grailsApplication.config.t2dProdRestServer.base+grailsApplication.config.t2dProdRestServer.name+grailsApplication.config.t2dProdRestServer.path
         BASE_URL =  grailsApplication.config.server.URL;
 
-    }
-
-    private List <String> getGeneColumns (Boolean sigma) {
-        List <String> returnValue
-        if (sigma) {
-            returnValue = (GENE_COLUMNS + SIGMA_GENE_COLUMNS + GWAS_GENE_COLUMNS)
-        } else { // must be t2dGenes
-            returnValue = (GENE_COLUMNS + EXSEQ_GENE_COLUMNS + EXCHP_GENE_COLUMNS + GWAS_GENE_COLUMNS)
-        }
-        return  returnValue
     }
 
 
@@ -218,16 +63,25 @@ class RestServerService {
         String url = ""
         switch (server) {
             case  Server.test:
-                url =  grailsApplication.config.t2dTestRestServer.base+grailsApplication.config.t2dTestRestServer.name+grailsApplication.config.t2dTestRestServer.path
+                url =  grailsApplication.config.t2dUbDeServer.base+grailsApplication.config.t2dUbDeServer.name+grailsApplication.config.t2dUbDeServer.path
                 break;
-            case  Server.dev:
+            case  Server.udev:
+                url =  grailsApplication.config.t2dUbDevServer.base+grailsApplication.config.t2dUbDevServer.name+grailsApplication.config.t2dUbDevServer.path
+                break;
+            case  Server.uqa:
+                url =  grailsApplication.config.t2dUbQaServer.base+grailsApplication.config.t2dUbQaServer.name+grailsApplication.config.t2dUbQaServer.path
+                break;
+            case  Server.uprod:
+                url =  grailsApplication.config.t2dProdRestServer.base+grailsApplication.config.t2dProdRestServer.name+grailsApplication.config.t2dProdRestServer.path
+                break;
+            case  Server.bdev:
                 url =  grailsApplication.config.t2dDevRestServer.base+grailsApplication.config.t2dDevRestServer.name+grailsApplication.config.t2dDevRestServer.path
                 break;
-            case  Server.qa:
+            case  Server.bqa:
                 url =  grailsApplication.config.t2dQaRestServer.base+grailsApplication.config.t2dQaRestServer.name+grailsApplication.config.t2dQaRestServer.path
                 break;
-            case  Server.prod:
-                url =  grailsApplication.config.t2dProdRestServer.base+grailsApplication.config.t2dProdRestServer.name+grailsApplication.config.t2dProdRestServer.path
+            case  Server.bprod:
+                url =  grailsApplication.config.t2dTestRestServer.base+grailsApplication.config.t2dTestRestServer.name+grailsApplication.config.t2dTestRestServer.path
                 break;
             case Server.t2dProd:
                 url =  grailsApplication.config.mpgPortal.t2dProd
@@ -257,6 +111,56 @@ class RestServerService {
         }
         return url;
     }
+
+
+
+    /***
+     * This is the underlying routine for every call to the rest backend.
+     * @param drivingJson
+     * @param targetUrl
+     * @return
+     */
+    private Integer getRestCall(String targetUrl, Server server){
+        Integer returnValue = null
+        Date beforeCall  = new Date()
+        Date afterCall
+        RestResponse response
+        RestBuilder rest = new grails.plugins.rest.client.RestBuilder()
+        StringBuilder logStatus = new StringBuilder()
+        try {
+            response  = rest.get(deriveServerUrl (server)+targetUrl)   {
+                contentType "application/json"
+            }
+            afterCall  = new Date()
+        } catch ( Exception exception){
+            log.error("NOTE: exception on post to backend. Target=${targetUrl}")
+            log.error(exception.toString())
+            logStatus <<  "NOTE: exception on post to backend. Target=${targetUrl}"
+            afterCall  = new Date()
+        }
+        logStatus << """
+SERVER CALL:
+url=${targetUrl},
+time required=${(afterCall.time-beforeCall.time)/1000} seconds
+""".toString()
+        returnValue =  response?.responseEntity?.statusCode?.value
+        if (response?.responseEntity?.statusCode?.value == 200) {
+            returnValue =  response.json
+            logStatus << """status: ok""".toString()
+        }  else {
+            JSONObject tempValue =  response?.json
+            logStatus << """status: ${response?.responseEntity?.statusCode?.value}""".toString()
+            if  (tempValue)  {
+                logStatus << """is_error: ${response.json["is_error"]}""".toString()
+            }  else {
+                logStatus << "no valid Json returned"
+            }
+        }
+        log.info(logStatus)
+        return returnValue
+    }
+
+
 
 
     /***
@@ -316,13 +220,7 @@ time required=${(afterCall.time-beforeCall.time)/1000} seconds
      */
     JSONObject retrieveGeneInfoByName (String geneName, Server server, Boolean sigma) {
         JSONObject returnValue = null
-        String drivingJson = """{
-"gene_symbol": "${geneName}",
-"user_group": "ui",
-"columns": [${"\""+getGeneColumns (sigma).join("\",\"")+"\""}]
-}
-""".toString()
-        returnValue = postRestCall( drivingJson, GENE_INFO_URL,server)
+        returnValue = getRestCall(HEARTBEAT_URL,server)
         return returnValue
     }
 
@@ -337,21 +235,17 @@ time required=${(afterCall.time-beforeCall.time)/1000} seconds
 
 
     public  Boolean testRestServer(Server server, Boolean sigma) {
-        Boolean returnValue = false
-        JSONObject jsonObject = retrieveGeneInfoByName("EGFR",server,sigma )
-        if (jsonObject != null) {
-            returnValue = ((jsonObject["is_error"] == false)  &&
-                    (jsonObject["gene-info"].size() > 0))
-        }
-        return returnValue
+        Integer returnValue
+        returnValue = getRestCall(HEARTBEAT_URL,server)
+        return (returnValue  == 200)
     }
 
     public  JSONObject pingWebServer(Server server) {
-        JSONObject returnValue = false
-        JSONObject jsonObject = retrieveVersionInfo(server)
-        if (jsonObject != null) {
-            returnValue = jsonObject["info"]
-        }
+        JSONObject returnValue = null
+//        JSONObject jsonObject = retrieveVersionInfo(server)
+//        if (jsonObject != null) {
+//            returnValue = jsonObject["info"]
+//        }
         return returnValue
     }
 

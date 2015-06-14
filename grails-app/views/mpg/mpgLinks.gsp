@@ -23,69 +23,78 @@
 </head>
 
 <body>
-<g:javascript src="lib/bootstrap.js" />
+<g:javascript src="lib/bootstrap.js"/>
 <r:img id="imgGood" uri="/images/good.png" style="display:none"/>
 <r:img id="imgTrouble" uri="/images/trouble.png" style="display:none"/>
 <r:img id="imgBad" uri="/images/good.png" style="display:none"/>
 <script>
-//    $('#diabetesTab').click(function (e) {
-//        e.preventDefault()
-//        $(this).tab('show')
-//    })
-//    $('#sigmaTab').click(function (e) {
-//        e.preventDefault()
-//        $(this).tab('show')
-//    })
+    //    $('#diabetesTab').click(function (e) {
+    //        e.preventDefault()
+    //        $(this).tab('show')
+    //    })
+    //    $('#sigmaTab').click(function (e) {
+    //        e.preventDefault()
+    //        $(this).tab('show')
+    //    })
 </script>
 <script>
-    var   updateServerFlag  = function (serverNumber,serverStatus)  {
+    var updateServerFlag = function (serverNumber, serverStatus) {
 
-           var serverObject;
+                var serverObject;
                 var imggood = $('#imgGood');
                 var imgbad = $('#imgBad');
                 switch (serverNumber) {
-                    case 0: serverObject  = $('#tstSrvrImg'); break;
-                    case 1: serverObject  = $('#devSrvrImg'); break;
-                    case 2: serverObject  = $('#qaSrvrImg'); break;
-                    case 3: serverObject  = $('#prodSrvrImg'); break;
-                    default: alert(' internal error.  Server number ='+serverNumber+'.') ;
+                    case 0:
+                        serverObject = $('#tstSrvrImg');
+                        break;
+                    case 1:
+                        serverObject = $('#devSrvrImg');
+                        break;
+                    case 2:
+                        serverObject = $('#qaSrvrImg');
+                        break;
+                    case 3:
+                        serverObject = $('#prodSrvrImg');
+                        break;
+                    default:
+                        alert(' internal error.  Server number =' + serverNumber + '.');
                 }
                 if (serverStatus == 0) {
-                    var x = '${r.external(uri:"images/trouble.png").encodeAsJavaScript()}' ;
-                    var y = '${r.external(uri:"images/trouble.png")}' ;
+                    var x = '${r.external(uri:"images/trouble.png").encodeAsJavaScript()}';
+                    var y = '${r.external(uri:"images/trouble.png")}';
                     serverObject[0].src = $('#imgTrouble')[0].src;
-                }  else  if (serverStatus == 1) {
+                } else if (serverStatus == 1) {
                     serverObject[0].src = $('#imgGood')[0].src;
-                }  else  if (serverStatus == 2) {
+                } else if (serverStatus == 2) {
                     serverObject[0].src = $('#imgBad')[0].src;
                 }
-          },
-    checkServer = function  (serverNumber) {
-        $.ajax({
-            cache: false,
-            type: "post",
-            url: "${createLink (action:'checkServerAjax','serverNumber':serverNumber )}",
-            data: {serverNumber: serverNumber},
-            async: true,
-            success: function (data) {
-                  updateServerFlag(data["server"],data["status"]);
             },
-            error: function (jqXHR, exception) {
-                console.log('failed to reach web server') ;
-                updateServerFlag(0,2);
-                updateServerFlag(1,2);
-                updateServerFlag(2,2);
-                updateServerFlag(3,2);
-            }
-        });
-    };
-    $(document).ready( function(){
-                try{
+            checkServer = function (serverNumber) {
+                $.ajax({
+                    cache: false,
+                    type: "post",
+                    url: "${createLink (action:'checkServerAjax','serverNumber':serverNumber )}",
+                    data: {serverNumber: serverNumber},
+                    async: true,
+                    success: function (data) {
+                        updateServerFlag(data["server"], data["status"]);
+                    },
+                    error: function (jqXHR, exception) {
+                        console.log('failed to reach web server');
+                        updateServerFlag(0, 2);
+                        updateServerFlag(1, 2);
+                        updateServerFlag(2, 2);
+                        updateServerFlag(3, 2);
+                    }
+                });
+            };
+    $(document).ready(function () {
+                try {
                     checkServer(0);
                     checkServer(1);
                     checkServer(2);
                     checkServer(3);
-                } catch(e){
+                } catch (e) {
                     console.log(e);
                 }
             }
@@ -124,74 +133,129 @@
 
     <div class="row">
         <div class="srvrHolder">
-        <div class="col-md-3">
-            <ul class="list-unstyled">
-                <li>
-                    <div id="tstSrvr" class="restSrvrBase">
-                        <r:img id="tstSrvrImg" uri="/images/good.png" alt="Broad medical population genetics"
-                               onclick="checkServer(0)"/>
-                    </div>
-                </li>
-                <li>
-                    <div class="restSrvrDescr">
-                        Test Server
-                    </div>
-                </li>
-            </ul>
-        </div>
+            <div class="col-md-3">
+                <ul class="list-unstyled">
+                    <li>
+                        <div id="tstSrvr" class="restSrvrBase">
+                            <r:img id="tstSrvrImg" uri="/images/good.png" alt="Broad medical population genetics"
+                                   onclick="checkServer(0)"/>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="restSrvrDescr">
+                            Test Server
+                        </div>
+                    </li>
+                </ul>
+            </div>
 
-        <div class="col-md-3">
-            <ul class="list-unstyled">
-                <li>
-                    <div id="devSrvr" class="restSrvrBase">
-                        <r:img id="devSrvrImg" uri="/images/good.png" alt="Broad medical population genetics"
-                               onclick="checkServer(1)"/>
-                    </div>
-                </li>
-                <li>
-                    <div class="restSrvrDescr">
-                        Dev Server
-                    </div>
-                </li>
-            </ul>
-        </div>
+            <div class="col-md-3">
+                <ul class="list-unstyled">
+                    <li>
+                        <div id="devSrvr" class="restSrvrBase">
+                            <r:img id="devSrvrImg" uri="/images/good.png" alt="Broad medical population genetics"
+                                   onclick="checkServer(1)"/>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="restSrvrDescr">
+                            Dev Server
+                        </div>
+                    </li>
+                </ul>
+            </div>
 
-        <div class="col-md-3">
-            <ul class="list-unstyled">
-                <li>
-                    <div id="qaSrvr" class="restSrvrBase">
-                        <r:img id="qaSrvrImg" uri="/images/good.png" alt="Broad medical population genetics"
-                               onclick="checkServer(2)"/>
-                    </div>
-                </li>
-                <li>
-                    <div class="restSrvrDescr">
-                        QA Server
-                    </div>
-                </li>
-            </ul>
+            <div class="col-md-3">
+                <ul class="list-unstyled">
+                    <li>
+                        <div id="qaSrvr" class="restSrvrBase">
+                            <r:img id="qaSrvrImg" uri="/images/good.png" alt="Broad medical population genetics"
+                                   onclick="checkServer(2)"/>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="restSrvrDescr">
+                            QA Server
+                        </div>
+                    </li>
+                </ul>
 
-        </div>
+            </div>
 
-        <div class="col-md-3">
-            <ul class="list-unstyled">
-                <li>
-                    <div id="prodSrvr" class="restSrvrBase">
-                        <r:img id="prodSrvrImg" uri="/images/good.png" alt="Broad medical population genetics"
-                               onclick="checkServer(3)"/>
-                    </div>
-                </li>
-                <li>
-                    <div class="restSrvrDescr">
-                        Prod Server
-                    </div>
-                </li>
-            </ul>
+            <div class="col-md-3">
+                <ul class="list-unstyled">
+                    <li>
+                        <div id="prodSrvr" class="restSrvrBase">
+                            <r:img id="prodSrvrImg" uri="/images/good.png" alt="Broad medical population genetics"
+                                   onclick="checkServer(3)"/>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="restSrvrDescr">
+                            Prod Server
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
+    <div class="row">
+        <div class="srvrHolder">
+
+            <div class="col-md-3">
+                <ul class="list-unstyled">
+                    <li>
+                        <div id="bdevSrvr" class="restSrvrBase">
+                            <r:img id="devSrvrImg" uri="/images/good.png" alt="Broad medical population genetics"
+                                   onclick="checkServer(11)"/>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="restSrvrDescr">
+                            Load balanced Dev
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <ul class="list-unstyled">
+                    <li>
+                        <div id="bqaSrvr" class="restSrvrBase">
+                            <r:img id="qaSrvrImg" uri="/images/good.png" alt="Broad medical population genetics"
+                                   onclick="checkServer(12)"/>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="restSrvrDescr">
+                            Load balanced QA
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="col-md-3">
+                <ul class="list-unstyled">
+                    <li>
+                        <div id="bprodSrvr" class="restSrvrBase">
+                            <r:img id="prodSrvrImg" uri="/images/good.png" alt="Broad medical population genetics"
+                                   onclick="checkServer(13)"/>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="restSrvrDescr">
+                            Load balanced Prod
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+            </div>
+
+        </div>
     </div>
 </div>
-
 
 </body>
 </html>

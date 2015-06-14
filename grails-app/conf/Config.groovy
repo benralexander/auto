@@ -113,20 +113,35 @@ t2dRestServer {
     bigquery =  'dev/'
     path = 'rest/server/'
 }
-t2dTestRestServer {
-    base = 'http://69.173.70.52:8080/'
-    name =  'test/'
-    path = 'rest/server/'
+t2dTestRestServer {         // load balanced prod
+    base = 'http://dig-api-prod.broadinstitute.org/'
+    name =  'prod/'
+    path = 'gs'
 }
-t2dDevRestServer {
-    base = 'http://69.173.71.178:8080/'
-    name =  'dev/'
-    path = 'rest/server/'
-}
-t2dQaRestServer {
-    base = 'http://69.173.70.198:8080/'
+t2dDevRestServer {          // load balanced dev
+    base = 'http://dig-api-prod.broadinstitute.org/'
     name =  'qa/'
-    path = 'rest/server/'
+    path = 'gs/'
+}
+t2dQaRestServer {          // load balanced qa
+    base = 'http://dig-api-prod.broadinstitute.org/'
+    name =  'dev/'
+    path = 'gs/'
+}
+t2dUbDevServer {          // load unbalanced dev
+    base = 'http://dig-dev.broadinstitute.org:8888/'
+    name =  'dev/'
+    path = 'gs/'
+}
+t2dUbQaServer {          // load unbalanced qa
+    base = 'http://dig-qa.broadinstitute.org:8090/'
+    name =  'qa/'
+    path = 'gs/'
+}
+t2dUbDeServer {          // load unbalanced dedicated
+    base = 'http://dig-test.broadinstitute.org:8080/'
+    name =  'dedicated/'
+    path = 'gs/'
 }
 t2dProdRestServer {
     base = 'http://69.173.71.179:8080/'
