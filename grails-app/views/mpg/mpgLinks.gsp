@@ -56,6 +56,15 @@
                     case 3:
                         serverObject = $('#prodSrvrImg');
                         break;
+                    case 11:
+                        serverObject = $('#bdevSrvrImg');
+                        break;
+                    case 12:
+                        serverObject = $('#bqbSrvrImg');
+                        break;
+                    case 13:
+                        serverObject = $('#bprodbSrvrImg');
+                        break;
                     default:
                         alert(' internal error.  Server number =' + serverNumber + '.');
                 }
@@ -85,6 +94,9 @@
                         updateServerFlag(1, 2);
                         updateServerFlag(2, 2);
                         updateServerFlag(3, 2);
+                        updateServerFlag(11, 2);
+                        updateServerFlag(12, 2);
+                        updateServerFlag(13, 2);
                     }
                 });
             };
@@ -206,7 +218,7 @@
                 <ul class="list-unstyled">
                     <li>
                         <div id="bdevSrvr" class="restSrvrBase">
-                            <r:img id="devSrvrImg" uri="/images/good.png" alt="Broad medical population genetics"
+                            <r:img id="bdevSrvrImg" uri="/images/good.png" alt="Broad medical population genetics"
                                    onclick="checkServer(11)"/>
                         </div>
                     </li>
@@ -222,7 +234,7 @@
                 <ul class="list-unstyled">
                     <li>
                         <div id="bqaSrvr" class="restSrvrBase">
-                            <r:img id="qaSrvrImg" uri="/images/good.png" alt="Broad medical population genetics"
+                            <r:img id="bqaSrvrImg" uri="/images/good.png" alt="Broad medical population genetics"
                                    onclick="checkServer(12)"/>
                         </div>
                     </li>
@@ -239,7 +251,7 @@
                 <ul class="list-unstyled">
                     <li>
                         <div id="bprodSrvr" class="restSrvrBase">
-                            <r:img id="prodSrvrImg" uri="/images/good.png" alt="Broad medical population genetics"
+                            <r:img id="bprodSrvrImg" uri="/images/good.png" alt="Broad medical population genetics"
                                    onclick="checkServer(13)"/>
                         </div>
                     </li>
