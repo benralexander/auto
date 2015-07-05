@@ -9,25 +9,25 @@
 
     <p>
         David Reich has been doing fascinating work in population genetics for years.  He collaborated with Svante Pääbo in sequencing
-        the Neanderthal genome, work which generated some well-supported conclusions.  In this <a class="standardLinks" href="https://www.youtube.com/watch?v=sWXRpp84bHQ">
-        lecture</a>  from 2011, for example, he methodically lays out the evidence for crossbreeding between Neanderthals and modern humans, which explains
-    why most non-Africans people are composed of between 1% and 4% of Neanderthal DNA.  As well, modern humans have other
-    closely related cousins, as evidenced in the fossil and genomic record. The  Denisovans split off from the human/Neanderthal branch about 1 million years ago,
-    after which the Denisovans followed their own phylogenetic path into extinction. Like the Neanderthals however Denisovan crossbreeding left its imprint on the modern human genome:
-    though in parts of Indonesia and Malaysia many contemporary humans can attribute up to 5% of their DNA to their Denisovan ancestors.  The most physiologically distinctive
-    of the near human ancestors, however, are the sub species known as 'Homo floresiensis'.  The bones found by archaeologists suggest that individuals were only a little over
+        the Neanderthal genome, work which generated many well-supported conclusions.  In this <a class="standardLinks" href="https://www.youtube.com/watch?v=sWXRpp84bHQ">
+        lecture</a>  from 2011, for example, he methodically lays out the evidence for crossbreeding between Neanderthals and modern humans, explaining why
+    the DNA of most people of non-African origin contains between 1% and 4% of Neanderthal DNA.  As well, modern humans have other
+    closely related-cousins, as evidenced through both the fossil evidence and genomic analysis. The  Denisovans split off from the human/Neanderthal branch about 1 million years ago,
+    and then eventually following their own phylogenetic path into extinction. Like the Neanderthals, however, Denisovan crossbreeding left its imprint on the modern human genome:
+    in parts of Indonesia and Malaysia many contemporary humans can attribute up to 5% of their DNA to their Denisovan ancestors.  The most physiologically distinctive
+    of the near human ancestors, however, are the sub species known as 'Homo floresiensis'.  The bones found by archaeologists suggest that individuals of this sub-species were only a little over
     a meter high, with brains only one third the size of modern humans. Unfortunately the island
     where their bones were discovered is typically hot and humid, and for this reason no recovered bones have yet yielded viable DNA, despite the fact that these
-    humanoid creatures were alive as recently as 17,000 years ago. Without intact DNA to sequence any conclusions about
-    crossbreeding and ancestry between modern humans and Homo floresiensis are only conjecture.
+    humanoid creatures were alive as recently as 17,000 years ago. Without intact DNA it is impossible to draw any firm conclusions about
+    crossbreeding and ancestry between modern humans and Homo floresiensis.
     </p>
 
     <p>
-        The DNA extracted from ancient bones  allows researchers to tell some stories with a high degree of specificity, and the development of persistent lactose tolerance is a good example.
+        The DNA extracted from ancient bones  allows researchers to tell some stories with great confidence, and the development of persistent lactose tolerance is a good example.
         While farmers and hunter-gatherers migrated into Europe in multiple waves over the last 8000 years, these people generally lacked the ability to
-        digest milk sugars as adults. As recently as 4800 years ago Europeans, many of them pastoralists, lacked the mutation to the LCT gene
-        necessary to allow the milk produced by their animals as a food.  Somewhere around 4300 years ago, however, lactose tolerance
-        swept through the population, and people with the mutation had a significant competitive advantage.  Today roughly 80%
+        digest milk sugars as adults. As recently as 4800 years ago Europeans, many of them pastoralists, lacked a mutation in their LCT gene
+        allowing adults to efficiently digest the milk produced by their domesticated animals.  Somewhere around 4300 years ago, however, lactose tolerance
+        swept through the population, and people with the mutation apparently had a competitive advantage.  Today roughly 80%
         of persons with European ancestry can  comfortably consume cheese, butter, and ice cream,  as a result of haplotype
         fixing through the population. For more details see  <a class="standardLinks" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3048992/">this article</a>.
     </p>
@@ -44,7 +44,7 @@
         fish and meat in lowlight situations?  It is easy to imagine plenty of 'just so' stories that seem consistent
         with the available evidence but which are not independently verifiable, and David Reich is always scrupulous about
         avoiding these sorts of claims.  In the absence of a consistently-iced specimen there is much about soft tissue-related phenotypes
-        that we can never know.  One point that genetic studies make irrefutably clear, however,
+        about which we can never be sure.  One point that genetic studies make irrefutably clear, however,
         is that the human species has continued to rapidly change up through recent archaeological times.
 
     </p>

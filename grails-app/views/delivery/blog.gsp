@@ -184,7 +184,7 @@
                     <li><a href="<g:createLink controller='delivery' action='blog'
                                                params='[year: "2015", month: "05"]'/>">May</a> (1)
 
-                        <br/><em><a href="<g:createLink controller='delivery' action='blog'
+                    <br/><em><a href="<g:createLink controller='delivery' action='blog'
                                                         params='[year: "2015", month: "05", fragment: "t2015may15"]'/>">Obama's opportunity</a>
                     </em>
                     </li>
@@ -199,7 +199,13 @@
                     </li>
 
 
+                    <li><a href="<g:createLink controller='delivery' action='blog'
+                                               params='[year: "2015", month: "07"]'/>">July</a> (1)
 
+                        <br/><em><a href="<g:createLink controller='delivery' action='blog'
+                                                        params='[year: "2015", month: "07", fragment: "t2015jul03"]'/>">Obesity and diabetes</a>
+                    </em>
+                    </li>
 
                 </ol>
             </div>

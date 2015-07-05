@@ -73,8 +73,9 @@
 
 
         <g:linkDesc buttonName="D3, JS talk" linkUrl="${createLink(controller:'unclassifiedGraphics',action:'downloadPowerpoint')}">
-            I gave a talk while back regarding graphics, D3, JavaScript, and some of my notions about relevant best practices. The slides are available here.  For the full monty you can also catch the video presentation of the talk
-            on my YouTube channel.
+            I gave a talk while back regarding graphics, D3, JavaScript, and some of my notions about relevant best practices. The slides are available here.  For the full monty you can also catch
+            the <a  class="standardLinks" href="https://www.youtube.com/watch?v=hgVtOGHO-8s">video presentation</a> of the talk
+            on my <a class="standardLinks" href="https://www.youtube.com/channel/UCJFwLw7wpEYRPsMwXty-7dQ">YouTube channel</a>.
         </g:linkDesc>
 
         <g:linkDesc buttonName="test harness" linkUrl="${grailsApplication.config.personalservercow}">
