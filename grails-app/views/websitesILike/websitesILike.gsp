@@ -40,14 +40,15 @@
             The bioinformatics links reside on their own page
         </g:linkDesc>
 
-         <g:linkDesc buttonName="Green Queen" linkUrl=" http://www.alexastone.branded.me">
+         <g:linkDesc buttonName="Green Queen" linkUrl="http://ecopreserve.net/">
             My sister's website. She created a business around the goal of increasing the efficiency of buildings in
-            Florida and nearby states. Her company takes on big projects. Check out this website to learn more.
+            Florida and nearby states. Her company takes on big projects, such as Orlando International Airport.
+            She also has a personal <a href="http://www.alexastone.branded.me/" class="standardLinks">website</a>.
         </g:linkDesc>
 
         <g:linkDesc buttonName="BKA" linkUrl="http://www.brucekalexander.com/index.php">
-            My father's website.  He conceived a new approach to understanding addiction, and this approach is now, 40
-            years after its introduction, finally gaining more public attention.
+            My <a href="https://en.wikipedia.org/wiki/Bruce_K._Alexander" class="standardLinks">father</a>'s website.  He conceived a new approach to understanding addiction, and this approach is now, 40
+            years after its introduction,  gaining considerable public attention.
         </g:linkDesc>
 
         <g:linkDesc buttonName="Clara Eve" linkUrl="https://www.youtube.com/channel/UCLw_CNkwgEr7oMLc-IF0Pzw">
@@ -67,6 +68,12 @@
             The international Diabetes Federation has put together an excellent
             resource with information about this terrible disease. Their diabetes atlas page in particular
             is filled with useful information to help explain the prevalence and spread of type 2 diabetes.
+        </g:linkDesc>
+
+        <g:linkDesc buttonName="Obesity" linkUrl="http://vizhub.healthdata.org/obesity/">
+            A beautiful, interactive graphic describing obesity on a per country timeline. This page is a fine
+            example  of how a visualization can provide an intuitive interface that allows users to drill down
+            into the particular data set that interests them.
         </g:linkDesc>
 
 

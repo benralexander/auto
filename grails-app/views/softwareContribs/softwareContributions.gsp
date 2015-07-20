@@ -49,7 +49,7 @@
             <a class="standardLinks" href="http://www.gtexportal.org/home/">GTEX project</a>
         </g:linkDesc>
 
-        <g:linkDesc buttonName="CTRP" linkUrl="http://www.broadinstitute.org/ctrp.v2/">
+        <g:linkDesc buttonName="CTRP" linkUrl="http://www.broadinstitute.org/ctrp/">
             The Cancer Therapeutics Response Portal,  which attempts to draw conclusions about the impact  of a select set of small molecules on a large number of different cancer subtypes.  My work
             on this project was mostly limited to graphics development.  Note that an earlier version of the <a class="standardLinks" href="http://www.broadinstitute.org/ctrp.v1/">portal</a> also exists
             (for which I did nothing at all).

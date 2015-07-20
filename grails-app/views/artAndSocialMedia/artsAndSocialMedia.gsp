@@ -134,8 +134,8 @@
                 <div class="plinkHolder">
                     <div class="col-sm-10 col-md-9 col-lg-8">
                         <p>
-                            Though I dismissed Twitter at first, I am coming to understand the significance of this service ( use it to keep your finger on the world's pulse --
-                            see my  <a  class="standardLinks" href="${grailsApplication.config.personalservercow}map/localThoughts">map</a> tie-in as an example. )
+                            Though I was initially slow to appreciate Twitter, I am coming to understand this service more and more (
+                            see also my twitter  <a  class="standardLinks" href="${grailsApplication.config.personalservercow}map/localThoughts">map</a> tie-in as an example. )
                         </p>
                     </div>
 
@@ -169,7 +169,8 @@
                 <div class="plinkHolder">
                     <div class="col-sm-10 col-md-9 col-lg-8">
                         <p>
-                            I have a Facebook page, though I have yet to contribute much.
+                            I am slowly learning how to use Facebook.  I think for many people ( or maybe it's just me) it isn't intuitively clear how to post  words and pictures
+                            about your own life and still have a private self.  I'll get there eventually.
                         </p>
                     </div>
 
@@ -186,7 +187,7 @@
                 <div class="plinkHolder">
                     <div class="col-sm-10 col-md-9 col-lg-8">
                         <p>
-                            Here is my Google+ page, which currently gets no more attention than my Facebook page
+                            Here is my Google+ page, a social media outlet for which I have yet to find a successful mode of interaction.
                         </p>
                     </div>
 
