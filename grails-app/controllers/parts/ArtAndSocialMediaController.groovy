@@ -68,5 +68,9 @@ class ArtAndSocialMediaController {
         redirect(controller: 'delivery', action:'blog', params:[year:"2015",month:"04"])
     }
 
+    def methodMissing(String name, Object args){
+        return "called $name with $args"
+    }
+
 
 }

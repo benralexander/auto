@@ -32,21 +32,21 @@ class RestServerServiceIntegrationSpec  extends IntegrationSpec {
         assert i == 1
     }
 
-
-    void "test retrieveTraitAsSpecifiedByGenomicRegion"() {
-        when:
-        JSONObject jsonObject = restServerService.retrieveGeneInfoByName("EGFR",RestServerService.Server.dev,false )
-        then:
-        jsonObject["is_error"] == false
-        jsonObject["gene-info"].size() > 0
-    }
-
-    void "test retrieveTraitAsSpecifiedByGenomicRegion sigma"() {
-        when:
-        JSONObject jsonObject = restServerService.retrieveGeneInfoByName("EGFR",RestServerService.Server.dev,true )
-        then:
-        jsonObject["is_error"] == false
-        jsonObject["gene-info"].size() > 0
-    }
+//
+//    void "test retrieveTraitAsSpecifiedByGenomicRegion"() {
+//        when:
+//        JSONObject jsonObject = restServerService.retrieveGeneInfoByName("EGFR",RestServerService.Server.bprod,false )
+//        then:
+//        jsonObject["is_error"] == false
+//        jsonObject["gene-info"].size() > 0
+//    }
+//
+//    void "test retrieveTraitAsSpecifiedByGenomicRegion sigma"() {
+//        when:
+//        JSONObject jsonObject = restServerService.retrieveGeneInfoByName("EGFR",RestServerService.Server.bprod,true )
+//        then:
+//        jsonObject["is_error"] == false
+//        jsonObject["gene-info"].size() > 0
+//    }
 
 }

@@ -15,6 +15,23 @@ class ArtAndSocialMediaControllerSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
+    void "test index"() {
+        when:
+        int i = 1
+        controller.index()
+
+        then:
+        i == 1
+        response.status == 200
     }
+
+    void "test method missing"() {
+        when:
+        int i = 1
+        String ret = controller.unreal('hello')
+
+        then:
+        ret == 'called unreal with [hello]'
+    }
+
 }

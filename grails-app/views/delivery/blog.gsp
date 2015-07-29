@@ -115,7 +115,7 @@
                 <h4>Archives</h4>
                 <ol class="list-unstyled">
                     <li><a href="<g:createLink controller='delivery' action='blog'
-                                               params='[year: "2014", month: "11"]'/>">November</a> (2)
+                                               params='[year: "2014", month: "11"]'/>">November</a>
                         <br/><em><a href="<g:createLink controller='delivery' action='blog'
                                                         params='[year: "2014", month: "11", fragment: "t2014nov15"]'/>">Brain algae virus</a>
                     </em>
@@ -124,7 +124,7 @@
                     </em>
                     </li>
                     <li><a href="<g:createLink controller='delivery' action='blog'
-                                               params='[year: "2014", month: "12"]'/>">December</a> (2)
+                                               params='[year: "2014", month: "12"]'/>">December</a>
                         <br/><em><a href="<g:createLink controller='delivery' action='blog'
                                                         params='[year: "2014", month: "12", fragment: "t2014dec26"]'/>">Clean D3 code</a>
                     </em>
@@ -134,7 +134,7 @@
 
                     </li>
                     <li><a href="<g:createLink controller='delivery' action='blog'
-                                               params='[year: "2015", month: "01"]'/>">January</a> (3)
+                                               params='[year: "2015", month: "01"]'/>">January</a>
                         <br/><em><a href="<g:createLink controller='delivery' action='blog'
                                                         params='[year: "2015", month: "01", fragment: "t2015jan04"]'/>">Do it Yourself sunburst</a>
                     </em>
@@ -147,7 +147,7 @@
                     </li>
 
                     <li><a href="<g:createLink controller='delivery' action='blog'
-                                               params='[year: "2015", month: "02"]'/>">February</a> (2)
+                                               params='[year: "2015", month: "02"]'/>">February</a>
                         <br/><em><a href="<g:createLink controller='delivery' action='blog'
                                                         params='[year: "2015", month: "02", fragment: "t2015feb8"]'/>">BRCA challenge</a>
                     </em>
@@ -157,7 +157,7 @@
                    </li>
 
                     <li><a href="<g:createLink controller='delivery' action='blog'
-                                               params='[year: "2015", month: "03"]'/>">March</a> (3)
+                                               params='[year: "2015", month: "03"]'/>">March</a>
                         <br/><em><a href="<g:createLink controller='delivery' action='blog'
                                                         params='[year: "2015", month: "03", fragment: "t2015mar1"]'/>">DNA sequencing</a>
                     </em>
@@ -171,7 +171,7 @@
 
 
                     <li><a href="<g:createLink controller='delivery' action='blog'
-                                               params='[year: "2015", month: "04"]'/>">April</a> (2)
+                                               params='[year: "2015", month: "04"]'/>">April</a>
 
                         <br/><em><a href="<g:createLink controller='delivery' action='blog'
                                                         params='[year: "2015", month: "04", fragment: "t2015qpr05"]'/>">Climate change</a>
@@ -182,7 +182,7 @@
                     </li>
 
                     <li><a href="<g:createLink controller='delivery' action='blog'
-                                               params='[year: "2015", month: "05"]'/>">May</a> (1)
+                                               params='[year: "2015", month: "05"]'/>">May</a>
 
                     <br/><em><a href="<g:createLink controller='delivery' action='blog'
                                                         params='[year: "2015", month: "05", fragment: "t2015may15"]'/>">Obama's opportunity</a>
@@ -191,7 +191,7 @@
 
 
                     <li><a href="<g:createLink controller='delivery' action='blog'
-                                               params='[year: "2015", month: "06"]'/>">June</a> (1)
+                                               params='[year: "2015", month: "06"]'/>">June</a>
 
                         <br/><em><a href="<g:createLink controller='delivery' action='blog'
                                                         params='[year: "2015", month: "06", fragment: "t2015jun14"]'/>">Recent evolution</a>
@@ -200,10 +200,14 @@
 
 
                     <li><a href="<g:createLink controller='delivery' action='blog'
-                                               params='[year: "2015", month: "07"]'/>">July</a> (1)
+                                               params='[year: "2015", month: "07"]'/>">July</a>
 
                         <br/><em><a href="<g:createLink controller='delivery' action='blog'
                                                         params='[year: "2015", month: "07", fragment: "t2015jul03"]'/>">Obesity and diabetes</a>
+                    </em>
+
+                        <br/><em><a href="<g:createLink controller='delivery' action='blog'
+                                                        params='[year: "2015", month: "07", fragment: "t2015jul28"]'/>">Clash of curves</a>
                     </em>
                     </li>
 
