@@ -23,5 +23,19 @@ class UnclassifiedGraphicsController {
                 render "Error!"
             }
    }
+    def downloadHawkes(){
+        String fileName =  "/WEB-INF/resources/Hawks07_accelerated_evolution_.pdf"
+        File file =  grailsApplication.mainContext.getResource(fileName).file
+        //   File file = new File(fileName)
+        if (file.exists())
+        {
+            response.setContentType("application/octet-stream") // or or image/JPEG or text/xml or whatever type the file is
+            response.setHeader("Content-disposition", "attachment;filename=\"${file.name}\"")
+            response.outputStream << file.bytes
+        }
+        else {
+            render "Error!"
+        }
+    }
 
 }

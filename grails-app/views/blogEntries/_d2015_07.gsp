@@ -9,20 +9,20 @@
 
     <p>
         Last month I attended the American Diabetes Association meeting in Boston.   While my presence at this meeting
-        was admittedly motivated largely around the release of the newest version of our software  <a class="standardLinks" href="http://www.type2diabetesgenetics.org/">type2diabetesgenetics.org</a>,
-        it was also an  opportunity to learn more about this awful disease.  Surely the dangers are real and on the increase for many different populations. I took
-        a particularly alarming set of maps off of the CDC website and ran them into a short video graphic that illustrates <a class="standardLinks" href="https://www.youtube.com/watch?v=ckPoi13fIFU">obesity trends in the United States</a>.
-        Despite the extraordinarily large proportion of the people in the United States have become overweight (~68%), the US is not the most negatively impacted country.    The small South Pacific island nation of Tonga
-        is currently the worst off (86%), though many other countries are distressingly nearer to that top slot.
+        was admittedly motivated mostly by the recent release of our software  <a class="standardLinks" href="http://www.type2diabetesgenetics.org/">type2diabetesgenetics.org</a>,
+        it was also an  opportunity to learn more about this terrible disease.  Clearly the danger of this disease is on the increase for many different populations. I took
+        a particularly alarming set of maps off of the CDC website and ran them together to create a short video graphic that illustrates <a class="standardLinks" href="https://www.youtube.com/watch?v=ckPoi13fIFU">obesity trends in the United States</a>.
+        Note that the rates of obesity in the US (~68%) are far from the world's worst.  The small South Pacific island nation of Tonga  is winning that race
+        (86% of the population are overweight or obese), though many other countries are distressingly close to that number.
             </p>
     <p>
 
         (Note: If you wish to compare obesity trends over time and region yourself then I would recommend the following interactive <a class="standardLinks" href="http://vizhub.healthdata.org/obesity/">visualization</a>
-        from the Institute for Health Metrics and Evaluation.  The health impacts of the phenomenon are deeply troubling, but the interactive graphic itself is most impressive.)
+        from the Institute for Health Metrics and Evaluation.  The health impacts of the phenomenon are deeply troubling, but from a software engineering  perspective the interactive graphic itself is awesome!)
 
       <p>
     </p>
-    While obesity is clearly a driving cause of type 2 diabetes, BMI alone is not the only factor.
+    While obesity is clearly a driving cause of type 2 diabetes, the amount of fat on your body is not the only factor.
         For this reason the nations in Southeast Asia (including China and India) are those that are currently facing the gravest dangers from diabetes, even though obesity is less common there
         than in many other countries, including the United States. Other factors,  at least partially genetic, cause increasing rates of obesity in southern Asia to lead to a disproportionately
         large increase in rates of diabetes. This disease is becoming an ever more  critical danger to public health, especially as more people in these areas adopt a so-called 'Western' diet (high in meat,
@@ -34,7 +34,7 @@
     <p>
 
         The ADA conference also provided for me an interesting perspective on  the business side of healthcare in the United States. In my capacity as a software engineer I have attended many technical conferences
-        in the biotech realm, and the exhibit floor is typically occupied by companies that vend big-ticket instrumentation, along with other companies that set up a booth to sell  software
+        in the biotech realm, and the exhibit floor is typically occupied by companies that vend big-ticket instrumentation, along with other companies that set up booths to sell  software
         and/or services. In the ADA conference, on the other hand, it was perfectly clear where the money came from, and it had little to do with instrumentation. Instead pharmaceutical firms constructed enormous booths,
         managed by smiling and attractive people who tossed out endless quantities of swag,
         and did their very best to at least get an email address from you, if not something more.  I would love to include a picture of the expo floor, but of course
@@ -65,8 +65,8 @@
     <p>
      Writing over 200 years ago, Robert Malthus proposed an inevitable contradiction between two rates of growth.  He pointed out that population growth is inherently
      an exponential process, while the available food supply can grow only geometrically.  Growing populations would therefore inevitably run up against inadequate
-     food supplies, leading to periods of starvation and population decrease, after which the cycle would begin again. Critics have aince argued
-     that Malthus failed to understand the influence of technology, and that ongoing technological improvement would allow us to forever stave off
+     food supplies, leading to periods of starvation and population decrease, after which the cycle would begin again. Critics have since argued
+     that Malthus failed to appreciate the influence of technology, and that ongoing technological improvement would allow us to forever stave off
      a 'Malthusian catastrophe'.  And on the world scale it would seem that the technologists have,
      at least so far, been closer to the truth.
      </p>
@@ -91,7 +91,7 @@
        represented a technological plateau which served our ancestors with little improvement for a very long time.
     </p>
       <p>
-        Change did eventually come, of course, and time since the Acheulean tool industry has been marked by ever increasing rapidity of change.
+        Change did eventually come, of course, and the period since the Acheulean tool industry has been marked by ever increasing rapidity of change.
         Next came the middle Paleolithic starting around 250,000 years ago, with the first developments that might be considered ornamental or symbolic.  By 50,000 years ago
         came the beginning of the upper Paleolithic, with an explosion of new technologies, including fishing,  knife blades, and bone artifacts. By 30,000 years ago, in the late Stone Age,
         our ancestors had developed complex tools and rich symbolic cave art. From 10,000 years ago came the first development of agriculture, followed by cities,
@@ -118,9 +118,17 @@
         of the long-term integration between human neurons and silicone-based chips, but there is doubtless the potential for considerable improvement. The second possibility is that
         we finally concede to the inevitability of an exponentially growing curve exceeding a geometrical one. Perhaps, as Malthus originally predicted, population size will swamp our ability
         to produce food, and we will see mass starvation and disease. Or maybe we will instead fall prey to some other rapidly growing change, perhaps drowning under layers of
-        plastic and pollution, or watching the planet melt beneath us as unsustainable growth finally identifies itself as such.   One way or another, however, we must address the fact
+        plastic and pollution, or watching the planet melt beneath us under the influence of unsustainable growth.   One way or another, however, we must address the fact
         that we are caught between two curves, and the space between them is rapidly diminishing.
     </p>
+
+   <p>
+       Follow-up note on August 2:  After writing this post last week  I came upon an interesting <a  class="standardLinks" href="${createLink(controller:'unclassifiedGraphics',action:'downloadHawkes')}">article</a>.
+       Apparently there is quantitative evidence to suggest that the rate of evolutionary change in modern humans has in fact increased over the last 40,000 years (roughly the period of the upper Paleolithic, as identified above).
+       In this case 'evolutionary change' implies positive selection, as measured through a variety of metrics from statistical genetics.  So maybe my argument above  about the increasing rate
+       of technological change is not merely an abstract metaphor, but instead has some connection to our physical being as well.
+    </p>
+
 
 </div><!-- /.blog-post -->
 
