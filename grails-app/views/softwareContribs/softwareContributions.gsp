@@ -16,7 +16,7 @@
 
     <meta name="keywords" content="Broad Institute, medical population genetics">
     <meta name="description" content="Assorted websites with software engineering by Ben Alexander">
-    <title>Assorted websites with software engineering by Ben Alexander</title>
+    <title>Projects with contributions by Ben Alexander</title>
 
 
 </head>
@@ -30,7 +30,7 @@
 
 <div class="container">
 
-<h1>Packages to which I have contributed software</h1>
+<h1>Projects to which I have contributed</h1>
 
 
 
@@ -58,6 +58,10 @@
         <g:linkDesc buttonName="Chalice" linkUrl="http://cwr.horizondiscovery.com/slides/index.html">
             I originally created a software package called "Chalice" back in 2004 for the company then called  'CombinatoRx'.  I later parted ways with this little Boston-based startup company but they retained the software I had written
             for them and in fact they eventually pushed it forward quite a bit, so I can now claim no more than partial authorship the software as it stands now.
+        </g:linkDesc>
+
+        <g:linkDesc buttonName="Publications" linkUrl="${createLink(controller:'softwareContribs',action:'pubs')}">
+            Here's a listing of recent peer-reviewed publications.  I am the lead author on exactly none of these, but I contributed work to all of them.
         </g:linkDesc>
 
 

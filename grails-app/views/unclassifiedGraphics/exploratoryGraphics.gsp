@@ -71,6 +71,10 @@
             We are using a data set that can be broken down into a nested set of hierarchies. It was useful to convert into a sunburst.
         </g:linkDesc>
 
+        <g:linkDesc buttonName="Learning D3" linkUrl="${grailsApplication.config.personalservercow}cookin/steepcurve">
+           I put together a simple graphic that tries to explain the challenges of the D3 learning curve.
+        </g:linkDesc>
+
 
         <g:linkDesc buttonName="D3, JS talk" linkUrl="${createLink(controller:'unclassifiedGraphics',action:'downloadPowerpoint')}">
             I gave a talk while back regarding graphics, D3, JavaScript, and some of my notions about relevant best practices. The slides are available here.  For the full monty you can also catch

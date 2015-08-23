@@ -59,7 +59,7 @@
             <h4><a href='<g:createLink controller="WebsitesILike" action="index"/>'>Websites I like</a></h4>
             <h5>Other people's websites</h5>
 
-            <h4><a href='<g:createLink controller="SoftwareContribs" action="index"/>'>Collaborative Websites</a></h4>
+            <h4><a href='<g:createLink controller="SoftwareContribs" action="index"/>'>Collaborative work</a></h4>
             <h5>Collaborative efforts to which I have contributed</h5>
 
             <h4><a href='<g:createLink controller="ArtAndSocialMedia" action="index"/>'>Arts and social media</a></h4>

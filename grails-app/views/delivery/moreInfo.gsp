@@ -1,31 +1,64 @@
-Papers with my name:
+<h3>Recent peer-reviewed publications</h3>
+<style >
+.pubtitle {
+    font-family: "sans-serif";
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.pubauthors {
+    font-family: "sans-serif";
+    font-size: 11px;
+}
+.pubreference {
+    font-family: "monospace";
+    font-size: 10px;
+}
 
-Eleanor:
-BioAssay Research Database (BARD): chemical biology and probe-development enabled by structured metadata and result types
-Howe, Eleanor; de Souza, Andrea; Lahr, David; Chatwin, Simon; Montgomery, Philip; Alexander, Benjamin; Nguyen, Dac-Trung; Cruz, Yasel; Stonich, Derek; Walzer, Gil; Rose, Jason; Picard, Shaita; Liu, Zihan; Rose, Jaime; Xiang, Xiaorong; Asiedu, Jacob; Durkin, Daniel; Levine, Jeri; Yang, Jeremy; Schurer, Stephan; Braisted, Johnathan; Southall, Noel; Southern, Mark; Chung, Thomas; Brudz, Stephen; Tanega, Cordelle; Schreiber, Stuart L; Bittker, Joshua; Guha, Rajarshi; Clemons, Paul
-NAR-02453-Data-N-2014.R2
-...published, Nucleic Acids Research, November 12, 2014
+</style>
 
-Matt:
-Title: Combining cancer cell-line sensitivity and gene expression reveals small-molecule mechanism of action
-Authors: Matthew G. Rees1, Brinton Seashore-Ludlow1, Jaime H. Cheah1,*, Edmund V. Price1,†, Matthew E. Coletti1, Victor Jones1, Nicole E. Bodycombe1,‡, Christian K. Soule1,*, Benjamin Alexander1, Ava Li1, Philip Montgomery1, Joanne Kotz1, C. Suk-Yee Hon1, Benito Munoz1, Ted Liefeld1, Vlado Dančík1, Joshua A. Bittker1, Michelle Palmer1, Paul A. Clemons1,§, Alykhan F. Shamji1,§, and Stuart L. Schreiber1,§
-...submitted to Nature Chemical Biology
+<p>
+    <div class="pubtitle">BioAssay Research Database (BARD): chemical biology and probe-development enabled by structured metadata and result types</div>
+<div class="pubauthors">Howe, Eleanor; de Souza, Andrea; Lahr, David; Chatwin, Simon; Montgomery, Philip; Alexander, Benjamin; Nguyen, Dac-Trung; Cruz, Yasel; Stonich, Derek;
+Walzer, Gil; Rose, Jason; Picard, Shaita; Liu, Zihan; Rose, Jaime; Xiang, Xiaorong; Asiedu, Jacob; Durkin, Daniel; Levine, Jeri; Yang, Jeremy; Schurer, Stephan;
+Braisted, Johnathan; Southall, Noel; Southern, Mark; Chung, Thomas; Brudz, Stephen; Tanega, Cordelle; Schreiber, Stuart L; Bittker, Joshua; Guha, Rajarshi; Clemons, Paul</div>
+<div class="pubreference">Nucleic Acids Research, 43(D1). December, 2014, NAR-02453-Data-N-2014.R2</div>
+</p>
 
-Brinton:
-Harnessing connectivity in a large-scale small-molecule sensitivity dataset
-Authors: Brinton Seashore-Ludlow1, Matthew G. Rees1, Jaime H. Cheah1,†, Murat Cokol, Edmund V. Price1,‡, Matthew E. Coletti1, Victor Jones1, Nicole E. Bodycombe1,§, Christian K. Soule1,†, Joshua Gould1, Benjamin Alexander1, Ava Li1, Philip  Montgomery1, Mathias Wawer1, Joanne D. Kotz1, C. Suk-Yee Hon1, Benito Munoz1, Ted Liefeld1, Vlado Dančík1, Joshua A. Bittker1, Michelle Palmer1, James E. Bradner1,2, Alykhan F. Shamji1,*, Paul A. Clemons1,*, and Stuart L. Schreiber1,*
-...You have successfully submitted your manuscript to Cancer Discovery.
+<p>
+<div class="pubtitle">Advancing Biological Understanding and Therapeutics Discovery with Small-Molecule Probes</div>
+<div class="pubauthors">Stuart L. Schreiber, Joanne D. Kotz, Min Li, Jeffrey Aubé, Christopher P. Austin, John C.
+Reed, Hugh Rosen, E. Lucile White, Larry A. Sklar, Craig W. Lindsley, Benjamin R.
+Alexander, Joshua Bittker, Paul A. Clemons, Andrea De Souza, Michael A. Foley, Michelle
+Palmer, Alykhan F. Shamji, Mathias J. Wawer, Owen McManus, Meng Wu, Beiyan Zou,
+Haibo Yu, Jennifer E. Golden, Frank J. Schoenen, Anton Simeonov, Ajit Jadhav, Michael R.
+Jackson, Anthony B. Pinkerton, Thomas D.Y. Chung, Patrick R. Griffin, Benjamin F. Cravatt,
+Dong-Hoon Chung, Colleen B. Jonsson, James W. Noah, William E. Severson,
+Subramaniam Ananthan, Bruce Edwards, Tudor I. Oprea, P. Jeffrey Conn, Corey R.
+Hopkins, Michael R. Wood, Shaun R. Stauffer, Kyle A. Emmitte and the NIH Molecular
+Libraries Project Team </div>
+<div class="pubreference">Cell 161(6): 1252-1265, June 2015</div>
+</p>
 
-Joanna:
-Advancing Biological Understanding and Therapeutics Discovery with Small-Molecule Probes
-Stuart L. Schreiber1, Joanne D. Kotz1, Min Li2, Jeffrey Aubé3, Christopher P. Austin4, John C.
-Reed5, Hugh Rosen6, E. Lucile White7, Larry A. Sklar8, Craig W. Lindsley9, Benjamin R.
-Alexander1, Joshua Bittker1, Paul A. Clemons1, Andrea De Souza1, Michael A. Foley1, Michelle
-Palmer1, Alykhan F. Shamji1, Mathias J. Wawer1, Owen McManus2, Meng Wu2, Beiyan Zou2,
-Haibo Yu2, Jennifer E. Golden3, Frank J. Schoenen3, Anton Simeonov4, Ajit Jadhav4, Michael R.
-Jackson5, Anthony B. Pinkerton5, Thomas D.Y. Chung5, Patrick R. Griffin6, Benjamin F. Cravatt6,
-Dong-Hoon Chung7, Colleen B. Jonsson7, James W. Noah7, William E. Severson7,
-Subramaniam Ananthan7, Bruce Edwards8, Tudor I. Oprea8, P. Jeffrey Conn9, Corey R.
-Hopkins9, Michael R. Wood9, Shaun R. Stauffer9, Kyle A. Emmitte9 and the NIH Molecular
-Libraries Project Team*
-...submitted to Cell
+
+<p>
+<div class="pubtitle">Harnessing connectivity in a large-scale small-molecule sensitivity dataset</div>
+<div class="pubauthors">Brinton Seashore-Ludlow, Matthew G. Rees, Jaime H. Cheah, Murat Cokol, Edmund V. Price, Matthew E. Coletti, Victor Jones,
+Nicole E. Bodycombe, Christian K. Soule1, Joshua Gould, Benjamin Alexander, Ava Li, Philip  Montgomery, Mathias Wawer, Joanne D. Kotz, C. Suk-Yee Hon,
+Benito Munoz, Ted Liefeld, Vlado Dančík, Joshua A. Bittker, Michelle Palmer, James E. Bradner, Alykhan F. Shamji, Paul A. Clemons, and Stuart L. Schreiber</div>
+<div class="pubreference">Cancer Discovery, October 2015 (in press)</div>
+</p>
+
+<p>
+<div class="pubtitle">Combining cancer cell-line sensitivity and gene expression reveals small-molecule mechanism of action</div>
+<div class="pubauthors">Matthew G. Rees, Brinton Seashore-Ludlow, Jaime H. Cheah, Edmund V. Price1, Matthew E. Coletti, Victor Jones,
+Nicole E. Bodycombe, Christian K. Soule, Benjamin Alexander, Ava Li, Philip Montgomery, Joanne Kotz, C. Suk-Yee Hon, Benito Munoz,
+Ted Liefeld, Vlado Dančík, Joshua A. Bittker, Michelle Palmer, Paul A. Clemons, Alykhan F. Shamji, and Stuart L. Schreiber</div>
+<div class="pubreference">Nature Chemical Biology (in press) </div>
+
+</p>
+
+
+
+
+
