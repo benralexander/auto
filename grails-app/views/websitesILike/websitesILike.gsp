@@ -56,6 +56,12 @@
             and now she is finally given me permission to post a link.
         </g:linkDesc>
 
+        <g:linkDesc buttonName="Lucas" linkUrl="https://minecraft.net/">
+            My son runs a Minecraft server, in which as many as 30 simultaneous atavars can interact in a virtual landscape of hills, oceans, and monsters.  If you haven't played this game
+            then you really should because it's pretty neat. First go to the supplied link and download the client program, then add in my son's server IP --> 162.244.165.81:64843
+        </g:linkDesc>
+
+
         <g:linkDesc buttonName="D3" linkUrl="https://github.com/mbostock/d3/wiki">
             Mike Bostock is amazing, and D3  is my favorite graphics package.  Follow this link and look through some of his graphics examples if you haven't already.
         </g:linkDesc>
