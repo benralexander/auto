@@ -111,8 +111,9 @@
         </div><!-- /.blog-main -->
 
         <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+        <h4 class="sidebar-module">Archives</h4>
             <div class="sidebar-module sidebar-module-inset">
-                <h4>Archives</h4>
+
                 <ol class="list-unstyled">
                     <li><a href="<g:createLink controller='delivery' action='blog'
                                                params='[year: "2014", month: "11"]'/>">November</a>
@@ -120,7 +121,7 @@
                                                         params='[year: "2014", month: "11", fragment: "t2014nov15"]'/>">Brain algae virus</a>
                     </em>
                         <br/><em><a href="<g:createLink controller='delivery' action='blog'
-                                                        params='[year: "2014", month: "11", fragment: "t2014nov28"]'/>">Maps and open source</a>
+                                                        params='[year: "2014", month: "11", fragment: "t2014nov28"]'/>">Maps / open source</a>
                     </em>
                     </li>
                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -136,7 +137,7 @@
                     <li><a href="<g:createLink controller='delivery' action='blog'
                                                params='[year: "2015", month: "01"]'/>">January</a>
                         <br/><em><a href="<g:createLink controller='delivery' action='blog'
-                                                        params='[year: "2015", month: "01", fragment: "t2015jan04"]'/>">Do it Yourself sunburst</a>
+                                                        params='[year: "2015", month: "01", fragment: "t2015jan04"]'/>">DIY sunburst</a>
                     </em>
                         <br/><em><a href="<g:createLink controller='delivery' action='blog'
                                                         params='[year: "2015", month: "01", fragment: "t2015jan11"]'/>">Clean JavaScript?</a>
@@ -185,7 +186,7 @@
                                                params='[year: "2015", month: "05"]'/>">May</a>
 
                     <br/><em><a href="<g:createLink controller='delivery' action='blog'
-                                                        params='[year: "2015", month: "05", fragment: "t2015may15"]'/>">Obama's opportunity</a>
+                                                        params='[year: "2015", month: "05", fragment: "t2015may15"]'/>">Obama's chance</a>
                     </em>
                     </li>
 
@@ -208,6 +209,14 @@
 
                         <br/><em><a href="<g:createLink controller='delivery' action='blog'
                                                         params='[year: "2015", month: "07", fragment: "t2015jul28"]'/>">Clash of curves</a>
+                    </em>
+                    </li>
+
+                    <li><a href="<g:createLink controller='delivery' action='blog'
+                                               params='[year: "2015", month: "07"]'/>">July</a>
+
+                        <br/><em><a href="<g:createLink controller='delivery' action='blog'
+                                                        params='[year: "2015", month: "08", fragment: "t2015aug31"]'/>">Lamarck revisited</a>
                     </em>
                     </li>
 

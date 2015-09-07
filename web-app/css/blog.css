@@ -113,28 +113,14 @@ h6, .h6 {
 
 /* Sidebar modules for boxing content */
 .sidebar-module {
-/* media queries */
-/*@media only screen and (max-width: 1023px){*/
-    /*@media (min-width: @screen-sm-min) {*/
-    /*padding: 15px;*/
-    /*margin: 0 -15px 15px;*/
-/*}*/
-/*@media (min-width: @screen-md-min) {*/
-    /*position: fixed;*/
-    /*top: 80px;*/
-    /*right: 50px;*/
-/*}*/
-/*@media (min-width: @screen-lg-min) {*/
-    /*position: fixed;*/
-    /*top: 80px;*/
-    /*right: 50px;*/
-/*}*/
     position: fixed;
-   /* top: 80px; */
     right: 50px;
-     /* old way */
-    /*padding: 15px;*/
-    /*margin: 0 -15px 15px;*/
+}
+h4.sidebar-module {
+    position: fixed;
+    top: 250px;
+    right: 120px;
+    font-weight: bold;
 }
 .sidebar-module li {
     margin: 15px 0 15px 0;
@@ -150,6 +136,10 @@ h6, .h6 {
     padding: 15px;
     background-color: #f5f5f5;
     border-radius: 4px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 600px;
+    white-space:nowrap;
 }
 .sidebar-module-inset p:last-child,
 .sidebar-module-inset ul:last-child,
