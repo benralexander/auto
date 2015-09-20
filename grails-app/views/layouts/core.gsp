@@ -31,6 +31,7 @@
     %{--<g:external  type="image/x-icon" uri="/images/icons/favicon.ico"/>--}%
     %{--<link rel="shortcut icon" href="${createLinkTo(dir:'images',file:'dna-strands.ico')}" type="image/x-icon" />--}%
     <link rel="Shortcut Icon" href="${resource(dir: 'images/icons', file: 'dna-strands.ico')}" type="image/x-icon" />
+    <meta name="wot-verification" content="28befb51e5dd9cdca7df"/>
     <g:layoutHead/>
 
 </head>
