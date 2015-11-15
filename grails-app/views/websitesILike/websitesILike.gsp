@@ -29,18 +29,13 @@
 <div class="container">
 
 <h1>Websites I like</h1>
-<h3>This page has no theme whatsoever. I've simply collected a few of the links that I find interesting or one reason or another</h3>
 
 
 
     <div class="container linkContainerHolder">
 
 
-        <g:linkDesc buttonName="Bioinfo" linkUrl="${createLink(controller:'websitesILike',action:'bioinformaticsResources')}">
-            The bioinformatics links reside on their own page
-        </g:linkDesc>
-
-         <g:linkDesc buttonName="Green Queen" linkUrl="http://ecopreserve.net/">
+          <g:linkDesc buttonName="Green Queen" linkUrl="http://ecopreserve.net/">
             My sister's website. She created a business around the goal of increasing the efficiency of buildings in
             Florida and nearby states. Her company takes on big projects, such as Orlando International Airport.
             She also has a personal <a href="http://www.alexastone.branded.me/" class="standardLinks">website</a>.
@@ -61,6 +56,14 @@
             then you really should because it's pretty neat. First go to the supplied link and download the client program, then add in my son's server IP --> 162.244.165.81:64843
         </g:linkDesc>
 
+        <g:linkDesc buttonName="Bioinfo" linkUrl="${createLink(controller:'websitesILike',action:'bioinformaticsResources')}">
+            The bioinformatics links reside on their own page
+        </g:linkDesc>
+
+        <g:linkDesc buttonName="Lasserre" linkUrl="http://maskulllasserre.com/home.html">
+            Sculptor Maskull Lasserre creates beautiful, arresting, and sometimes disturbing pieces that are worthy of consideration.   Maskull is one of the contributors
+            to <a href="http://www.dismaland.co.uk/advert/" class="standardLinks">Dismaland</a>, an art installation which will never, ever come to the United States.
+        </g:linkDesc>
 
         <g:linkDesc buttonName="D3" linkUrl="https://github.com/mbostock/d3/wiki">
             Mike Bostock is amazing, and D3  is my favorite graphics package.  Follow this link and look through some of his graphics examples if you haven't already.

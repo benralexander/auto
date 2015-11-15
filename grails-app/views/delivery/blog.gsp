@@ -213,10 +213,26 @@
                     </li>
 
                     <li><a href="<g:createLink controller='delivery' action='blog'
-                                               params='[year: "2015", month: "07"]'/>">July</a>
+                                               params='[year: "2015", month: "08"]'/>">August</a>
 
                         <br/><em><a href="<g:createLink controller='delivery' action='blog'
                                                         params='[year: "2015", month: "08", fragment: "t2015aug31"]'/>">Lamarck revisited</a>
+                    </em>
+                    </li>
+
+                    <li><a href="<g:createLink controller='delivery' action='blog'
+                                               params='[year: "2015", month: "09"]'/>">September</a>
+
+                        <br/><em><a href="<g:createLink controller='delivery' action='blog'
+                                                        params='[year: "2015", month: "09", fragment: "t2015sep25"]'/>">The North Atlantic</a>
+                    </em>
+                    </li>
+
+                    <li><a href="<g:createLink controller='delivery' action='blog'
+                                               params='[year: "2015", month: "10"]'/>">October</a>
+
+                        <br/><em><a href="<g:createLink controller='delivery' action='blog'
+                                                        params='[year: "2015", month: "10", fragment: "t2015oct10"]'/>">Nonuniform genome</a>
                     </em>
                     </li>
 

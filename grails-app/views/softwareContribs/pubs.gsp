@@ -41,11 +41,16 @@
     }
     .pubauthors {
         font-family: "sans-serif";
-        font-size: 14px;
+        font-size: 16px;
     }
     .pubreference {
         font-family: "monospace";
+        font-size: 16px;
+    }
+    .pubDOIreference {
+        font-family: "sans-serif";
         font-size: 14px;
+        font-weight: bold;
     }
 
     </style>
@@ -56,6 +61,7 @@
     Walzer, Gil; Rose, Jason; Picard, Shaita; Liu, Zihan; Rose, Jaime; Xiang, Xiaorong; Asiedu, Jacob; Durkin, Daniel; Levine, Jeri; Yang, Jeremy; Schurer, Stephan;
     Braisted, Johnathan; Southall, Noel; Southern, Mark; Chung, Thomas; Brudz, Stephen; Tanega, Cordelle; Schreiber, Stuart L; Bittker, Joshua; Guha, Rajarshi; Clemons, Paul</div>
     <div class="pubreference">Nucleic Acids Research, 43(D1). December, 2014, NAR-02453-Data-N-2014.R2</div>
+    <div class="pubDOIreference">DOI: 10.1093/nar/gku1244</div>
 </p>
 
     <p>
@@ -71,6 +77,7 @@
     Hopkins, Michael R. Wood, Shaun R. Stauffer, Kyle A. Emmitte and the NIH Molecular
     Libraries Project Team </div>
     <div class="pubreference">Cell 161(6): 1252-1265, June 2015</div>
+    <div class="pubDOIreference">DOI: 10.1016/j.cell.2015.05.023</div>
 </p>
 
 
@@ -79,7 +86,8 @@
     <div class="pubauthors">Brinton Seashore-Ludlow, Matthew G. Rees, Jaime H. Cheah, Murat Cokol, Edmund V. Price, Matthew E. Coletti, Victor Jones,
     Nicole E. Bodycombe, Christian K. Soule1, Joshua Gould, Benjamin Alexander, Ava Li, Philip  Montgomery, Mathias Wawer, Joanne D. Kotz, C. Suk-Yee Hon,
     Benito Munoz, Ted Liefeld, Vlado Dančík, Joshua A. Bittker, Michelle Palmer, James E. Bradner, Alykhan F. Shamji, Paul A. Clemons, and Stuart L. Schreiber</div>
-    <div class="pubreference">Cancer Discovery, October 2015 (in press)</div>
+    <div class="pubreference">Cancer Discovery, October 2015</div>
+    <div class="pubDOIreference">DOI: 10.1158/2159-8290.CD-15-0235</div>
 </p>
 
     <p>
@@ -87,7 +95,7 @@
     <div class="pubauthors">Matthew G. Rees, Brinton Seashore-Ludlow, Jaime H. Cheah, Edmund V. Price1, Matthew E. Coletti, Victor Jones,
     Nicole E. Bodycombe, Christian K. Soule, Benjamin Alexander, Ava Li, Philip Montgomery, Joanne Kotz, C. Suk-Yee Hon, Benito Munoz,
     Ted Liefeld, Vlado Dančík, Joshua A. Bittker, Michelle Palmer, Paul A. Clemons, Alykhan F. Shamji, and Stuart L. Schreiber</div>
-    <div class="pubreference">Nature Chemical Biology (in press) </div>
+    <div class="pubreference">Nature Chemical Biology, February 2016 (in press) </div>
 
 </p>
 
