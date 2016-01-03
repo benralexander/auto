@@ -16,10 +16,11 @@ class DeliveryController {
                                      "2015_07",
                                      "2015_08",
                                      "2015_09",
-                                     "2015_10"
+                                     "2015_10",
+                                     "2015_11"
     ]
     String defaultYear =  "2015"
-    String defaultMonth =  "08"
+    String defaultMonth =  "11"
 
     int indexOfTheMonth (String year,String month){
         String lookupKey =  "${year}_${month}"

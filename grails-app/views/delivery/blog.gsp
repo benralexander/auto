@@ -236,6 +236,14 @@
                     </em>
                     </li>
 
+                    <li><a href="<g:createLink controller='delivery' action='blog'
+                                               params='[year: "2015", month: "11"]'/>">n</a>
+
+                        <br/><em><a href="<g:createLink controller='delivery' action='blog'
+                                                        params='[year: "2015", month: "11", fragment: "t2015nov11"]'/>">Exposed deaths</a>
+                    </em>
+                    </li>
+
                 </ol>
             </div>
 
