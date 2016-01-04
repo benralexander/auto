@@ -1,0 +1,223 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00000000c9973f80, pid=262892, tid=252628
+#
+# JRE version: 6.0_35-b10
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (20.10-b01 mixed mode windows-amd64 compressed oops)
+# Problematic frame:
+# C  0x00000000c9973f80
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000e37d000):  JavaThread "FileSystemWatcher: files=#422 cl=java.net.URLClassLoader@609dc1bb" daemon [_thread_in_Java, id=252628, stack(0x000000000cf00000,0x000000000d000000)]
+
+siginfo: ExceptionCode=0xc0000005, ExceptionInformation=0x0000000000000008 0x00000000c9973f80
+
+Registers:
+RAX=0x00000000c9973f80, RBX=0x000000000cffee58, RCX=0x0000000000000009, RDX=0x0000000000000000
+RSP=0x000000000cffee58, RBP=0x000000000cffee90, RSI=0x00000000f2500018, RDI=0x00000000dcd9bc38
+R8 =0x0000000070000000, R9 =0x000000000b839198, R10=0x000000006df360a0, R11=0x000000000cffecd8
+R12=0x0000000000000000, R13=0x00000000c9973f80, R14=0x000000000cffee50, R15=0x000000000e37d000
+RIP=0x00000000c9973f80, EFLAGS=0x0000000000010246
+
+Top of Stack: (sp=0x000000000cffee58)
+0x000000000cffee58:   0000000007953fd0 000000000cfff0a0
+0x000000000cffee68:   000000000b839078 0000000000000000
+0x000000000cffee78:   000000000b839078 000000000e37d000
+0x000000000cffee88:   0000000000000000 000000000cffef28
+0x000000000cffee98:   000000006d9ea067 000000000cffeee0
+0x000000000cffeea8:   000000000cfff0a8 000000000000000a
+0x000000000cffeeb8:   00000000c9973af0 00000000023253c0
+0x000000000cffeec8:   000000000cfff0b8 0000000000000000
+0x000000000cffeed8:   000000000e37d000 000000000e37d000
+0x000000000cffeee8:   000000000e37c9e0 00000000c9973af0
+0x000000000cffeef8:   0000000000000000 000000000cfff350
+0x000000000cffef08:   00000000023ec4df 0000000000000000
+0x000000000cffef18:   000000000cfff0a0 00000000023253c0
+0x000000000cffef28:   0000000000000000 000000000870ce24
+0x000000000cffef38:   000000000e37d000 000000000f152bb0
+0x000000000cffef48:   000000000b839020 000000000b839080 
+
+Instructions: (pc=0x00000000c9973f80)
+0x00000000c9973f60:   4a 00 b2 b3 ff ff ff ff a8 7a f1 c6 00 00 00 00
+0x00000000c9973f70:   5c 02 00 00 00 00 00 00 03 00 00 70 00 00 00 00
+0x00000000c9973f80:   05 03 00 00 00 00 00 00 b8 26 01 c0 a0 3f 97 c9
+0x00000000c9973f90:   00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 
+
+
+Register to memory mapping:
+
+RAX=0x00000000c9973f80 is an oop
+java.lang.String 
+ - klass: 'java/lang/String'
+RBX=0x000000000cffee58 is pointing into the stack for thread: 0x000000000e37d000
+RCX=0x0000000000000009 is an unknown value
+RDX=0x0000000000000000 is an unknown value
+RSP=0x000000000cffee58 is pointing into the stack for thread: 0x000000000e37d000
+RBP=0x000000000cffee90 is pointing into the stack for thread: 0x000000000e37d000
+RSI=0x00000000f2500018 is an unknown value
+RDI=0x00000000dcd9bc38 is an oop
+[C 
+ - klass: {type array char}
+ - length: 18
+R8 =0x0000000070000000 is an unknown value
+R9 =0x000000000b839198 is an unknown value
+R10=0x000000006df360a0 is an unknown value
+R11=0x000000000cffecd8 is pointing into the stack for thread: 0x000000000e37d000
+R12=0x0000000000000000 is an unknown value
+R13=0x00000000c9973f80 is an oop
+java.lang.String 
+ - klass: 'java/lang/String'
+R14=0x000000000cffee50 is pointing into the stack for thread: 0x000000000e37d000
+R15=0x000000000e37d000 is a thread
+
+
+Stack: [0x000000000cf00000,0x000000000d000000],  sp=0x000000000cffee58,  free space=1019k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  0x00000000c9973f80
+V  [jvm.dll+0x1ea067]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x000000000e163800 JavaThread "FileSystemWatcher: files=#11 cl=groovy.lang.GroovyClassLoader@455fcabc" daemon [_thread_blocked, id=279696, stack(0x0000000012990000,0x0000000012a90000)]
+  0x0000000009b5a800 JavaThread "FileSystemWatcher: files=#2 cl=groovy.lang.GroovyClassLoader@41f74f0f" daemon [_thread_blocked, id=280644, stack(0x000000000d600000,0x000000000d700000)]
+  0x0000000009b5a000 JavaThread "http-bio-8048-exec-10" daemon [_thread_blocked, id=259084, stack(0x0000000012370000,0x0000000012470000)]
+  0x0000000009b59800 JavaThread "http-bio-8048-exec-9" daemon [_thread_blocked, id=263132, stack(0x0000000012270000,0x0000000012370000)]
+  0x0000000009b58800 JavaThread "http-bio-8048-exec-8" daemon [_thread_blocked, id=259148, stack(0x0000000012170000,0x0000000012270000)]
+  0x0000000009b58000 JavaThread "http-bio-8048-exec-7" daemon [_thread_blocked, id=261768, stack(0x0000000012070000,0x0000000012170000)]
+  0x0000000009b57000 JavaThread "http-bio-8048-exec-6" daemon [_thread_blocked, id=262240, stack(0x0000000010fa0000,0x00000000110a0000)]
+  0x0000000009b56800 JavaThread "http-bio-8048-exec-5" daemon [_thread_blocked, id=252604, stack(0x0000000010ea0000,0x0000000010fa0000)]
+  0x0000000009b53000 JavaThread "http-bio-8048-exec-4" daemon [_thread_blocked, id=262620, stack(0x0000000010a60000,0x0000000010b60000)]
+  0x0000000009b50800 JavaThread "http-bio-8048-exec-3" daemon [_thread_blocked, id=262636, stack(0x000000000d200000,0x000000000d300000)]
+  0x0000000009b51800 JavaThread "http-bio-8048-exec-2" daemon [_thread_blocked, id=260356, stack(0x000000000d100000,0x000000000d200000)]
+  0x0000000009b4e800 JavaThread "http-bio-8048-exec-1" daemon [_thread_blocked, id=261228, stack(0x000000000d000000,0x000000000d100000)]
+  0x0000000009b55800 JavaThread "Thread-11" daemon [_thread_blocked, id=262124, stack(0x0000000010c10000,0x0000000010d10000)]
+  0x0000000009b55000 JavaThread "http-bio-8048-AsyncTimeout" daemon [_thread_blocked, id=262720, stack(0x0000000010da0000,0x0000000010ea0000)]
+  0x0000000009b54000 JavaThread "http-bio-8048-Acceptor-0" daemon [_thread_in_native, id=260592, stack(0x000000000e9a0000,0x000000000eaa0000)]
+  0x0000000009b53800 JavaThread "ContainerBackgroundProcessor[StandardEngine[Tomcat]]" daemon [_thread_blocked, id=245668, stack(0x000000000d700000,0x000000000d800000)]
+  0x0000000009b52000 JavaThread "net.sf.ehcache.CacheManager@5a2405ac" daemon [_thread_blocked, id=262960, stack(0x000000000d3d0000,0x000000000d4d0000)]
+  0x0000000009b4f000 JavaThread "Abandoned connection cleanup thread" daemon [_thread_blocked, id=263032, stack(0x000000000d500000,0x000000000d600000)]
+  0x0000000009b4d800 JavaThread "PoolCleaner[156265924:1451740580645]" daemon [_thread_blocked, id=230624, stack(0x000000000cd30000,0x000000000ce30000)]
+=>0x000000000e37d000 JavaThread "FileSystemWatcher: files=#422 cl=java.net.URLClassLoader@609dc1bb" daemon [_thread_in_Java, id=252628, stack(0x000000000cf00000,0x000000000d000000)]
+  0x000000000e4f5800 JavaThread "FileSystemWatcher: files=#1 cl=groovy.lang.GroovyClassLoader@660c1d35" daemon [_thread_blocked, id=261972, stack(0x000000000a7b0000,0x000000000a8b0000)]
+  0x000000000bc54000 JavaThread "Synchronizer (Spring UAA/1.0.1)" daemon [_thread_blocked, id=242164, stack(0x000000000aae0000,0x000000000abe0000)]
+  0x000000000b259000 JavaThread "NonBlockingInputStreamThread" daemon [_thread_blocked, id=234604, stack(0x000000000bc60000,0x000000000bd60000)]
+  0x0000000006117000 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=262412, stack(0x0000000007710000,0x0000000007810000)]
+  0x0000000006114000 JavaThread "C2 CompilerThread1" daemon [_thread_blocked, id=250900, stack(0x0000000007610000,0x0000000007710000)]
+  0x0000000006112800 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=262536, stack(0x0000000007510000,0x0000000007610000)]
+  0x00000000060d2800 JavaThread "JDWP Command Reader" daemon [_thread_in_native, id=239144, stack(0x0000000007410000,0x0000000007510000)]
+  0x00000000060d2000 JavaThread "JDWP Event Helper Thread" daemon [_thread_blocked, id=249868, stack(0x0000000007310000,0x0000000007410000)]
+  0x00000000060c8000 JavaThread "JDWP Transport Listener: dt_socket" daemon [_thread_blocked, id=261460, stack(0x0000000007210000,0x0000000007310000)]
+  0x00000000060c0000 JavaThread "Attach Listener" daemon [_thread_blocked, id=207164, stack(0x0000000006eb0000,0x0000000006fb0000)]
+  0x00000000060bf000 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=259344, stack(0x0000000006db0000,0x0000000006eb0000)]
+  0x000000000606e800 JavaThread "Finalizer" daemon [_thread_blocked, id=262944, stack(0x0000000006cb0000,0x0000000006db0000)]
+  0x0000000006068800 JavaThread "Reference Handler" daemon [_thread_blocked, id=249904, stack(0x0000000006bb0000,0x0000000006cb0000)]
+  0x00000000002bd800 JavaThread "main" [_thread_blocked, id=254808, stack(0x0000000002110000,0x0000000002210000)]
+
+Other Threads:
+  0x0000000006063800 VMThread [stack: 0x0000000006ab0000,0x0000000006bb0000] [id=263084]
+  0x0000000006131800 WatcherThread [stack: 0x0000000007810000,0x0000000007910000] [id=262848]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ PSYoungGen      total 235840K, used 197929K [0x00000000f0000000, 0x0000000100000000, 0x0000000100000000)
+  eden space 210944K, 92% used [0x00000000f0000000,0x00000000fbe2a4b0,0x00000000fce00000)
+  from space 24896K, 12% used [0x00000000fce00000,0x00000000fd120000,0x00000000fe650000)
+  to   space 24192K, 0% used [0x00000000fe860000,0x00000000fe860000,0x0000000100000000)
+ PSOldGen        total 524288K, used 318631K [0x00000000d0000000, 0x00000000f0000000, 0x00000000f0000000)
+  object space 524288K, 60% used [0x00000000d0000000,0x00000000e3729d70,0x00000000f0000000)
+ PSPermGen       total 262144K, used 157135K [0x00000000c0000000, 0x00000000d0000000, 0x00000000d0000000)
+  object space 262144K, 59% used [0x00000000c0000000,0x00000000c9973fb8,0x00000000d0000000)
+
+Code Cache  [0x0000000002310000, 0x0000000003280000, 0x0000000005310000)
+ total_blobs=3629 nmethods=2951 adapters=637 free_code_cache=34323968 largest_free_block=17664
+
+Dynamic libraries:
+0x0000000000400000 - 0x000000000042f000 	D:\java\bin\java.exe
+0x0000000077790000 - 0x0000000077939000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000077570000 - 0x0000000077690000 	C:\Windows\system32\kernel32.dll
+0x000007fefd700000 - 0x000007fefd76c000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fefda40000 - 0x000007fefdb1b000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fefe590000 - 0x000007fefe62f000 	C:\Windows\system32\msvcrt.dll
+0x000007fefda10000 - 0x000007fefda2f000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fefdd00000 - 0x000007fefde2d000 	C:\Windows\system32\RPCRT4.dll
+0x000000006d800000 - 0x000000006dfb9000 	D:\java\jre\bin\server\jvm.dll
+0x0000000077690000 - 0x000000007778a000 	C:\Windows\system32\USER32.dll
+0x000007fefe0b0000 - 0x000007fefe117000 	C:\Windows\system32\GDI32.dll
+0x000007fefda30000 - 0x000007fefda3e000 	C:\Windows\system32\LPK.dll
+0x000007fefe3d0000 - 0x000007fefe49a000 	C:\Windows\system32\USP10.dll
+0x000007fefaea0000 - 0x000007fefaedb000 	C:\Windows\system32\WINMM.dll
+0x000007fefe4f0000 - 0x000007fefe51e000 	C:\Windows\system32\IMM32.DLL
+0x000007fefde30000 - 0x000007fefdf39000 	C:\Windows\system32\MSCTF.dll
+0x000000006d770000 - 0x000000006d77e000 	D:\java\jre\bin\verify.dll
+0x000000006d3b0000 - 0x000000006d3d7000 	D:\java\jre\bin\java.dll
+0x000000006d420000 - 0x000000006d454000 	D:\java\jre\bin\jdwp.dll
+0x000000006d640000 - 0x000000006d648000 	D:\java\jre\bin\npt.dll
+0x000000006d360000 - 0x000000006d380000 	D:\java\jre\bin\instrument.dll
+0x000000006d7c0000 - 0x000000006d7d2000 	D:\java\jre\bin\zip.dll
+0x000000006d270000 - 0x000000006d279000 	D:\java\jre\bin\dt_socket.dll
+0x000007fefe4a0000 - 0x000007fefe4ed000 	C:\Windows\system32\WS2_32.dll
+0x000007fefe520000 - 0x000007fefe528000 	C:\Windows\system32\NSI.dll
+0x000007fefce30000 - 0x000007fefce85000 	C:\Windows\system32\mswsock.dll
+0x000007fefc460000 - 0x000007fefc467000 	C:\Windows\System32\wshtcpip.dll
+0x000007fefce90000 - 0x000007fefcea8000 	C:\Windows\system32\CRYPTSP.dll
+0x000007fefcb90000 - 0x000007fefcbd7000 	C:\Windows\system32\rsaenh.dll
+0x000007fefd6e0000 - 0x000007fefd6fe000 	C:\Windows\system32\USERENV.dll
+0x000007fefd650000 - 0x000007fefd65f000 	C:\Windows\system32\profapi.dll
+0x000007fefd4f0000 - 0x000007fefd4ff000 	C:\Windows\system32\CRYPTBASE.dll
+0x000000006d610000 - 0x000000006d627000 	D:\java\jre\bin\net.dll
+0x000007fefce20000 - 0x000007fefce27000 	C:\Windows\System32\wship6.dll
+0x000007fefb3d0000 - 0x000007fefb3e5000 	C:\Windows\system32\NLAapi.dll
+0x000007fef6a20000 - 0x000007fef6a35000 	C:\Windows\system32\napinsp.dll
+0x000007fef6a00000 - 0x000007fef6a19000 	C:\Windows\system32\pnrpnsp.dll
+0x000007fefccb0000 - 0x000007fefcd0b000 	C:\Windows\system32\DNSAPI.dll
+0x000007fef69f0000 - 0x000007fef69fb000 	C:\Windows\System32\winrnr.dll
+0x000007fef7610000 - 0x000007fef763f000 	C:\Program Files\Common Files\Microsoft Shared\Windows Live\WLIDNSP.DLL
+0x0000000077960000 - 0x0000000077967000 	C:\Windows\system32\PSAPI.DLL
+0x000007fefec90000 - 0x000007fefed01000 	C:\Windows\system32\SHLWAPI.dll
+0x000007fef69e0000 - 0x000007fef69f0000 	C:\Windows\system32\wshbth.dll
+0x000007fefaee0000 - 0x000007fefaf07000 	C:\Windows\system32\IPHLPAPI.DLL
+0x000007fefae90000 - 0x000007fefae9b000 	C:\Windows\system32\WINNSI.DLL
+0x000007fef7340000 - 0x000007fef7348000 	C:\Windows\system32\rasadhlp.dll
+0x000007fefaa30000 - 0x000007fefaa83000 	C:\Windows\System32\fwpuclnt.dll
+0x000007fefb240000 - 0x000007fefb24a000 	C:\Users\ben\AppData\Local\Temp\jansi-64-8282855589237652932.dll
+0x000000006d630000 - 0x000000006d63b000 	D:\java\jre\bin\nio.dll
+0x000000006d550000 - 0x000000006d55a000 	D:\java\jre\bin\management.dll
+
+VM Arguments:
+jvm_args: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:55113,suspend=y,server=n -Dgrails.home=D:\opt\grails-2.4.3 -Dbase.dir=D:\dev\auto -Dtools.jar=D:\java\lib\tools.jar -Dgroovy.starter.conf=D:\opt\grails-2.4.3/conf/groovy-starter.conf -Xmx768M -Xms768M -XX:MaxPermSize=256m -XX:PermSize=256m -Djline.WindowsTerminal.directConsole=false -javaagent:D:\opt\grails-2.4.3\lib\org.springframework\springloaded\jars\springloaded-1.2.0.RELEASE.jar -Xverify:none -Dspringloaded=profile=grails -Dfile.encoding=UTF-8 
+java_command: org.codehaus.groovy.grails.cli.support.GrailsStarter --main org.codehaus.groovy.grails.cli.GrailsScriptRunner --conf D:\opt\grails-2.4.3/conf/groovy-starter.conf -Dgrails.server.port.http=8048 run-app -Dbuild.number=1011 -Dapp.version=0.89 -plain-output
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=D:\java
+PATH=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files (x86)\Kensington\TrackballWorks;D:\opt\MATLAB\R2013b\bin;D:\opt\nodejs\;C:\Program Files\Amazon\AWSCLI\;C:\Program Files (x86)\QuickTime\QTSystem\;d:\appdata\local\canopy\user\scripts;D:\appdata\local\canopy\User;D:\appdata\local\canopy\User\Scripts;C:\Users\ben\AppData\Roaming\npm;C:\Program Files\Amazon\AWSCLI
+USERNAME=ben
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 45 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 Service Pack 1
+
+CPU:total 8 (4 cores per cpu, 2 threads per core) family 6 model 45 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
+
+Memory: 4k page, physical 66244664k(42147248k free), swap 142442764k(115026748k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (20.10-b01) for windows-amd64 JRE (1.6.0_35-b10), built on Aug 28 2012 16:50:10 by "java_re" with MS VC++ 8.0 (VS2005)
+
+time: Sun Jan 03 13:01:22 2016
+elapsed time: 103513 seconds
+
