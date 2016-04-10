@@ -44,7 +44,7 @@
     </div>
 
     <div class="row mainnav">
-        <div class="col-lg-6">
+        <div class="col-lg-6" style="margin-top:30px">
             <h4><a href='<g:createLink controller="mpg" action="mpgLinks"/>'>Medical Population Genetics</a></h4>
             <h5>Diabetes portals for the Broad Institute</h5>
 
@@ -64,6 +64,10 @@
 
             <h4><a href='<g:createLink controller="ArtAndSocialMedia" action="index"/>'>Arts and social media</a></h4>
             <h5>Links to social media and slightly more personal stuff</h5>
+
+            <h4><a href="<g:createLink controller="delivery" action="blog"/>" role="presentation">Blog enties</a></h4>
+            <h5>Topics I like, recently including genetics, leftist politics and environmentalism, along with assorted random bits</h5>
+
         </div>
     </div>
 
