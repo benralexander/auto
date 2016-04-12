@@ -65,8 +65,8 @@
             <h4><a href='<g:createLink controller="ArtAndSocialMedia" action="index"/>'>Arts and social media</a></h4>
             <h5>Links to social media and slightly more personal stuff</h5>
 
-            <h4><a href="<g:createLink controller="delivery" action="blog"/>" role="presentation">Blog enties</a></h4>
-            <h5>Topics I like, recently including genetics, leftist politics and environmentalism, along with assorted random bits</h5>
+            <h4><a href="<g:createLink controller="delivery" action="blog"/>" role="presentation">Blog posts</a></h4>
+            <h5>Topics I like, including genetics, environmentalism/leftist politics, and random bits</h5>
 
         </div>
     </div>
