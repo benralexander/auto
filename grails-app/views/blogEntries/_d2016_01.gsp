@@ -18,7 +18,7 @@
 
 
     <p>
-Each human body contains roughly 10 times as many bacterial cells as human cells.  These bacteria are found primarily in your gut, but they also widely colonize the surface of your skin, oral and vaginal cavities.  We are only slowly coming to understand
+Each human body contains roughly as many bacterial cells as human cells.  These bacteria are found primarily in your gut, but they also widely colonize the surface of your skin, oral and vaginal cavities.  We are only slowly coming to understand
 the magnitude of their impact on human health, though the mechanisms through which that impact is exerted are still often unknown.  Perhaps it is because the mechanistic nature of the interactions between host and bacteria are so obscure that many of the early conclusions
 about our internal flora and fauna turned out to be been incomplete or incorrect.
     </p>
