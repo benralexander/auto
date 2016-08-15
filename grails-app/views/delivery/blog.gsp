@@ -398,11 +398,26 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t2016mar"/>March, 2016</a>
                             </h4>
                         </div>
-                        <div id="t2016mar" class="panel-collapse collapse in">
+                        <div id="t2016mar" class="panel-collapse collapse">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
                                                                params='[year: "2016", month: "03", fragment: "t2016mar21"]'/>">Personal genomics</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default archive-holder">
+                        <div class="panel-heading archive-header-holder">
+                            <h4 class="panel-title archive-header">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#t2016apr"/>April, 2016</a>
+                            </h4>
+                        </div>
+                        <div id="t2016apr" class="panel-collapse collapse in">
+                            <div class="panel-body archive-elements">
+                                <ol class="list-unstyled">
+                                    <li><a href="<g:createLink controller='delivery' action='blog'
+                                                               params='[year: "2016", month: "04", fragment: "t2016apr30"]'/>">Sugar and sleep</a></li>
                                 </ol>
                             </div>
                         </div>
