@@ -31,7 +31,10 @@ have signed up for the program, and 433 whole genome sequences have been made av
 you can sign up <a class="standardLinks" href="http://www.personalgenomes.org/organization/pgp-sign-up">here</a>.
    </p>
 
-<r:img class="pull-right" style="margin: 15px 0 20px 5px; width: 320px" uri="/images/george-church.jpg" alt="George Church, 2015"></r:img>
+<div class="pull-right" >
+<r:img style="margin: 15px 0 20px 5px; width: 320px" uri="/images/george-church.jpg" alt="George Church, 2015"></r:img>
+<div class="caption">George Church</div>
+</div>
 
 
 <p>

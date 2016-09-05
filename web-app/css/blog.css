@@ -195,3 +195,7 @@ h4.sidebar-module {
 .blog-footer p:last-child {
     margin-bottom: 0;
 }
+.caption {
+    font-style: italic;
+    text-align: center;
+}

@@ -413,7 +413,7 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t2016apr"/>April, 2016</a>
                             </h4>
                         </div>
-                        <div id="t2016apr" class="panel-collapse collapse in">
+                        <div id="t2016apr" class="panel-collapse collapse">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -422,180 +422,38 @@
                             </div>
                         </div>
                     </div>
+                    <div class="panel panel-default archive-holder">
+                        <div class="panel-heading archive-header-holder">
+                            <h4 class="panel-title archive-header">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#t2016may"/>May, 2016</a>
+                            </h4>
+                        </div>
+                        <div id="t2016may" class="panel-collapse collapse">
+                            <div class="panel-body archive-elements">
+                                <ol class="list-unstyled">
+                                    <li><a href="<g:createLink controller='delivery' action='blog'
+                                                               params='[year: "2016", month: "05", fragment: "t2016may30"]'/>">Saved by drugs</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default archive-holder">
+                        <div class="panel-heading archive-header-holder">
+                            <h4 class="panel-title archive-header">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#t2016jun"/>June, 2016</a>
+                            </h4>
+                        </div>
+                        <div id="t2016jun" class="panel-collapse collapse in">
+                            <div class="panel-body archive-elements">
+                                <ol class="list-unstyled">
+                                    <li><a href="<g:createLink controller='delivery' action='blog'
+                                                               params='[year: "2016", month: "06", fragment: "t2016jun21"]'/>">Fat distribution</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
-
-
-
-
-
-                    %{--<ol class="list-unstyled">--}%
-                        %{--<li><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                   %{--params='[year: "2014", month: "11"]'/>">November</a>--}%
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2014", month: "11", fragment: "t2014nov15"]'/>">Brain algae virus</a>--}%
-                        %{--</em>--}%
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2014", month: "11", fragment: "t2014nov28"]'/>">Maps / open source</a>--}%
-                        %{--</em>--}%
-                        %{--</li>--}%
-                        %{--<li><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                   %{--params='[year: "2014", month: "12"]'/>">December</a>--}%
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2014", month: "12", fragment: "t2014dec26"]'/>">Clean D3 code</a>--}%
-                        %{--</em>--}%
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2014", month: "12", fragment: "t2014dec28"]'/>">Infinite mind</a>--}%
-                        %{--</em>--}%
-
-                        %{--</li>--}%
-                        %{--<li><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                   %{--params='[year: "2015", month: "01"]'/>">January</a>--}%
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2015", month: "01", fragment: "t2015jan04"]'/>">DIY sunburst</a>--}%
-                        %{--</em>--}%
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2015", month: "01", fragment: "t2015jan11"]'/>">Clean JavaScript?</a>--}%
-                        %{--</em>--}%
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2015", month: "01", fragment: "t2015jan18"]'/>">Chikungunya virus</a>--}%
-                        %{--</em>--}%
-                        %{--</li>--}%
-
-                        %{--<li><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                   %{--params='[year: "2015", month: "02"]'/>">February</a>--}%
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2015", month: "02", fragment: "t2015feb8"]'/>">BRCA challenge</a>--}%
-                        %{--</em>--}%
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2015", month: "02", fragment: "t2015feb9"]'/>">Chromothripsis</a>--}%
-                        %{--</em>--}%
-                        %{--</li>--}%
-
-                        %{--<li><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                   %{--params='[year: "2015", month: "03"]'/>">March</a>--}%
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2015", month: "03", fragment: "t2015mar1"]'/>">DNA sequencing</a>--}%
-                        %{--</em>--}%
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2015", month: "03", fragment: "t2015mar15"]'/>">Household heating</a>--}%
-                        %{--</em>--}%
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2015", month: "03", fragment: "t2015mar30"]'/>">CRISPR evolution</a>--}%
-                        %{--</em>--}%
-                        %{--</li>--}%
-
-
-                        %{--<li><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                   %{--params='[year: "2015", month: "04"]'/>">April</a>--}%
-
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2015", month: "04", fragment: "t2015qpr05"]'/>">Climate change</a>--}%
-                        %{--</em>--}%
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2015", month: "04", fragment: "t2015qpr26"]'/>">Antibiotic resistance</a>--}%
-                        %{--</em>--}%
-                        %{--</li>--}%
-
-                        %{--<li><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                   %{--params='[year: "2015", month: "05"]'/>">May</a>--}%
-
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2015", month: "05", fragment: "t2015may15"]'/>">Obama's chance</a>--}%
-                        %{--</em>--}%
-                        %{--</li>--}%
-
-
-                        %{--<li><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                   %{--params='[year: "2015", month: "06"]'/>">June</a>--}%
-
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2015", month: "06", fragment: "t2015jun14"]'/>">Recent evolution</a>--}%
-                        %{--</em>--}%
-                        %{--</li>--}%
-
-
-                        %{--<li><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                   %{--params='[year: "2015", month: "07"]'/>">July</a>--}%
-
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2015", month: "07", fragment: "t2015jul03"]'/>">Obesity and diabetes</a>--}%
-                        %{--</em>--}%
-
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2015", month: "07", fragment: "t2015jul28"]'/>">Clash of curves</a>--}%
-                        %{--</em>--}%
-                        %{--</li>--}%
-
-                        %{--<li><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                   %{--params='[year: "2015", month: "08"]'/>">August</a>--}%
-
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2015", month: "08", fragment: "t2015aug31"]'/>">Lamarck revisited</a>--}%
-                        %{--</em>--}%
-                        %{--</li>--}%
-
-                        %{--<li><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                   %{--params='[year: "2015", month: "09"]'/>">September</a>--}%
-
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2015", month: "09", fragment: "t2015sep25"]'/>">The North Atlantic</a>--}%
-                        %{--</em>--}%
-                        %{--</li>--}%
-
-                        %{--<li><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                   %{--params='[year: "2015", month: "10"]'/>">October</a>--}%
-
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2015", month: "10", fragment: "t2015oct10"]'/>">Nonuniform genome</a>--}%
-                        %{--</em>--}%
-                        %{--</li>--}%
-
-                        %{--<li><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                   %{--params='[year: "2015", month: "11"]'/>">November</a>--}%
-
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2015", month: "11", fragment: "t2015nov11"]'/>">Exposed deaths</a>--}%
-                        %{--</em>--}%
-                        %{--</li>--}%
-
-                        %{--<li><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                   %{--params='[year: "2015", month: "12"]'/>">December</a>--}%
-
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2015", month: "12", fragment: "t2015dec15"]'/>">Garden of mutations</a>--}%
-                        %{--</em>--}%
-                        %{--</li>--}%
-                        %{--<li><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                   %{--params='[year: "2016", month: "01"]'/>">January</a>--}%
-
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2016", month: "01", fragment: "t2016jan29"]'/>">Fellow travelers</a>--}%
-                        %{--</em>--}%
-                        %{--</li>--}%
-                        %{--<li><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                   %{--params='[year: "2016", month: "02"]'/>">February</a>--}%
-
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2016", month: "02", fragment: "t2016feb27"]'/>">Evolution engine</a>--}%
-                        %{--</em>--}%
-                        %{--</li>--}%
-                        %{--<li><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                   %{--params='[year: "2016", month: "03"]'/>">March</a>--}%
-
-                            %{--<br/><em><a href="<g:createLink controller='delivery' action='blog'--}%
-                                                            %{--params='[year: "2016", month: "03", fragment: "t2016mar21"]'/>">Personal genomics</a>--}%
-                        %{--</em>--}%
-                        %{--</li>--}%
-
-
-
-                    %{--</ol>--}%
-
-
-
-
-
 
 
 
