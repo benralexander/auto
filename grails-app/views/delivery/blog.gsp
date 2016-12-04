@@ -140,7 +140,7 @@
                              <a data-toggle="collapse" data-parent="#accordion" href="#t2014nov"/>November, 2014</a>
                          </h4>
                        </div>
-                        <div id="t2014nov" class="panel-collapse collapse">
+                        <div id="t2014nov" class="panel-collapse collapse ${((year=="2014")&&(month=="11"))?" in":""}">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -157,7 +157,7 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t2014dec"/>December, 2014</a>
                             </h4>
                         </div>
-                        <div id="t2014dec" class="panel-collapse collapse">
+                        <div id="t2014dec" class="panel-collapse collapse ${((year=="2014")&&(month=="12"))?" in":""}">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -174,7 +174,7 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t2015jan"/>January, 2015</a>
                             </h4>
                         </div>
-                        <div id="t2015jan" class="panel-collapse collapse">
+                        <div id="t2015jan" class="panel-collapse collapse ${((year=="2015")&&(month=="01"))?" in":""}">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -193,7 +193,7 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t2015feb"/>February, 2015</a>
                             </h4>
                         </div>
-                        <div id="t2015feb" class="panel-collapse collapse">
+                        <div id="t2015feb" class="panel-collapse collapse ${((year=="2015")&&(month=="02"))?" in":""}">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -210,7 +210,7 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t2015mar"/>March, 2015</a>
                             </h4>
                         </div>
-                        <div id="t2015mar" class="panel-collapse collapse">
+                        <div id="t2015mar" class="panel-collapse collapse ${((year=="2015")&&(month=="03"))?" in":""}">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -229,7 +229,7 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t2015apr"/>April, 2015</a>
                             </h4>
                         </div>
-                        <div id="t2015apr" class="panel-collapse collapse">
+                        <div id="t2015apr" class="panel-collapse collapse ${((year=="2015")&&(month=="04"))?" in":""}">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -246,7 +246,7 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t2015may"/>May, 2015</a>
                             </h4>
                         </div>
-                        <div id="t2015may" class="panel-collapse collapse">
+                        <div id="t2015may" class="panel-collapse collapse ${((year=="2015")&&(month=="05"))?" in":""}">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -261,7 +261,7 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t201jun"/>June, 2015</a>
                             </h4>
                         </div>
-                        <div id="t201jun" class="panel-collapse collapse">
+                        <div id="t201jun" class="panel-collapse collapse ${((year=="2015")&&(month=="06"))?" in":""}">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -276,7 +276,7 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t201jul"/>July, 2015</a>
                             </h4>
                         </div>
-                        <div id="t201jul" class="panel-collapse collapse">
+                        <div id="t201jul" class="panel-collapse collapse ${((year=="2015")&&(month=="07"))?" in":""}">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -293,7 +293,7 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t2015aug"/>August, 2015</a>
                             </h4>
                         </div>
-                        <div id="t2015aug" class="panel-collapse collapse">
+                        <div id="t2015aug" class="panel-collapse collapse ${((year=="2015")&&(month=="08"))?" in":""}">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -308,7 +308,7 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t2015sep"/>September, 2015</a>
                             </h4>
                         </div>
-                        <div id="t2015sep" class="panel-collapse collapse">
+                        <div id="t2015sep" class="panel-collapse collapse ${((year=="2015")&&(month=="09"))?" in":""}">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -323,7 +323,7 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t2015oct"/>October, 2015</a>
                             </h4>
                         </div>
-                        <div id="t2015oct" class="panel-collapse collapse">
+                        <div id="t2015oct" class="panel-collapse collapse ${((year=="2015")&&(month=="10"))?" in":""}">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -338,7 +338,7 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t2015nov"/>November, 2015</a>
                             </h4>
                         </div>
-                        <div id="t2015nov" class="panel-collapse collapse">
+                        <div id="t2015nov" class="panel-collapse collapse ${((year=="2015")&&(month=="11"))?" in":""}">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -353,7 +353,7 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t2015dec"/>December, 2015</a>
                             </h4>
                         </div>
-                        <div id="t2015dec" class="panel-collapse collapse">
+                        <div id="t2015dec" class="panel-collapse collapse ${((year=="2015")&&(month=="12"))?" in":""}">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -368,7 +368,7 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t2016jan"/>January, 2016</a>
                             </h4>
                         </div>
-                        <div id="t2016jan" class="panel-collapse collapse">
+                        <div id="t2016jan" class="panel-collapse collapse ${((year=="2016")&&(month=="01"))?" in":""}">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -383,7 +383,7 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t2016feb"/>February, 2016</a>
                             </h4>
                         </div>
-                        <div id="t2016feb" class="panel-collapse collapse">
+                        <div id="t2016feb" class="panel-collapse collapse ${((year=="2016")&&(month=="02"))?" in":""}">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -398,7 +398,7 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t2016mar"/>March, 2016</a>
                             </h4>
                         </div>
-                        <div id="t2016mar" class="panel-collapse collapse">
+                        <div id="t2016mar" class="panel-collapse collapse ${((year=="2016")&&(month=="03"))?" in":""}">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -413,7 +413,7 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t2016apr"/>April, 2016</a>
                             </h4>
                         </div>
-                        <div id="t2016apr" class="panel-collapse collapse">
+                        <div id="t2016apr" class="panel-collapse collapse ${((year=="2016")&&(month=="04"))?" in":""}">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -428,7 +428,7 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t2016may"/>May, 2016</a>
                             </h4>
                         </div>
-                        <div id="t2016may" class="panel-collapse collapse">
+                        <div id="t2016may" class="panel-collapse collapse ${((year=="2016")&&(month=="05"))?" in":""}">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
@@ -443,11 +443,26 @@
                                 <a data-toggle="collapse" data-parent="#accordion" href="#t2016jun"/>June, 2016</a>
                             </h4>
                         </div>
-                        <div id="t2016jun" class="panel-collapse collapse in">
+                        <div id="t2016jun" class="panel-collapse collapse ${((year=="2016")&&(month=="06"))?" in":""}">
                             <div class="panel-body archive-elements">
                                 <ol class="list-unstyled">
                                     <li><a href="<g:createLink controller='delivery' action='blog'
                                                                params='[year: "2016", month: "06", fragment: "t2016jun21"]'/>">Fat distribution</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default archive-holder">
+                        <div class="panel-heading archive-header-holder">
+                            <h4 class="panel-title archive-header">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#t2016jul"/>July, 2016</a>
+                            </h4>
+                        </div>
+                        <div id="t2016jul" class="panel-collapse collapse ${((year=="2016")&&(month=="07"))?" in":""}">
+                            <div class="panel-body archive-elements">
+                                <ol class="list-unstyled">
+                                    <li><a href="<g:createLink controller='delivery' action='blog'
+                                                               params='[year: "2016", month: "07", fragment: "t2016jul28"]'/>">Imbalance</a></li>
                                 </ol>
                             </div>
                         </div>
